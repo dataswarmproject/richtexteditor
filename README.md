@@ -1,4 +1,4 @@
-![Tiptap Editor](.github/assets/cover.png)
+![Tiptap Editor](.github/assets/Gemini_Generated_Image_ytb3yytb3yytb3yy.png)
 
 [![LFX Health Score](https://insights.production.lfx.dev/api/badge/health-score?project=tiptap)](https://insights.linuxfoundation.org/project/tiptap)
 [![Build Status](https://github.com/ueberdosis/tiptap/actions/workflows/build.yml/badge.svg)](https://github.com/ueberdosis/tiptap/actions/workflows/build.yml)
