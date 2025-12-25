@@ -4,7 +4,7 @@
 
 <!-- Logo -->
 
-<img src=".github/assets/inkflow-logo.svg" alt="InkFlow" height="80">
+<img src=".github/assets/Gemini_Generated_Image_ytb3yytb3yytb3yy.png" alt="InkFlow" height="80">
 
  
 
@@ -56,7 +56,7 @@
 
 <!-- Hero Image -->
 
-<img src=".github/assets/cover.png" alt="InkFlow Editor" width="100%" style="border-radius: 12px;">
+<img src=".github/assets/Gemini_Generated_Image_ytb3yytb3yytb3yy.png" alt="InkFlow Editor" width="100%" style="border-radius: 12px;">
 
  
 
