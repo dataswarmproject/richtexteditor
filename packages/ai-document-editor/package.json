@@ -1,0 +1,97 @@
+{
+  "name": "@tiptap/ai-document-editor",
+  "description": "AI-powered Google Docs-like document editor for React and Next.js",
+  "version": "3.14.0",
+  "homepage": "https://tiptap.dev",
+  "keywords": [
+    "tiptap",
+    "ai",
+    "document-editor",
+    "google-docs",
+    "nextjs",
+    "react",
+    "rich-text-editor",
+    "wysiwyg"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": {
+        "import": "./dist/index.d.ts",
+        "require": "./dist/index.d.cts"
+      },
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./styles": "./dist/styles.css"
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "dependencies": {
+    "@tiptap/core": "workspace:^",
+    "@tiptap/extension-ai-assistant": "workspace:^",
+    "@tiptap/extension-blockquote": "workspace:^",
+    "@tiptap/extension-bold": "workspace:^",
+    "@tiptap/extension-bullet-list": "workspace:^",
+    "@tiptap/extension-code": "workspace:^",
+    "@tiptap/extension-code-block": "workspace:^",
+    "@tiptap/extension-collaboration": "workspace:^",
+    "@tiptap/extension-document": "workspace:^",
+    "@tiptap/extension-dropcursor": "workspace:^",
+    "@tiptap/extension-floating-menu": "workspace:^",
+    "@tiptap/extension-gapcursor": "workspace:^",
+    "@tiptap/extension-hard-break": "workspace:^",
+    "@tiptap/extension-heading": "workspace:^",
+    "@tiptap/extension-highlight": "workspace:^",
+    "@tiptap/extension-horizontal-rule": "workspace:^",
+    "@tiptap/extension-image": "workspace:^",
+    "@tiptap/extension-italic": "workspace:^",
+    "@tiptap/extension-link": "workspace:^",
+    "@tiptap/extension-list": "workspace:^",
+    "@tiptap/extension-list-item": "workspace:^",
+    "@tiptap/extension-ordered-list": "workspace:^",
+    "@tiptap/extension-pagination": "workspace:^",
+    "@tiptap/extension-paragraph": "workspace:^",
+    "@tiptap/extension-placeholder": "workspace:^",
+    "@tiptap/extension-strike": "workspace:^",
+    "@tiptap/extension-table": "workspace:^",
+    "@tiptap/extension-task-item": "workspace:^",
+    "@tiptap/extension-task-list": "workspace:^",
+    "@tiptap/extension-text": "workspace:^",
+    "@tiptap/extension-text-align": "workspace:^",
+    "@tiptap/extension-text-style": "workspace:^",
+    "@tiptap/extension-typography": "workspace:^",
+    "@tiptap/extension-underline": "workspace:^",
+    "@tiptap/extensions": "workspace:^",
+    "@tiptap/pm": "workspace:^",
+    "@tiptap/react": "workspace:^"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ueberdosis/tiptap",
+    "directory": "packages/ai-document-editor"
+  },
+  "sideEffects": [
+    "*.css"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "lint": "prettier ./src/ --check && eslint --cache --quiet --no-error-on-unmatched-pattern ./src/"
+  }
+}

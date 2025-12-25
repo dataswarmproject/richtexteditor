@@ -1,0 +1,75 @@
+{
+  "name": "@tiptap/extension-ai-assistant",
+  "description": "AI-powered assistant extension with floating chat for tiptap",
+  "version": "3.14.0",
+  "homepage": "https://tiptap.dev",
+  "keywords": [
+    "tiptap",
+    "ai",
+    "assistant",
+    "chat",
+    "gpt",
+    "claude",
+    "document-generation"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": {
+        "import": "./dist/index.d.ts",
+        "require": "./dist/index.d.cts"
+      },
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./react": {
+      "types": {
+        "import": "./dist/react/index.d.ts",
+        "require": "./dist/react/index.d.cts"
+      },
+      "import": "./dist/react/index.js",
+      "require": "./dist/react/index.cjs"
+    }
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "dependencies": {
+    "@floating-ui/dom": "^1.6.5",
+    "@tiptap/core": "workspace:^",
+    "@tiptap/pm": "workspace:^"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ueberdosis/tiptap",
+    "directory": "packages/extension-ai-assistant"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "lint": "prettier ./src/ --check && eslint --cache --quiet --no-error-on-unmatched-pattern ./src/"
+  }
+}
