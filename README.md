@@ -1,50 +1,45 @@
-<p align="center">
-  <img src=".github/assets/inkflow-logo.svg" alt="InkFlow" width="240">
-</p>
+<div align="center">
 
-<h1 align="center">InkFlow Editor</h1>
+<!-- Logo -->
+<img src=".github/assets/inkflow-logo.svg" alt="InkFlow" height="80">
 
-<p align="center">
-  <strong>The AI-Powered Document Editor for Modern Web Applications</strong>
-</p>
+<br>
+<br>
 
-<p align="center">
-  Build Google Docs-like editors with AI superpowers. Headless, extensible, and ready for production.
-</p>
+<!-- Tagline -->
+<h3>The AI-Powered Document Editor for Modern Applications</h3>
 
-<p align="center">
-  <a href="https://digitaltrendz.app">Website</a> •
-  <a href="https://digitaltrendz.dev/docs">Documentation</a> •
-  <a href="https://digitaltrendz.app/examples">Live Examples</a> •
-  <a href="https://digitaltrendz.dev/playground">Playground</a>
-</p>
-
-<p align="center">
-  <a href="https://www.npmjs.com/package/@inkflow/core">
-    <img src="https://img.shields.io/npm/v/@inkflow/core.svg?label=version&color=6366f1" alt="Version">
-  </a>
-  <a href="https://www.npmjs.com/package/@inkflow/core">
-    <img src="https://img.shields.io/npm/dm/@inkflow/core.svg?color=8b5cf6" alt="Downloads">
-  </a>
-  <a href="https://github.com/digital-trendz/inkflow/blob/main/LICENSE.md">
-    <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
-  </a>
-  <a href="https://github.com/digital-trendz/inkflow">
-    <img src="https://img.shields.io/badge/TypeScript-Ready-blue.svg" alt="TypeScript">
-  </a>
-</p>
+<p>Build beautiful, Google Docs-like editors with AI superpowers.<br>Headless • Extensible • Production-Ready</p>
 
 <br>
 
-<p align="center">
-  <img src=".github/assets/demo-preview.png" alt="InkFlow Editor Demo" width="800">
-</p>
+<!-- Badges -->
+[![npm version](https://img.shields.io/npm/v/@inkflow/core?color=6366f1&label=version)](https://www.npmjs.com/package/@inkflow/core)
+[![Downloads](https://img.shields.io/npm/dm/@inkflow/core?color=8b5cf6)](https://www.npmjs.com/package/@inkflow/core)
+[![License](https://img.shields.io/badge/license-MIT-10b981)](LICENSE.md)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-3178c6)](https://www.typescriptlang.org/)
+
+<br>
+
+[Website](https://digitaltrendz.app) · [Documentation](https://digitaltrendz.dev/docs) · [Examples](https://digitaltrendz.app/examples) · [Playground](https://digitaltrendz.dev/playground)
+
+<br>
+<br>
+
+<!-- Hero Image -->
+<img src=".github/assets/cover.png" alt="InkFlow Editor" width="100%" style="border-radius: 12px;">
+
+</div>
+
+<br>
 
 ---
 
-## Why InkFlow?
+<br>
 
-**InkFlow** transforms how you build document editors. Forget complex configurations and endless boilerplate—get a production-ready, AI-enhanced editor in minutes.
+## Overview
+
+**InkFlow** is a headless, framework-agnostic rich text editor with built-in AI capabilities and Google Docs-like pagination. Built on [ProseMirror](https://prosemirror.net/) and designed for modern web applications.
 
 ```tsx
 import { AIDocumentEditor } from '@inkflow/ai-document-editor'
@@ -54,95 +49,103 @@ export default function App() {
 }
 ```
 
-That's it. You now have a full-featured document editor with AI capabilities.
+**That's it.** A full-featured document editor with AI capabilities in one line.
+
+<br>
 
 ---
 
-## ✨ Features
+<br>
+
+## ✨ Key Features
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🤖 AI-Powered Editing
-- **Generate** content from prompts
-- **Rewrite** with different tones
-- **Summarize** long documents
-- **Translate** to 18+ languages
-- **Fix grammar** automatically
-- **Expand** or **simplify** text
+
+- Generate content from prompts
+- Rewrite with different tones & styles
+- Summarize documents instantly
+- Translate to 18+ languages
+- Fix grammar & spelling
+- Expand or simplify text
 - Floating chat interface
 - Inline AI prompts (`Ctrl+K`)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 📄 Google Docs-like Pagination
+### 📄 Document Pagination
+
 - Real page view layout
 - Headers & footers
-- Page numbers
-- Page breaks (`Ctrl+Enter`)
-- Print-ready documents
+- Automatic page numbers
+- Manual page breaks
+- Print-ready output
 - PDF export
-- Letter, A4, Legal sizes
+- Multiple paper sizes
 - Portrait & landscape
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🎨 Headless Architecture
+### 🎨 Headless Design
+
 - Zero imposed UI
-- Full design freedom
+- Complete design freedom
 - Custom components
-- Themeable
-- CSS-in-JS ready
-- Tailwind compatible
+- Themeable architecture
+- CSS-in-JS compatible
+- Tailwind ready
 - Dark mode support
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### ⚡ Developer Experience
+
 - TypeScript first
-- React, Vue, Svelte
-- Next.js App Router ready
+- React, Vue, Next.js
 - 100+ extensions
 - Real-time collaboration
-- Offline support
+- Offline capable
 - Tree-shakeable
+- Excellent documentation
 
 </td>
 </tr>
 </table>
 
+<br>
+
 ---
+
+<br>
 
 ## 🚀 Quick Start
 
 ### Installation
 
 ```bash
-# Full AI Document Editor (recommended)
 npm install @inkflow/ai-document-editor
-
-# Or just the core packages
-npm install @inkflow/react @inkflow/starter-kit
 ```
 
-### Option 1: AI Document Editor (Batteries Included)
+### Usage
 
 ```tsx
-'use client' // For Next.js App Router
+'use client'
 
 import { AIDocumentEditor } from '@inkflow/ai-document-editor'
 import '@inkflow/ai-document-editor/styles'
 
-export default function DocumentPage() {
+export default function Editor() {
   return (
     <AIDocumentEditor
-      initialContent="<h1>Welcome to InkFlow</h1><p>Start writing...</p>"
+      initialContent="<h1>Hello InkFlow</h1><p>Start writing...</p>"
       showToolbar={true}
       showStatusBar={true}
       showAIPanel={true}
@@ -150,15 +153,15 @@ export default function DocumentPage() {
         pagination: { paperSize: 'letter' },
         aiAssistant: { enableDefaultTools: true }
       }}
-      onUpdate={(editor) => {
-        console.log('Content:', editor.getHTML())
-      }}
+      onUpdate={(editor) => console.log(editor.getHTML())}
     />
   )
 }
 ```
 
-### Option 2: Build Your Own
+<br>
+
+### Or Build Your Own
 
 ```tsx
 import { useEditor, EditorContent } from '@inkflow/react'
@@ -166,7 +169,7 @@ import StarterKit from '@inkflow/starter-kit'
 import { Pagination } from '@inkflow/extension-pagination'
 import { AIAssistant } from '@inkflow/extension-ai-assistant'
 
-function CustomEditor() {
+function Editor() {
   const editor = useEditor({
     extensions: [
       StarterKit,
@@ -176,119 +179,81 @@ function CustomEditor() {
     content: '<p>Hello World!</p>',
   })
 
-  return (
-    <div className="editor-container">
-      <EditorContent editor={editor} />
-    </div>
-  )
+  return <EditorContent editor={editor} />
 }
 ```
 
-### Option 3: Use the Hook
-
-```tsx
-import { useAIDocumentEditor, EditorContent } from '@inkflow/ai-document-editor'
-
-function Editor() {
-  const {
-    editor,
-    wordCount,
-    characterCount,
-    toggleAI,
-    sendAIMessage,
-    print,
-    setPaperSize,
-  } = useAIDocumentEditor({
-    content: '<p>Start writing...</p>',
-    onUpdate: (editor) => saveToDatabase(editor.getJSON()),
-  })
-
-  return (
-    <div>
-      <button onClick={() => toggleAI('chat')}>Open AI Assistant</button>
-      <button onClick={() => print()}>Print</button>
-      <EditorContent editor={editor} />
-      <span>{wordCount} words</span>
-    </div>
-  )
-}
-```
+<br>
 
 ---
+
+<br>
 
 ## 📦 Packages
 
-### Core Packages
+### Core
 
 | Package | Description |
-|---------|-------------|
-| [`@inkflow/core`](./packages/core) | Core editor engine |
-| [`@inkflow/react`](./packages/react) | React bindings & hooks |
-| [`@inkflow/vue-3`](./packages/vue-3) | Vue 3 composition API |
-| [`@inkflow/starter-kit`](./packages/starter-kit) | Essential extensions bundle |
-| [`@inkflow/pm`](./packages/pm) | ProseMirror packages |
+|:--------|:------------|
+| `@inkflow/core` | Core editor engine |
+| `@inkflow/react` | React bindings & hooks |
+| `@inkflow/vue-3` | Vue 3 composition API |
+| `@inkflow/starter-kit` | Essential extensions bundle |
 
-### AI & Document Packages
-
-| Package | Description |
-|---------|-------------|
-| [`@inkflow/ai-document-editor`](./packages/ai-document-editor) | Complete AI-powered editor |
-| [`@inkflow/extension-ai-assistant`](./packages/extension-ai-assistant) | Floating AI chat & tools |
-| [`@inkflow/extension-pagination`](./packages/extension-pagination) | Google Docs-like pages |
-
-### Popular Extensions
+### AI & Documents
 
 | Package | Description |
-|---------|-------------|
-| `@inkflow/extension-table` | Advanced tables with resize |
-| `@inkflow/extension-image` | Image handling & resize |
-| `@inkflow/extension-link` | Smart link detection |
-| `@inkflow/extension-collaboration` | Real-time editing via Yjs |
-| `@inkflow/extension-mention` | @mentions with suggestions |
-| `@inkflow/extension-code-block-lowlight` | Syntax highlighted code |
-| `@inkflow/extension-mathematics` | LaTeX math rendering |
+|:--------|:------------|
+| `@inkflow/ai-document-editor` | Complete AI-powered editor |
+| `@inkflow/extension-ai-assistant` | Floating AI chat & tools |
+| `@inkflow/extension-pagination` | Google Docs-like pages |
 
-[View all 50+ extensions →](https://digitaltrendz.dev/docs/extensions)
+### Extensions
+
+| Package | Description |
+|:--------|:------------|
+| `@inkflow/extension-table` | Advanced tables |
+| `@inkflow/extension-image` | Image handling |
+| `@inkflow/extension-link` | Smart links |
+| `@inkflow/extension-collaboration` | Real-time editing |
+| `@inkflow/extension-mention` | @mentions |
+| `@inkflow/extension-code-block-lowlight` | Syntax highlighting |
+
+> [View all 50+ extensions →](https://digitaltrendz.dev/docs/extensions)
+
+<br>
 
 ---
 
+<br>
+
 ## 🤖 AI Tools
 
-InkFlow includes powerful AI tools out of the box:
-
-| Tool | Shortcut | Description |
-|------|----------|-------------|
-| **Generate** | - | Create new content from prompts |
-| **Rewrite** | - | Change tone, style, or approach |
-| **Summarize** | - | Create brief or detailed summaries |
-| **Translate** | - | Translate to 18+ languages |
-| **Fix Grammar** | `Ctrl+Shift+G` | Correct spelling and grammar |
-| **Expand** | - | Add more details and examples |
-| **Simplify** | - | Make text easier to understand |
-| **Format** | - | Convert to lists, tables, headings |
+| Tool | Description |
+|:-----|:------------|
+| **Generate** | Create content from prompts |
+| **Rewrite** | Change tone & style |
+| **Summarize** | Create summaries |
+| **Translate** | 18+ languages |
+| **Fix Grammar** | Spelling & grammar |
+| **Expand** | Add more detail |
+| **Simplify** | Make easier to read |
+| **Format** | Lists, tables, headings |
 
 ### Keyboard Shortcuts
 
 | Shortcut | Action |
-|----------|--------|
-| `Ctrl+J` | Open AI Assistant (Chat Mode) |
-| `Ctrl+K` | Open AI Assistant (Inline Mode) |
+|:---------|:-------|
+| `Ctrl+J` | Open AI Assistant |
+| `Ctrl+K` | Inline AI Prompt |
 | `Ctrl+Enter` | Insert Page Break |
 | `Ctrl+P` | Print Document |
-| `Ctrl+B` | Bold |
-| `Ctrl+I` | Italic |
-| `Ctrl+U` | Underline |
-| `Ctrl+Z` | Undo |
-| `Ctrl+Shift+Z` | Redo |
+
+<br>
 
 ### Custom AI Provider
 
-Connect your own AI backend:
-
 ```tsx
-import { AIDocumentEditor } from '@inkflow/ai-document-editor'
-import type { AIProviderInterface } from '@inkflow/extension-ai-assistant'
-
 const myAIProvider: AIProviderInterface = {
   async complete(request) {
     const response = await fetch('/api/ai/chat', {
@@ -298,7 +263,7 @@ const myAIProvider: AIProviderInterface = {
     return response.json()
   },
   async *stream(request) {
-    // Implement streaming for real-time responses
+    // Streaming implementation
   },
   isReady: () => true,
 }
@@ -306,34 +271,40 @@ const myAIProvider: AIProviderInterface = {
 <AIDocumentEditor aiProvider={myAIProvider} />
 ```
 
+<br>
+
 ---
 
-## 📱 Framework Support
+<br>
+
+## 🛠 Framework Support
 
 <table>
 <tr>
 <td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="48"><br>
-<strong>React</strong><br>
-<code>@inkflow/react</code>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="40">
+<br><strong>React</strong>
+<br><code>@inkflow/react</code>
 </td>
 <td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" width="48"><br>
-<strong>Vue 3</strong><br>
-<code>@inkflow/vue-3</code>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" width="40">
+<br><strong>Vue 3</strong>
+<br><code>@inkflow/vue-3</code>
 </td>
 <td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="48"><br>
-<strong>Next.js</strong><br>
-<code>@inkflow/react</code>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="40">
+<br><strong>Next.js</strong>
+<br><code>@inkflow/react</code>
 </td>
 <td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="48"><br>
-<strong>Vanilla JS</strong><br>
-<code>@inkflow/core</code>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40">
+<br><strong>Vanilla</strong>
+<br><code>@inkflow/core</code>
 </td>
 </tr>
 </table>
+
+<br>
 
 ### Next.js App Router
 
@@ -343,120 +314,108 @@ const myAIProvider: AIProviderInterface = {
 
 import dynamic from 'next/dynamic'
 
-const AIDocumentEditor = dynamic(
+const Editor = dynamic(
   () => import('@inkflow/ai-document-editor').then(m => m.AIDocumentEditor),
-  { ssr: false, loading: () => <p>Loading editor...</p> }
+  { ssr: false }
 )
 
-export default function EditorPage() {
-  return <AIDocumentEditor />
+export default function Page() {
+  return <Editor />
 }
 ```
 
+<br>
+
 ---
+
+<br>
 
 ## 🎨 Styling
 
-### Import Base Styles
-
 ```tsx
+// Import base styles
 import '@inkflow/ai-document-editor/styles'
 ```
 
-### Customize with CSS
-
 ```css
-/* Your custom styles */
+/* Custom overrides */
 .ai-document-editor {
   --inkflow-primary: #6366f1;
   --inkflow-font-family: 'Inter', sans-serif;
 }
-
-.ai-document-editor .tiptap-page {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-}
-
-.ai-assistant-panel {
-  backdrop-filter: blur(10px);
-}
 ```
 
-### Tailwind CSS
-
-```tsx
-<AIDocumentEditor
-  className="prose prose-lg max-w-none"
-  editorClassName="focus:outline-none"
-/>
-```
+<br>
 
 ---
 
-## 📚 Documentation
+<br>
 
-| Resource | Link |
-|----------|------|
-| Getting Started | [digitaltrendz.dev/docs/getting-started](https://digitaltrendz.dev/docs/getting-started) |
-| API Reference | [digitaltrendz.dev/docs/api](https://digitaltrendz.dev/docs/api) |
-| Extensions Guide | [digitaltrendz.dev/docs/extensions](https://digitaltrendz.dev/docs/extensions) |
-| AI Integration | [digitaltrendz.dev/docs/ai](https://digitaltrendz.dev/docs/ai) |
-| Examples | [digitaltrendz.app/examples](https://digitaltrendz.app/examples) |
-| Playground | [digitaltrendz.dev/playground](https://digitaltrendz.dev/playground) |
+## 📚 Resources
 
----
+| | |
+|:--|:--|
+| 📖 **Documentation** | [digitaltrendz.dev/docs](https://digitaltrendz.dev/docs) |
+| 🎮 **Playground** | [digitaltrendz.dev/playground](https://digitaltrendz.dev/playground) |
+| 💡 **Examples** | [digitaltrendz.app/examples](https://digitaltrendz.app/examples) |
+| 🔌 **API Reference** | [digitaltrendz.dev/docs/api](https://digitaltrendz.dev/docs/api) |
 
-## 🏢 About Digital Trendz
-
-**InkFlow** is developed and maintained by **[Digital Trendz](https://digital-trendz.net)**, a technology company building modern developer tools and applications.
-
-| Platform | URL |
-|----------|-----|
-| Company Website | [digital-trendz.net](https://digital-trendz.net) |
-| App Platform | [digitaltrendz.app](https://digitaltrendz.app) |
-| Developer Portal | [digitaltrendz.dev](https://digitaltrendz.dev) |
+<br>
 
 ---
+
+<br>
 
 ## 🤝 Contributing
 
-We welcome contributions! See our [Contributing Guide](CONTRIBUTING.md) for details.
-
 ```bash
-# Clone the repo
 git clone https://github.com/digital-trendz/inkflow.git
-
-# Install dependencies
+cd inkflow
 pnpm install
-
-# Start development
 pnpm dev
 ```
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+<br>
+
 ---
+
+<br>
 
 ## 🙏 Credits
 
-InkFlow builds upon the excellent work of:
+Built on the shoulders of giants:
 
-- **[ProseMirror](https://prosemirror.net/)** - The foundation for structured text editing
-- **[Tiptap](https://tiptap.dev/)** - The original headless editor framework
-- **[Yjs](https://yjs.dev/)** - CRDT implementation for real-time collaboration
-- **[Floating UI](https://floating-ui.com/)** - Positioning engine for tooltips and popovers
+- [ProseMirror](https://prosemirror.net/) — Foundation for structured editing
+- [Tiptap](https://tiptap.dev/) — Original headless editor framework
+- [Yjs](https://yjs.dev/) — Real-time collaboration
+- [Floating UI](https://floating-ui.com/) — Positioning engine
+
+<br>
 
 ---
+
+<br>
 
 ## 📄 License
 
-MIT License - see [LICENSE.md](LICENSE.md) for details.
+MIT © [Digital Trendz](https://digital-trendz.net)
+
+<br>
 
 ---
 
-<p align="center">
-  <strong>Built with 💜 by <a href="https://digital-trendz.net">Digital Trendz</a></strong>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://digitaltrendz.app">Website</a> •
-  <a href="https://twitter.com/digitaltrendz">Twitter</a> •
-  <a href="https://github.com/digital-trendz">GitHub</a>
-</p>
+<br>
+
+**[Digital Trendz](https://digital-trendz.net)**
+
+[Website](https://digitaltrendz.app) · [Docs](https://digitaltrendz.dev) · [GitHub](https://github.com/digital-trendz)
+
+<br>
+
+<sub>Made with 💜 for developers who build great things</sub>
+
+</div>
