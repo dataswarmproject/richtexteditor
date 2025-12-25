@@ -1,0 +1,425 @@
+/**
+ * AI Document Editor Styles
+ * Google Docs-like document editor styling
+ */
+
+/* Base editor styles */
+.ai-document-editor {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #111827;
+}
+
+/* ProseMirror editor content */
+.ai-document-editor .ProseMirror {
+  outline: none;
+  min-height: 100%;
+}
+
+.ai-document-editor .ProseMirror:focus {
+  outline: none;
+}
+
+/* Page styling */
+.ai-document-editor .tiptap-page {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  margin: 20px auto;
+  border-radius: 2px;
+  position: relative;
+}
+
+/* Page break styling */
+.ai-document-editor .tiptap-page-break {
+  border-top: 2px dashed #d1d5db;
+  margin: 24px 0;
+  position: relative;
+  page-break-before: always;
+}
+
+.ai-document-editor .tiptap-page-break::before {
+  content: 'Page Break';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #f3f4f6;
+  padding: 2px 8px;
+  font-size: 11px;
+  color: #6b7280;
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+/* Header and footer */
+.ai-document-editor .tiptap-page-header,
+.ai-document-editor .tiptap-page-footer {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* Headings */
+.ai-document-editor h1 {
+  font-size: 2em;
+  font-weight: 700;
+  margin: 1em 0 0.5em;
+  line-height: 1.2;
+}
+
+.ai-document-editor h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 1em 0 0.5em;
+  line-height: 1.3;
+}
+
+.ai-document-editor h3 {
+  font-size: 1.25em;
+  font-weight: 600;
+  margin: 1em 0 0.5em;
+  line-height: 1.4;
+}
+
+.ai-document-editor h4 {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin: 1em 0 0.5em;
+}
+
+.ai-document-editor h5,
+.ai-document-editor h6 {
+  font-size: 1em;
+  font-weight: 600;
+  margin: 1em 0 0.5em;
+}
+
+/* Paragraphs */
+.ai-document-editor p {
+  margin: 0.75em 0;
+}
+
+.ai-document-editor p:first-child {
+  margin-top: 0;
+}
+
+.ai-document-editor p:last-child {
+  margin-bottom: 0;
+}
+
+/* Links */
+.ai-document-editor a {
+  color: #2563eb;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.ai-document-editor a:hover {
+  color: #1d4ed8;
+}
+
+/* Lists */
+.ai-document-editor ul,
+.ai-document-editor ol {
+  margin: 0.75em 0;
+  padding-left: 1.5em;
+}
+
+.ai-document-editor li {
+  margin: 0.25em 0;
+}
+
+.ai-document-editor ul > li {
+  list-style-type: disc;
+}
+
+.ai-document-editor ol > li {
+  list-style-type: decimal;
+}
+
+/* Nested lists */
+.ai-document-editor ul ul,
+.ai-document-editor ol ul {
+  list-style-type: circle;
+}
+
+.ai-document-editor ul ul ul,
+.ai-document-editor ol ul ul {
+  list-style-type: square;
+}
+
+/* Task lists */
+.ai-document-editor ul[data-type="taskList"] {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ai-document-editor ul[data-type="taskList"] li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.ai-document-editor ul[data-type="taskList"] li > label {
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.ai-document-editor ul[data-type="taskList"] li > label input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.ai-document-editor ul[data-type="taskList"] li > div {
+  flex: 1;
+}
+
+.ai-document-editor ul[data-type="taskList"] li[data-checked="true"] > div {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+/* Blockquotes */
+.ai-document-editor blockquote {
+  border-left: 4px solid #e5e7eb;
+  margin: 1em 0;
+  padding: 0.5em 0 0.5em 1em;
+  color: #6b7280;
+  font-style: italic;
+}
+
+.ai-document-editor blockquote p {
+  margin: 0.5em 0;
+}
+
+/* Code */
+.ai-document-editor code {
+  font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+  font-size: 0.9em;
+  background-color: #f3f4f6;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #dc2626;
+}
+
+.ai-document-editor pre {
+  font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+  font-size: 0.9em;
+  background-color: #1f2937;
+  color: #f9fafb;
+  padding: 16px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1em 0;
+}
+
+.ai-document-editor pre code {
+  background: none;
+  padding: 0;
+  color: inherit;
+  font-size: inherit;
+}
+
+/* Horizontal rule */
+.ai-document-editor hr {
+  border: none;
+  border-top: 2px solid #e5e7eb;
+  margin: 2em 0;
+}
+
+/* Tables */
+.ai-document-editor table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+  table-layout: fixed;
+}
+
+.ai-document-editor th,
+.ai-document-editor td {
+  border: 1px solid #e5e7eb;
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.ai-document-editor th {
+  background-color: #f9fafb;
+  font-weight: 600;
+}
+
+.ai-document-editor tr:hover td {
+  background-color: #f9fafb;
+}
+
+/* Selected cell */
+.ai-document-editor .selectedCell {
+  background-color: #dbeafe;
+}
+
+/* Images */
+.ai-document-editor img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin: 1em 0;
+}
+
+.ai-document-editor img.ProseMirror-selectednode {
+  outline: 3px solid #3b82f6;
+}
+
+/* Highlight */
+.ai-document-editor mark {
+  background-color: #fef08a;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* Text alignment */
+.ai-document-editor .text-left {
+  text-align: left;
+}
+
+.ai-document-editor .text-center {
+  text-align: center;
+}
+
+.ai-document-editor .text-right {
+  text-align: right;
+}
+
+.ai-document-editor .text-justify {
+  text-align: justify;
+}
+
+/* Placeholder */
+.ai-document-editor .is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: #9ca3af;
+  pointer-events: none;
+  height: 0;
+}
+
+/* Drop cursor */
+.ai-document-editor .ProseMirror-dropcursor {
+  border-left: 2px solid #3b82f6;
+}
+
+/* Gap cursor */
+.ai-document-editor .ProseMirror-gapcursor {
+  display: none;
+  pointer-events: none;
+  position: absolute;
+}
+
+.ai-document-editor .ProseMirror-gapcursor:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -2px;
+  width: 20px;
+  border-top: 1px solid #111827;
+  animation: ProseMirror-cursor-blink 1.1s steps(2, start) infinite;
+}
+
+@keyframes ProseMirror-cursor-blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+/* Selection */
+.ai-document-editor .ProseMirror ::selection {
+  background-color: #bfdbfe;
+}
+
+/* Print styles */
+@media print {
+  .ai-document-editor {
+    background-color: white;
+  }
+
+  .ai-document-editor-toolbar,
+  .ai-document-editor-statusbar,
+  .ai-assistant-panel {
+    display: none !important;
+  }
+
+  .ai-document-editor .tiptap-page {
+    box-shadow: none;
+    margin: 0;
+    page-break-after: always;
+  }
+
+  .ai-document-editor .tiptap-page-break {
+    display: none;
+    page-break-before: always;
+  }
+}
+
+/* AI Assistant Panel styles */
+.ai-assistant-panel {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* AI Quick Actions */
+.ai-quick-actions button:hover {
+  background-color: #f3f4f6;
+}
+
+/* AI Inline Prompt */
+.ai-inline-prompt input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .ai-document-editor .tiptap-page {
+    width: 100% !important;
+    min-height: auto !important;
+    margin: 0;
+    padding: 16px;
+    box-shadow: none;
+  }
+
+  .ai-document-editor-toolbar {
+    flex-wrap: wrap;
+  }
+
+  .ai-assistant-panel {
+    width: calc(100% - 32px) !important;
+    max-height: 60vh !important;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .ai-document-editor.dark-mode {
+    background-color: #1f2937;
+    color: #f9fafb;
+  }
+
+  .ai-document-editor.dark-mode .tiptap-page {
+    background-color: #374151;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.3);
+  }
+
+  .ai-document-editor.dark-mode code {
+    background-color: #374151;
+    color: #f87171;
+  }
+
+  .ai-document-editor.dark-mode th {
+    background-color: #374151;
+  }
+
+  .ai-document-editor.dark-mode th,
+  .ai-document-editor.dark-mode td {
+    border-color: #4b5563;
+  }
+}
