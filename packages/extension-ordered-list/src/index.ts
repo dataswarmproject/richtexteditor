@@ -1,6 +1,6 @@
-import { OrderedList } from '@tiptap/extension-list'
+import { OrderedList } from '@inkflow/extension-list'
 
-export type { OrderedListOptions } from '@tiptap/extension-list'
-export { OrderedList } from '@tiptap/extension-list'
+export type { OrderedListOptions } from '@inkflow/extension-list'
+export { OrderedList } from '@inkflow/extension-list'
 
 export default OrderedList

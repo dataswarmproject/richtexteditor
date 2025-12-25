@@ -1,5 +1,5 @@
-import type { ReactNodeViewProps } from '@tiptap/react'
-import { NodeViewWrapper } from '@tiptap/react'
+import type { ReactNodeViewProps } from '@inkflow/react'
+import { NodeViewWrapper } from '@inkflow/react'
 import React from 'react'
 
 export default (props: ReactNodeViewProps<HTMLLabelElement>) => {

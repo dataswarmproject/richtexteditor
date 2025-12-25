@@ -1,6 +1,6 @@
-import { Extension } from '@tiptap/core'
-import type { Node as ProseMirrorNode } from '@tiptap/pm/model'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
+import { Extension } from '@inkflow/core'
+import type { Node as ProseMirrorNode } from '@inkflow/pm/model'
+import { Plugin, PluginKey } from '@inkflow/pm/state'
 
 export interface CharacterCountOptions {
   /**
@@ -47,7 +47,7 @@ export interface CharacterCountStorage {
   words: (options?: { node?: ProseMirrorNode }) => number
 }
 
-declare module '@tiptap/core' {
+declare module '@inkflow/core' {
   interface Storage {
     characterCount: CharacterCountStorage
   }

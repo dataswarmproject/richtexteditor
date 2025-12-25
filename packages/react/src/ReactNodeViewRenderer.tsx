@@ -4,10 +4,10 @@ import type {
   NodeViewRenderer,
   NodeViewRendererOptions,
   NodeViewRendererProps,
-} from '@tiptap/core'
-import { getRenderedAttributes, NodeView } from '@tiptap/core'
-import type { Node, Node as ProseMirrorNode } from '@tiptap/pm/model'
-import type { Decoration, DecorationSource, NodeView as ProseMirrorNodeView } from '@tiptap/pm/view'
+} from '@inkflow/core'
+import { getRenderedAttributes, NodeView } from '@inkflow/core'
+import type { Node, Node as ProseMirrorNode } from '@inkflow/pm/model'
+import type { Decoration, DecorationSource, NodeView as ProseMirrorNodeView } from '@inkflow/pm/view'
 import type { ComponentType, NamedExoticComponent } from 'react'
 import { createElement, createRef, memo } from 'react'
 

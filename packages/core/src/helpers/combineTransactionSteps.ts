@@ -1,6 +1,6 @@
-import type { Node as ProseMirrorNode } from '@tiptap/pm/model'
-import type { Transaction } from '@tiptap/pm/state'
-import { Transform } from '@tiptap/pm/transform'
+import type { Node as ProseMirrorNode } from '@inkflow/pm/model'
+import type { Transaction } from '@inkflow/pm/state'
+import { Transform } from '@inkflow/pm/transform'
 
 /**
  * Returns a new `Transform` based on all steps of the passed transactions.

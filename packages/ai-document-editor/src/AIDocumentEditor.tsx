@@ -1,8 +1,8 @@
 import React, { useCallback, useRef, useState, type CSSProperties } from 'react'
-import { EditorContent } from '@tiptap/react'
-import type { Content } from '@tiptap/core'
-import type { AIProviderInterface, AIAssistantState } from '@tiptap/extension-ai-assistant'
-import { AIAssistantPanel, useAIAssistant } from '@tiptap/extension-ai-assistant/react'
+import { EditorContent } from '@inkflow/react'
+import type { Content } from '@inkflow/core'
+import type { AIProviderInterface, AIAssistantState } from '@inkflow/extension-ai-assistant'
+import { AIAssistantPanel, useAIAssistant } from '@inkflow/extension-ai-assistant/react'
 import { useAIDocumentEditor, type UseAIDocumentEditorOptions } from './useAIDocumentEditor.js'
 import { AIDocumentEditorProvider } from './AIDocumentEditorProvider.js'
 

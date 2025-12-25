@@ -5,14 +5,14 @@
 </template>
 
 <script>
-import Code from '@tiptap/extension-code'
-import CodeBlock from '@tiptap/extension-code-block'
-import Document from '@tiptap/extension-document'
-import { BulletList, ListItem } from '@tiptap/extension-list'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { TrailingNode } from '@tiptap/extensions'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Code from '@inkflow/extension-code'
+import CodeBlock from '@inkflow/extension-code-block'
+import Document from '@inkflow/extension-document'
+import { BulletList, ListItem } from '@inkflow/extension-list'
+import Paragraph from '@inkflow/extension-paragraph'
+import Text from '@inkflow/extension-text'
+import { TrailingNode } from '@inkflow/extensions'
+import { Editor, EditorContent } from '@inkflow/vue-3'
 
 export default {
   components: {

@@ -1,10 +1,10 @@
 // @ts-ignore
 // TODO: add types to @types/prosemirror-commands
-import { selectTextblockEnd as originalSelectTextblockEnd } from '@tiptap/pm/commands'
+import { selectTextblockEnd as originalSelectTextblockEnd } from '@inkflow/pm/commands'
 
 import type { RawCommands } from '../types.js'
 
-declare module '@tiptap/core' {
+declare module '@inkflow/core' {
   interface Commands<ReturnType> {
     selectTextblockEnd: {
       /**

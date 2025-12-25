@@ -1,4 +1,4 @@
-import { RemoveMarkStep } from '@tiptap/pm/transform'
+import { RemoveMarkStep } from '@inkflow/pm/transform'
 
 import { Extension } from '../Extension.js'
 import { combineTransactionSteps, getChangedRanges } from '../helpers/index.js'

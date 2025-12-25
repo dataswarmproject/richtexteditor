@@ -1,8 +1,8 @@
-import { combineTransactionSteps, Extension, findChildren, findChildrenInRange, getChangedRanges } from '@tiptap/core'
-import type { Node as ProseMirrorNode } from '@tiptap/pm/model'
-import { Fragment, Slice } from '@tiptap/pm/model'
-import type { Transaction } from '@tiptap/pm/state'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
+import { combineTransactionSteps, Extension, findChildren, findChildrenInRange, getChangedRanges } from '@inkflow/core'
+import type { Node as ProseMirrorNode } from '@inkflow/pm/model'
+import { Fragment, Slice } from '@inkflow/pm/model'
+import type { Transaction } from '@inkflow/pm/state'
+import { Plugin, PluginKey } from '@inkflow/pm/state'
 import { v4 as uuidv4 } from 'uuid'
 
 import { findDuplicates } from './helpers/findDuplicates.js'

@@ -1,5 +1,5 @@
-import type { JSONContent } from '@tiptap/core'
-import { createAtomBlockMarkdownSpec, createBlockMarkdownSpec, createInlineMarkdownSpec } from '@tiptap/core'
+import type { JSONContent } from '@inkflow/core'
+import { createAtomBlockMarkdownSpec, createBlockMarkdownSpec, createInlineMarkdownSpec } from '@inkflow/core'
 import { describe, expect, it } from 'vitest'
 
 describe('Markdown Utilities', () => {

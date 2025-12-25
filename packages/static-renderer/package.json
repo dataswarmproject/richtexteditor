@@ -1,12 +1,12 @@
 {
-  "name": "@tiptap/static-renderer",
+  "name": "@inkflow/static-renderer",
   "description": "statically render Tiptap JSON",
   "version": "3.14.0",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "tiptap",
-    "tiptap static renderer",
-    "tiptap react renderer"
+    "inkflow",
+    "inkflow static renderer",
+    "inkflow react renderer"
   ],
   "license": "MIT",
   "funding": {
@@ -72,22 +72,22 @@
     "dist"
   ],
   "devDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^",
+    "@inkflow/core": "workspace:^",
+    "@inkflow/pm": "workspace:^",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "peerDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^",
+    "@inkflow/core": "workspace:^",
+    "@inkflow/pm": "workspace:^",
     "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
     "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/digital-trendz/inkflow",
     "directory": "packages/static-renderer"
   },
   "scripts": {

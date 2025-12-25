@@ -1,6 +1,6 @@
-import { Node, NodeViewContent, ReactNodeViewContentProvider, ReactNodeViewRenderer } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
-import { renderToReactElement } from '@tiptap/static-renderer'
+import { Node, NodeViewContent, ReactNodeViewContentProvider, ReactNodeViewRenderer } from '@inkflow/react'
+import StarterKit from '@inkflow/starter-kit'
+import { renderToReactElement } from '@inkflow/static-renderer'
 import React, { useMemo } from 'react'
 
 // This component does not have a NodeViewContent, so it does not render it's children's rich text content

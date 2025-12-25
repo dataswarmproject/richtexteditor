@@ -1,8 +1,8 @@
-import type { Editor, Range } from '@tiptap/core'
-import type { EditorState } from '@tiptap/pm/state'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
-import type { EditorView } from '@tiptap/pm/view'
-import { Decoration, DecorationSet } from '@tiptap/pm/view'
+import type { Editor, Range } from '@inkflow/core'
+import type { EditorState } from '@inkflow/pm/state'
+import { Plugin, PluginKey } from '@inkflow/pm/state'
+import type { EditorView } from '@inkflow/pm/view'
+import { Decoration, DecorationSet } from '@inkflow/pm/view'
 
 import { findSuggestionMatch as defaultFindSuggestionMatch } from './findSuggestionMatch.js'
 

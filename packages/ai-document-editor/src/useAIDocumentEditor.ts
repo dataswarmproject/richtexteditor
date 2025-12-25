@@ -1,8 +1,8 @@
 import { useCallback, useMemo, useRef, useEffect } from 'react'
-import { useEditor, type Editor } from '@tiptap/react'
-import type { Content, Extensions } from '@tiptap/core'
+import { useEditor, type Editor } from '@inkflow/react'
+import type { Content, Extensions } from '@inkflow/core'
 import { AIDocumentEditorKit, type AIDocumentEditorKitOptions } from './extensions.js'
-import type { AIProviderInterface, AIAssistantState } from '@tiptap/extension-ai-assistant'
+import type { AIProviderInterface, AIAssistantState } from '@inkflow/extension-ai-assistant'
 
 export interface UseAIDocumentEditorOptions {
   /**

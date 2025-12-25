@@ -1,11 +1,11 @@
 {
-  "name": "@tiptap/extension-bubble-menu",
+  "name": "@inkflow/extension-bubble-menu",
   "description": "bubble-menu extension for tiptap",
   "version": "3.14.0",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "tiptap",
-    "tiptap extension"
+    "inkflow",
+    "inkflow extension"
   ],
   "license": "MIT",
   "funding": {
@@ -32,20 +32,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/digital-trendz/inkflow",
     "directory": "packages/extension-bubble-menu"
   },
   "sideEffects": false,
   "devDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^"
+    "@inkflow/core": "workspace:^",
+    "@inkflow/pm": "workspace:^"
   },
   "dependencies": {
     "@floating-ui/dom": "^1.0.0"
   },
   "peerDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^"
+    "@inkflow/core": "workspace:^",
+    "@inkflow/pm": "workspace:^"
   },
   "scripts": {
     "build": "tsup",

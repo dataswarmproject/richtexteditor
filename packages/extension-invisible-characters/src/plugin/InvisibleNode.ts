@@ -1,5 +1,5 @@
-import type { Node } from '@tiptap/pm/model'
-import type { DecorationSet } from '@tiptap/pm/view'
+import type { Node } from '@inkflow/pm/model'
+import type { DecorationSet } from '@inkflow/pm/view'
 
 import { createDecorationWidget } from './utils/create-decoration-widget.js'
 

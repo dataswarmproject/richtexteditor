@@ -1,10 +1,10 @@
-import type { Extension } from '@tiptap/core'
-import { Blockquote } from '@tiptap/extension-blockquote'
-import { Document } from '@tiptap/extension-document'
-import { Heading } from '@tiptap/extension-heading'
-import { Paragraph } from '@tiptap/extension-paragraph'
-import { Text } from '@tiptap/extension-text'
-import { MarkdownManager } from '@tiptap/markdown'
+import type { Extension } from '@inkflow/core'
+import { Blockquote } from '@inkflow/extension-blockquote'
+import { Document } from '@inkflow/extension-document'
+import { Heading } from '@inkflow/extension-heading'
+import { Paragraph } from '@inkflow/extension-paragraph'
+import { Text } from '@inkflow/extension-text'
+import { MarkdownManager } from '@inkflow/markdown'
 import { beforeEach, describe, expect, it } from 'vitest'
 
 describe('Blockquote Markdown Conversion', () => {

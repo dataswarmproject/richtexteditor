@@ -1,5 +1,5 @@
-import type { Node, Schema } from '@tiptap/pm/model'
-import { DOMSerializer } from '@tiptap/pm/model'
+import type { Node, Schema } from '@inkflow/pm/model'
+import { DOMSerializer } from '@inkflow/pm/model'
 
 /**
  * Returns the HTML string representation of a given document node.

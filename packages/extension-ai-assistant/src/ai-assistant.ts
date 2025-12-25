@@ -1,5 +1,5 @@
-import { Extension } from '@tiptap/core'
-import { PluginKey } from '@tiptap/pm/state'
+import { Extension } from '@inkflow/core'
+import { PluginKey } from '@inkflow/pm/state'
 
 import {
   AIAssistantPlugin,
@@ -191,7 +191,7 @@ const defaultActions: AIAction[] = [
   },
 ]
 
-declare module '@tiptap/core' {
+declare module '@inkflow/core' {
   interface Commands<ReturnType> {
     aiAssistant: {
       /**

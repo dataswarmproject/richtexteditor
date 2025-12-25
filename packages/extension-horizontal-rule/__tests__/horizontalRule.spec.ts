@@ -1,9 +1,9 @@
-import { Editor } from '@tiptap/core'
-import Document from '@tiptap/extension-document'
-import HorizontalRule from '@tiptap/extension-horizontal-rule'
-import Image from '@tiptap/extension-image'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
+import { Editor } from '@inkflow/core'
+import Document from '@inkflow/extension-document'
+import HorizontalRule from '@inkflow/extension-horizontal-rule'
+import Image from '@inkflow/extension-image'
+import Paragraph from '@inkflow/extension-paragraph'
+import Text from '@inkflow/extension-text'
 import { describe, expect, it } from 'vitest'
 
 describe('extension-horizontal-rule', () => {

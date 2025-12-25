@@ -1,8 +1,8 @@
-import { Editor } from '@tiptap/core'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import Twitch from '@tiptap/extension-twitch'
+import { Editor } from '@inkflow/core'
+import Document from '@inkflow/extension-document'
+import Paragraph from '@inkflow/extension-paragraph'
+import Text from '@inkflow/extension-text'
+import Twitch from '@inkflow/extension-twitch'
 import { describe, expect, it } from 'vitest'
 
 /**

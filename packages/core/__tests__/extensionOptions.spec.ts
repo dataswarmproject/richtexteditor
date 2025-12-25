@@ -1,4 +1,4 @@
-import { Extension, Mark, Node } from '@tiptap/core'
+import { Extension, Mark, Node } from '@inkflow/core'
 import { describe, expect, it } from 'vitest'
 
 describe('extension options', () => {

@@ -4,13 +4,13 @@
 
 <script>
 // Option 1: Browser + server-side
-import Bold from '@tiptap/extension-bold'
+import Bold from '@inkflow/extension-bold'
 // Option 2: Browser-only (lightweight)
-// import { generateHTML } from '@tiptap/core'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { generateHTML } from '@tiptap/html'
+// import { generateHTML } from '@inkflow/core'
+import Document from '@inkflow/extension-document'
+import Paragraph from '@inkflow/extension-paragraph'
+import Text from '@inkflow/extension-text'
+import { generateHTML } from '@inkflow/html'
 
 const json = {
   type: 'doc',

@@ -1,6 +1,6 @@
-import type { Extensions, JSONContent } from '@tiptap/core'
-import { getSchema } from '@tiptap/core'
-import { Node } from '@tiptap/pm/model'
+import type { Extensions, JSONContent } from '@inkflow/core'
+import { getSchema } from '@inkflow/core'
+import { Node } from '@inkflow/pm/model'
 
 import { getHTMLFromFragment } from './getHTMLFromFragment.js'
 

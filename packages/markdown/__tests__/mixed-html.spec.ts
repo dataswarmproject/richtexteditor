@@ -2,12 +2,12 @@
  * @vitest-environment happy-dom
  */
 
-import { Document } from '@tiptap/extension-document'
-import { Heading } from '@tiptap/extension-heading'
-import { Italic } from '@tiptap/extension-italic'
-import { Paragraph } from '@tiptap/extension-paragraph'
-import { Text } from '@tiptap/extension-text'
-import { MarkdownManager } from '@tiptap/markdown'
+import { Document } from '@inkflow/extension-document'
+import { Heading } from '@inkflow/extension-heading'
+import { Italic } from '@inkflow/extension-italic'
+import { Paragraph } from '@inkflow/extension-paragraph'
+import { Text } from '@inkflow/extension-text'
+import { MarkdownManager } from '@inkflow/markdown'
 import { beforeEach, describe, expect, it } from 'vitest'
 
 describe('MarkdownManager Mixed Markdown + HTML', () => {

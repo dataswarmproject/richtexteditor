@@ -1,5 +1,5 @@
-import { Extension } from '@tiptap/core'
-import { history, redo, undo } from '@tiptap/pm/history'
+import { Extension } from '@inkflow/core'
+import { history, redo, undo } from '@inkflow/pm/history'
 
 export interface UndoRedoOptions {
   /**
@@ -17,7 +17,7 @@ export interface UndoRedoOptions {
   newGroupDelay: number
 }
 
-declare module '@tiptap/core' {
+declare module '@inkflow/core' {
   interface Commands<ReturnType> {
     undoRedo: {
       /**

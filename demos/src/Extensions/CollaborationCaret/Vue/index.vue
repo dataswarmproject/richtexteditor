@@ -3,13 +3,13 @@
 </template>
 
 <script>
-import Collaboration from '@tiptap/extension-collaboration'
-import CollaborationCaret from '@tiptap/extension-collaboration-caret'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Placeholder } from '@tiptap/extensions'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Collaboration from '@inkflow/extension-collaboration'
+import CollaborationCaret from '@inkflow/extension-collaboration-caret'
+import Document from '@inkflow/extension-document'
+import Paragraph from '@inkflow/extension-paragraph'
+import Text from '@inkflow/extension-text'
+import { Placeholder } from '@inkflow/extensions'
+import { Editor, EditorContent } from '@inkflow/vue-3'
 import { WebrtcProvider } from 'y-webrtc'
 import * as Y from 'yjs'
 

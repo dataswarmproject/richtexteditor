@@ -1,10 +1,10 @@
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { TextStyle } from '@tiptap/extension-text-style'
-import Youtube from '@tiptap/extension-youtube'
-import { generateHTML, generateJSON } from '@tiptap/html'
-import StarterKit from '@tiptap/starter-kit'
+import Document from '@inkflow/extension-document'
+import Paragraph from '@inkflow/extension-paragraph'
+import Text from '@inkflow/extension-text'
+import { TextStyle } from '@inkflow/extension-text-style'
+import Youtube from '@inkflow/extension-youtube'
+import { generateHTML, generateJSON } from '@inkflow/html'
+import StarterKit from '@inkflow/starter-kit'
 import { describe, expect, it } from 'vitest'
 
 describe('generateHTML', () => {

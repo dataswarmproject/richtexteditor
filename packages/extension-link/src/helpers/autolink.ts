@@ -1,7 +1,7 @@
-import type { NodeWithPos } from '@tiptap/core'
-import { combineTransactionSteps, findChildrenInRange, getChangedRanges, getMarksBetween } from '@tiptap/core'
-import type { MarkType } from '@tiptap/pm/model'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
+import type { NodeWithPos } from '@inkflow/core'
+import { combineTransactionSteps, findChildrenInRange, getChangedRanges, getMarksBetween } from '@inkflow/core'
+import type { MarkType } from '@inkflow/pm/model'
+import { Plugin, PluginKey } from '@inkflow/pm/state'
 import type { MultiToken } from 'linkifyjs'
 import { tokenize } from 'linkifyjs'
 

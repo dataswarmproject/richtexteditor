@@ -22,15 +22,15 @@
 </template>
 
 <script>
-import Bold from '@tiptap/extension-bold'
-import Collaboration from '@tiptap/extension-collaboration'
-import Document from '@tiptap/extension-document'
-import Heading from '@tiptap/extension-heading'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Placeholder } from '@tiptap/extensions'
-import { Editor, EditorContent } from '@tiptap/vue-3'
-import { BubbleMenu, FloatingMenu } from '@tiptap/vue-3/menus'
+import Bold from '@inkflow/extension-bold'
+import Collaboration from '@inkflow/extension-collaboration'
+import Document from '@inkflow/extension-document'
+import Heading from '@inkflow/extension-heading'
+import Paragraph from '@inkflow/extension-paragraph'
+import Text from '@inkflow/extension-text'
+import { Placeholder } from '@inkflow/extensions'
+import { Editor, EditorContent } from '@inkflow/vue-3'
+import { BubbleMenu, FloatingMenu } from '@inkflow/vue-3/menus'
 import { WebrtcProvider } from 'y-webrtc'
 import * as Y from 'yjs'
 

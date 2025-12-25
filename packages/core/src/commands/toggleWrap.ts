@@ -1,10 +1,10 @@
-import type { NodeType } from '@tiptap/pm/model'
+import type { NodeType } from '@inkflow/pm/model'
 
 import { getNodeType } from '../helpers/getNodeType.js'
 import { isNodeActive } from '../helpers/isNodeActive.js'
 import type { RawCommands } from '../types.js'
 
-declare module '@tiptap/core' {
+declare module '@inkflow/core' {
   interface Commands<ReturnType> {
     toggleWrap: {
       /**

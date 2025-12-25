@@ -16,11 +16,11 @@
 </template>
 
 <script>
-import Bold from '@tiptap/extension-bold'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Bold from '@inkflow/extension-bold'
+import Document from '@inkflow/extension-document'
+import Paragraph from '@inkflow/extension-paragraph'
+import Text from '@inkflow/extension-text'
+import { Editor, EditorContent } from '@inkflow/vue-3'
 
 export default {
   components: {

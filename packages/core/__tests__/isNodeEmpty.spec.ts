@@ -1,8 +1,8 @@
-import { getSchema, isNodeEmpty } from '@tiptap/core'
-import Document from '@tiptap/extension-document'
-import Image from '@tiptap/extension-image'
-import Mention from '@tiptap/extension-mention'
-import StarterKit from '@tiptap/starter-kit'
+import { getSchema, isNodeEmpty } from '@inkflow/core'
+import Document from '@inkflow/extension-document'
+import Image from '@inkflow/extension-image'
+import Mention from '@inkflow/extension-mention'
+import StarterKit from '@inkflow/starter-kit'
 import { describe, expect, it } from 'vitest'
 
 const schema = getSchema([StarterKit, Mention])

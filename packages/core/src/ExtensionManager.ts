@@ -1,7 +1,7 @@
-import { keymap } from '@tiptap/pm/keymap'
-import type { Schema } from '@tiptap/pm/model'
-import type { Plugin } from '@tiptap/pm/state'
-import type { MarkViewConstructor, NodeViewConstructor } from '@tiptap/pm/view'
+import { keymap } from '@inkflow/pm/keymap'
+import type { Schema } from '@inkflow/pm/model'
+import type { Plugin } from '@inkflow/pm/state'
+import type { MarkViewConstructor, NodeViewConstructor } from '@inkflow/pm/view'
 
 import type { Editor } from './Editor.js'
 import {

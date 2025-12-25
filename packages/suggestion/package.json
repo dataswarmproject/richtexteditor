@@ -1,11 +1,11 @@
 {
-  "name": "@tiptap/suggestion",
+  "name": "@inkflow/suggestion",
   "description": "suggestion plugin for tiptap",
   "version": "3.14.0",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "tiptap",
-    "tiptap utility"
+    "inkflow",
+    "inkflow utility"
   ],
   "license": "MIT",
   "funding": {
@@ -31,16 +31,16 @@
     "dist"
   ],
   "devDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^"
+    "@inkflow/core": "workspace:^",
+    "@inkflow/pm": "workspace:^"
   },
   "peerDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^"
+    "@inkflow/core": "workspace:^",
+    "@inkflow/pm": "workspace:^"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/digital-trendz/inkflow",
     "directory": "packages/suggestion"
   },
   "scripts": {

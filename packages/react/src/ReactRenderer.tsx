@@ -1,4 +1,4 @@
-import type { Editor } from '@tiptap/core'
+import type { Editor } from '@inkflow/core'
 import type {
   ComponentClass,
   ForwardRefExoticComponent,

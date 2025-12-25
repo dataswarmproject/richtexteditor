@@ -1,11 +1,11 @@
 {
-  "name": "@tiptap/extension-drag-handle-react",
-  "description": "drag handle extension for tiptap with react",
+  "name": "@inkflow/extension-drag-handle-react",
+  "description": "drag handle extension for inkflow with react",
   "version": "3.14.0",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "tiptap",
-    "tiptap extension"
+    "inkflow",
+    "inkflow extension"
   ],
   "license": "MIT",
   "funding": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/digital-trendz/inkflow",
     "directory": "packages/extension-drag-handle-react"
   },
   "type": "module",
@@ -36,16 +36,16 @@
     "dist"
   ],
   "peerDependencies": {
-    "@tiptap/extension-drag-handle": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "@tiptap/react": "workspace:^",
+    "@inkflow/extension-drag-handle": "workspace:^",
+    "@inkflow/pm": "workspace:^",
+    "@inkflow/react": "workspace:^",
     "react": "^16.8 || ^17 || ^18 || ^19",
     "react-dom": "^16.8 || ^17 || ^18 || ^19"
   },
   "devDependencies": {
-    "@tiptap/extension-drag-handle": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "@tiptap/react": "workspace:^",
+    "@inkflow/extension-drag-handle": "workspace:^",
+    "@inkflow/pm": "workspace:^",
+    "@inkflow/react": "workspace:^",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "react": "^18.0.0",

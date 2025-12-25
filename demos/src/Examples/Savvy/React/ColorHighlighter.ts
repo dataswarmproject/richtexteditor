@@ -1,5 +1,5 @@
-import { Extension } from '@tiptap/core'
-import { Plugin } from '@tiptap/pm/state'
+import { Extension } from '@inkflow/core'
+import { Plugin } from '@inkflow/pm/state'
 
 import findColors from './findColors.js'
 

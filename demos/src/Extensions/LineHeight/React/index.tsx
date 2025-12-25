@@ -1,8 +1,8 @@
 import './styles.scss'
 
-import { LineHeight, TextStyle } from '@tiptap/extension-text-style'
-import { EditorContent, useEditor, useEditorState } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import { LineHeight, TextStyle } from '@inkflow/extension-text-style'
+import { EditorContent, useEditor, useEditorState } from '@inkflow/react'
+import StarterKit from '@inkflow/starter-kit'
 import React from 'react'
 
 export default () => {

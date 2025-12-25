@@ -1,4 +1,4 @@
-import { createBlockMarkdownSpec, Node } from '@tiptap/core'
+import { createBlockMarkdownSpec, Node } from '@inkflow/core'
 
 export const name = 'Custom Block'
 

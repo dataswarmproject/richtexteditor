@@ -1,6 +1,6 @@
-import type { FloatingMenuPluginProps } from '@tiptap/extension-floating-menu'
-import { FloatingMenuPlugin } from '@tiptap/extension-floating-menu'
-import { useCurrentEditor } from '@tiptap/react'
+import type { FloatingMenuPluginProps } from '@inkflow/extension-floating-menu'
+import { FloatingMenuPlugin } from '@inkflow/extension-floating-menu'
+import { useCurrentEditor } from '@inkflow/react'
 import React, { useEffect, useRef } from 'react'
 import { createPortal } from 'react-dom'
 

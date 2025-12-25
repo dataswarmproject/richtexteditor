@@ -1,6 +1,6 @@
-import type { Editor } from '@tiptap/core'
-import { PluginKey } from '@tiptap/pm/state'
-import type { SuggestionOptions } from '@tiptap/suggestion'
+import type { Editor } from '@inkflow/core'
+import { PluginKey } from '@inkflow/pm/state'
+import type { SuggestionOptions } from '@inkflow/suggestion'
 
 /**
  * Arguments for the `getSuggestionOptions` function

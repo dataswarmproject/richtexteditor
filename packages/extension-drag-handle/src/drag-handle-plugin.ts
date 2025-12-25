@@ -1,14 +1,14 @@
 import { type ComputePositionConfig, type VirtualElement, computePosition } from '@floating-ui/dom'
-import type { Editor } from '@tiptap/core'
-import { isChangeOrigin } from '@tiptap/extension-collaboration'
-import type { Node } from '@tiptap/pm/model'
-import { type EditorState, type Transaction, Plugin, PluginKey } from '@tiptap/pm/state'
-import type { EditorView } from '@tiptap/pm/view'
+import type { Editor } from '@inkflow/core'
+import { isChangeOrigin } from '@inkflow/extension-collaboration'
+import type { Node } from '@inkflow/pm/model'
+import { type EditorState, type Transaction, Plugin, PluginKey } from '@inkflow/pm/state'
+import type { EditorView } from '@inkflow/pm/view'
 import {
   absolutePositionToRelativePosition,
   relativePositionToAbsolutePosition,
   ySyncPluginKey,
-} from '@tiptap/y-tiptap'
+} from '@inkflow/y-tiptap'
 
 import { dragHandler } from './helpers/dragHandler.js'
 import { findElementNextToCoords } from './helpers/findNextElementFromCursor.js'

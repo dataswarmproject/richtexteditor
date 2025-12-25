@@ -1,10 +1,10 @@
-import type { EditorState, Transaction } from '@tiptap/pm/state'
-import { Decoration, DecorationSet } from '@tiptap/pm/view'
+import type { EditorState, Transaction } from '@inkflow/pm/state'
+import { Decoration, DecorationSet } from '@inkflow/pm/view'
 import {
   absolutePositionToRelativePosition,
   relativePositionToAbsolutePosition,
   ySyncPluginKey,
-} from '@tiptap/y-tiptap'
+} from '@inkflow/y-tiptap'
 import type * as Y from 'yjs'
 
 import { AnnotationItem } from './AnnotationItem.js'

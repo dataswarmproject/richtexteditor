@@ -10,12 +10,12 @@ import {
   shift,
   size,
 } from '@floating-ui/dom'
-import type { Editor } from '@tiptap/core'
-import { getText, getTextSerializersFromSchema, posToDOMRect } from '@tiptap/core'
-import type { Node as ProsemirrorNode } from '@tiptap/pm/model'
-import type { EditorState } from '@tiptap/pm/state'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
-import type { EditorView } from '@tiptap/pm/view'
+import type { Editor } from '@inkflow/core'
+import { getText, getTextSerializersFromSchema, posToDOMRect } from '@inkflow/core'
+import type { Node as ProsemirrorNode } from '@inkflow/pm/model'
+import type { EditorState } from '@inkflow/pm/state'
+import { Plugin, PluginKey } from '@inkflow/pm/state'
+import type { EditorView } from '@inkflow/pm/view'
 
 export interface FloatingMenuPluginProps {
   /**

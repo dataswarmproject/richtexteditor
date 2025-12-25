@@ -11,12 +11,12 @@ import {
   shift,
   size,
 } from '@floating-ui/dom'
-import type { Editor } from '@tiptap/core'
-import { isTextSelection, posToDOMRect } from '@tiptap/core'
-import type { EditorState, PluginView, Transaction } from '@tiptap/pm/state'
-import { NodeSelection, Plugin, PluginKey } from '@tiptap/pm/state'
-import { CellSelection } from '@tiptap/pm/tables'
-import type { EditorView } from '@tiptap/pm/view'
+import type { Editor } from '@inkflow/core'
+import { isTextSelection, posToDOMRect } from '@inkflow/core'
+import type { EditorState, PluginView, Transaction } from '@inkflow/pm/state'
+import { NodeSelection, Plugin, PluginKey } from '@inkflow/pm/state'
+import { CellSelection } from '@inkflow/pm/tables'
+import type { EditorView } from '@inkflow/pm/view'
 
 function combineDOMRects(rect1: DOMRect, rect2: DOMRect): DOMRect {
   const top = Math.min(rect1.top, rect2.top)

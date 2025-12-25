@@ -1,5 +1,5 @@
-import { getNodeAtPosition } from '@tiptap/core'
-import type { EditorState } from '@tiptap/pm/state'
+import { getNodeAtPosition } from '@inkflow/core'
+import type { EditorState } from '@inkflow/pm/state'
 
 import { findListItemPos } from './findListItemPos.js'
 

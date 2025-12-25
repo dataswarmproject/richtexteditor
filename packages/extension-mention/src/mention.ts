@@ -1,9 +1,9 @@
-import type { Editor } from '@tiptap/core'
-import { createInlineMarkdownSpec, mergeAttributes, Node } from '@tiptap/core'
-import type { DOMOutputSpec } from '@tiptap/pm/model'
-import { Node as ProseMirrorNode } from '@tiptap/pm/model'
-import type { SuggestionOptions } from '@tiptap/suggestion'
-import { Suggestion } from '@tiptap/suggestion'
+import type { Editor } from '@inkflow/core'
+import { createInlineMarkdownSpec, mergeAttributes, Node } from '@inkflow/core'
+import type { DOMOutputSpec } from '@inkflow/pm/model'
+import { Node as ProseMirrorNode } from '@inkflow/pm/model'
+import type { SuggestionOptions } from '@inkflow/suggestion'
+import { Suggestion } from '@inkflow/suggestion'
 
 import { getSuggestionOptions } from './utils/get-default-suggestion-attributes.js'
 

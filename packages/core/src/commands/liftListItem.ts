@@ -1,10 +1,10 @@
-import type { NodeType } from '@tiptap/pm/model'
-import { liftListItem as originalLiftListItem } from '@tiptap/pm/schema-list'
+import type { NodeType } from '@inkflow/pm/model'
+import { liftListItem as originalLiftListItem } from '@inkflow/pm/schema-list'
 
 import { getNodeType } from '../helpers/getNodeType.js'
 import type { RawCommands } from '../types.js'
 
-declare module '@tiptap/core' {
+declare module '@inkflow/core' {
   interface Commands<ReturnType> {
     liftListItem: {
       /**

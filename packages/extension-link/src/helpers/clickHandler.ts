@@ -1,7 +1,7 @@
-import type { Editor } from '@tiptap/core'
-import { getAttributes } from '@tiptap/core'
-import type { MarkType } from '@tiptap/pm/model'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
+import type { Editor } from '@inkflow/core'
+import { getAttributes } from '@inkflow/core'
+import type { MarkType } from '@inkflow/pm/model'
+import { Plugin, PluginKey } from '@inkflow/pm/state'
 
 type ClickHandlerOptions = {
   type: MarkType

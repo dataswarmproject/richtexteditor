@@ -1,7 +1,7 @@
-import type { Extensions } from '@tiptap/core'
-import { getSchema } from '@tiptap/core'
-import type { ParseOptions } from '@tiptap/pm/model'
-import { DOMParser } from '@tiptap/pm/model'
+import type { Extensions } from '@inkflow/core'
+import { getSchema } from '@inkflow/core'
+import type { ParseOptions } from '@inkflow/pm/model'
+import { DOMParser } from '@inkflow/pm/model'
 
 /**
  * Generates a JSON object from the given HTML string and converts it into a Prosemirror node with content.

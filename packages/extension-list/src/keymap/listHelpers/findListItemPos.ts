@@ -1,6 +1,6 @@
-import { getNodeType } from '@tiptap/core'
-import type { NodeType } from '@tiptap/pm/model'
-import type { EditorState } from '@tiptap/pm/state'
+import { getNodeType } from '@inkflow/core'
+import type { NodeType } from '@inkflow/pm/model'
+import type { EditorState } from '@inkflow/pm/state'
 
 export const findListItemPos = (typeOrName: string | NodeType, state: EditorState) => {
   const { $from } = state.selection

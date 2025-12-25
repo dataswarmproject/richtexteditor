@@ -1,6 +1,6 @@
-import type { Editor } from '@tiptap/core'
-import type { EditorState } from '@tiptap/pm/state'
-import type { EditorView } from '@tiptap/pm/view'
+import type { Editor } from '@inkflow/core'
+import type { EditorState } from '@inkflow/pm/state'
+import type { EditorView } from '@inkflow/pm/view'
 
 /**
  * AI Provider types

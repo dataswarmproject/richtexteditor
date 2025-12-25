@@ -1,5 +1,5 @@
-import type { Content, MarkdownToken } from '@tiptap/core'
-import type { Fragment, Node } from '@tiptap/pm/model'
+import type { Content, MarkdownToken } from '@inkflow/core'
+import type { Fragment, Node } from '@inkflow/pm/model'
 
 import type { ContentType } from './types.js'
 

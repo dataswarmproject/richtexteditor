@@ -1,8 +1,8 @@
-import type { Plugin, PluginKey } from '@tiptap/pm/state'
+import type { Plugin, PluginKey } from '@inkflow/pm/state'
 
 import type { RawCommands } from '../types.js'
 
-declare module '@tiptap/core' {
+declare module '@inkflow/core' {
   interface Commands<ReturnType> {
     setMeta: {
       /**

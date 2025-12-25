@@ -1,5 +1,5 @@
-import type { Editor } from '@tiptap/core'
-import { isAtEndOfNode, isNodeActive } from '@tiptap/core'
+import type { Editor } from '@inkflow/core'
+import { isAtEndOfNode, isNodeActive } from '@inkflow/core'
 
 import { nextListIsDeeper } from './nextListIsDeeper.js'
 import { nextListIsHigher } from './nextListIsHigher.js'

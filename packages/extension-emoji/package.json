@@ -1,11 +1,11 @@
 {
-  "name": "@tiptap/extension-emoji",
+  "name": "@inkflow/extension-emoji",
   "description": "emoji extension for tiptap",
   "version": "3.14.0",
-  "homepage": "https://tiptap.dev/api/nodes/emoji",
+  "homepage": "https://digitaltrendz.app/api/nodes/emoji",
   "keywords": [
-    "tiptap",
-    "tiptap extension"
+    "inkflow",
+    "inkflow extension"
   ],
   "license": "MIT",
   "funding": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/digital-trendz/inkflow",
     "directory": "packages/extension-emoji"
   },
   "type": "module",
@@ -36,9 +36,9 @@
     "dist"
   ],
   "peerDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "@tiptap/suggestion": "workspace:^"
+    "@inkflow/core": "workspace:^",
+    "@inkflow/pm": "workspace:^",
+    "@inkflow/suggestion": "workspace:^"
   },
   "dependencies": {
     "emoji-regex": "^10.4.0",
@@ -46,9 +46,9 @@
     "is-emoji-supported": "^0.0.5"
   },
   "devDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "@tiptap/suggestion": "workspace:^",
+    "@inkflow/core": "workspace:^",
+    "@inkflow/pm": "workspace:^",
+    "@inkflow/suggestion": "workspace:^",
     "emoji-datasource": "^7.0.2",
     "json5": "^2.2.3",
     "tsm": "^2.3.0"

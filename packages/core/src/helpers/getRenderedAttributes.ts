@@ -1,4 +1,4 @@
-import type { Mark, Node } from '@tiptap/pm/model'
+import type { Mark, Node } from '@inkflow/pm/model'
 
 import type { ExtensionAttribute } from '../types.js'
 import { mergeAttributes } from '../utilities/mergeAttributes.js'

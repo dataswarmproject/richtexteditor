@@ -1,11 +1,11 @@
 {
-  "name": "@tiptap/extension-collaboration-caret",
+  "name": "@inkflow/extension-collaboration-caret",
   "description": "collaboration caret extension for tiptap",
   "version": "3.14.0",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "tiptap",
-    "tiptap extension"
+    "inkflow",
+    "inkflow extension"
   ],
   "license": "MIT",
   "funding": {
@@ -31,18 +31,18 @@
     "dist"
   ],
   "devDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "@tiptap/y-tiptap": "^3.0.0"
+    "@inkflow/core": "workspace:^",
+    "@inkflow/pm": "workspace:^",
+    "@inkflow/y-tiptap": "^3.0.0"
   },
   "peerDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "@tiptap/y-tiptap": "^3.0.0"
+    "@inkflow/core": "workspace:^",
+    "@inkflow/pm": "workspace:^",
+    "@inkflow/y-tiptap": "^3.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/digital-trendz/inkflow",
     "directory": "packages/extension-collaboration-caret"
   },
   "scripts": {

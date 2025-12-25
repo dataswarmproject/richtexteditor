@@ -1,5 +1,5 @@
-import type { ResizableNodeViewDirection } from '@tiptap/core'
-import { mergeAttributes, Node, nodeInputRule, ResizableNodeView } from '@tiptap/core'
+import type { ResizableNodeViewDirection } from '@inkflow/core'
+import { mergeAttributes, Node, nodeInputRule, ResizableNodeView } from '@inkflow/core'
 
 export interface ImageOptions {
   /**
@@ -48,7 +48,7 @@ export interface SetImageOptions {
   height?: number
 }
 
-declare module '@tiptap/core' {
+declare module '@inkflow/core' {
   interface Commands<ReturnType> {
     image: {
       /**

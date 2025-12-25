@@ -1,6 +1,8 @@
 MIT License
 
-Copyright (c) 2025, Tiptap GmbH
+Copyright (c) 2025, Digital Trendz (https://digital-trendz.net)
+
+This software includes code originally developed by Tiptap GmbH, licensed under the MIT License.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +21,15 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## Credits
+
+InkFlow is built upon the excellent open-source work of:
+
+- **Tiptap** (https://tiptap.dev) - The original headless editor framework
+- **ProseMirror** (https://prosemirror.net) - The foundation for structured text editing
+- **Yjs** (https://yjs.dev) - CRDT implementation for real-time collaboration
+
+We are grateful to the original authors and contributors of these projects.

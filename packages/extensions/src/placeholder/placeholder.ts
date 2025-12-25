@@ -1,8 +1,8 @@
-import type { Editor } from '@tiptap/core'
-import { Extension, isNodeEmpty } from '@tiptap/core'
-import type { Node as ProsemirrorNode } from '@tiptap/pm/model'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
-import { Decoration, DecorationSet } from '@tiptap/pm/view'
+import type { Editor } from '@inkflow/core'
+import { Extension, isNodeEmpty } from '@inkflow/core'
+import type { Node as ProsemirrorNode } from '@inkflow/pm/model'
+import { Plugin, PluginKey } from '@inkflow/pm/state'
+import { Decoration, DecorationSet } from '@inkflow/pm/view'
 
 export interface PlaceholderOptions {
   /**

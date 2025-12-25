@@ -1,132 +1,176 @@
-![Tiptap Editor](.github/assets/cover.png)
+<p align="center">
+  <img src=".github/assets/inkflow-logo.svg" alt="InkFlow" width="200">
+</p>
 
-[![LFX Health Score](https://insights.production.lfx.dev/api/badge/health-score?project=tiptap)](https://insights.linuxfoundation.org/project/tiptap)
-[![Build Status](https://github.com/ueberdosis/tiptap/actions/workflows/build.yml/badge.svg)](https://github.com/ueberdosis/tiptap/actions/workflows/build.yml)
-[![Version](https://img.shields.io/npm/v/@tiptap/core.svg?label=version)](https://www.npmjs.com/package/@tiptap/core)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/core.svg)](https://npmcharts.com/compare/@tiptap/core?minimal=true)
-[![License](https://img.shields.io/npm/l/@tiptap/core.svg)](https://www.npmjs.com/package/@tiptap/core)
-[![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg?sanitize=true)](https://discord.gg/WtJ49jGshW)
-[![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub)](https://github.com/sponsors/ueberdosis)
+<h1 align="center">InkFlow Editor</h1>
 
-# Tiptap Editor
+<p align="center">
+  <strong>AI-Powered Rich Text Editor for Modern Applications</strong>
+</p>
 
-The Tiptap Editor is a headless, framework-agnostic rich text editor that's customizable and extendable through extensions. Its headless nature means it comes without a set user interface, offering full design freedom (for a jumpstart, see linked [UI templates](#examples-codesandbox-and-ui-templates) below). Tiptap is based on the highly reliable [ProseMirror](https://github.com/ProseMirror/prosemirror) library.
+<p align="center">
+  <a href="https://digitaltrendz.app">Website</a> •
+  <a href="https://digitaltrendz.dev/docs">Documentation</a> •
+  <a href="https://digitaltrendz.app/examples">Examples</a> •
+  <a href="https://digital-trendz.net">Digital Trendz</a>
+</p>
 
-Tiptap Editor is complemented by the collaboration open-source backend [Hocuspocus](https://github.com/ueberdosis/hocuspocus). Both the Editor and Hocuspocus form the foundation of the [Tiptap Suite](https://tiptap.dev/).
+<p align="center">
+  <a href="https://www.npmjs.com/package/@inkflow/core">
+    <img src="https://img.shields.io/npm/v/@inkflow/core.svg?label=version" alt="Version">
+  </a>
+  <a href="https://www.npmjs.com/package/@inkflow/core">
+    <img src="https://img.shields.io/npm/dm/@inkflow/core.svg" alt="Downloads">
+  </a>
+  <a href="https://github.com/dataswarmproject/richtexteditor/blob/main/LICENSE.md">
+    <img src="https://img.shields.io/npm/l/@inkflow/core.svg" alt="License">
+  </a>
+</p>
 
-### How does the Tiptap Editor work?
+---
 
-- **Headless Framework:** Tiptap does not rely on a user interface. So there is no need for class overrides or code hacks. If you do need an example UI feel free to browse our [UI templates](#examples-codesandbox-and-ui-templates) linked below.
-- **Framework-agnostic:** The Tiptap Editor is designed to work across different frontend frameworks. This means whether you're using Vue, React, or plain JavaScript, Tiptap integrates without compatibility issues.
-- **Extension based:** Extensions in Tiptap allow for a tailored editing experience, from simple text styling to advanced features like drag-and-drop block editing. You have the option to choose from over 100 extensions available in the [documentation](https://tiptap.dev/docs/editor/extensions) and [community](https://github.com/ueberdosis/awesome-tiptap/#community-extensions) to enhance your editor's functionality.
-- **Customize your UX:** The editor was built to give you control to define your own [extensions](https://tiptap.dev/docs/editor/guide/custom-extensions) and [nodes](https://tiptap.dev/docs/editor/api/nodes).
+## What is InkFlow?
 
-### Editor Pro Extensions
+**InkFlow** is a headless, framework-agnostic rich text editor with built-in AI capabilities, Google Docs-like pagination, and seamless integration for React, Vue, and Next.js applications. Built on the battle-tested [ProseMirror](https://github.com/ProseMirror/prosemirror) foundation.
 
-The **Pro Extensions** are a set of advanced functionalities that enhance the capabilities of the Tiptap Editor. They are additional features that can be integrated into the base editor to provide more sophisticated editing options.
+Developed and maintained by **[Digital Trendz](https://digital-trendz.net)**.
 
-Key functionalities include collaborative editing, commenting, versioning, document conversion and AI related features.
-Review the docs right [here](https://tiptap.dev/docs/editor/extensions).
+### Key Features
 
-Pro Extensions need a valid subscription.
+- **AI-Powered Editing** - Built-in AI assistant with tools for generating, rewriting, summarizing, and translating content
+- **Google Docs-like Pagination** - Page view with headers, footers, page numbers, and print-ready documents
+- **Headless Architecture** - Complete design freedom with no imposed UI
+- **Framework Agnostic** - Works with React, Vue, Svelte, or vanilla JavaScript
+- **100+ Extensions** - Rich ecosystem of formatting, media, and collaboration features
+- **Real-time Collaboration** - Built-in support for collaborative editing via Yjs
+- **TypeScript First** - Full type safety and excellent DX
 
-### Make your editor collaborative
+## Quick Start
 
-Interested in collaborative editing? Check out our open-source package [Hocuspocus](https://github.com/ueberdosis/hocuspocus) - a collaboration backend built around the CRDT power of [Yjs](https://github.com/yjs/yjs). Hocuspocus serves as the backbone for the [Tiptap Suite](https://tiptap.dev/).
+### Installation
+
+```bash
+npm install @inkflow/ai-document-editor
+# or
+pnpm add @inkflow/ai-document-editor
+# or
+yarn add @inkflow/ai-document-editor
+```
+
+### Basic Usage
+
+```tsx
+import { AIDocumentEditor } from '@inkflow/ai-document-editor'
+import '@inkflow/ai-document-editor/styles'
+
+export default function App() {
+  return (
+    <AIDocumentEditor
+      initialContent="<p>Start writing...</p>"
+      showToolbar={true}
+      showAIPanel={true}
+    />
+  )
+}
+```
+
+### Using the Core Editor
+
+```tsx
+import { useEditor, EditorContent } from '@inkflow/react'
+import StarterKit from '@inkflow/starter-kit'
+
+function Editor() {
+  const editor = useEditor({
+    extensions: [StarterKit],
+    content: '<p>Hello World!</p>',
+  })
+
+  return <EditorContent editor={editor} />
+}
+```
+
+## Packages
+
+| Package | Description |
+|---------|-------------|
+| `@inkflow/core` | Core editor functionality |
+| `@inkflow/react` | React integration and hooks |
+| `@inkflow/vue-3` | Vue 3 integration |
+| `@inkflow/starter-kit` | Essential extensions bundle |
+| `@inkflow/ai-document-editor` | Complete AI-powered document editor |
+| `@inkflow/extension-pagination` | Google Docs-like pagination |
+| `@inkflow/extension-ai-assistant` | AI chat interface with agentic tools |
+
+## AI Features
+
+InkFlow includes powerful AI capabilities out of the box:
+
+| Tool | Description |
+|------|-------------|
+| Generate Text | Create new content from prompts |
+| Rewrite | Change tone, style, or approach |
+| Summarize | Create brief or detailed summaries |
+| Translate | Translate to 18+ languages |
+| Fix Grammar | Correct spelling and grammar |
+| Expand | Add more details and examples |
+| Simplify | Make text easier to understand |
+| Format | Convert to lists, tables, headings |
+
+### Keyboard Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl+J` | Open AI Assistant |
+| `Ctrl+K` | Inline AI Prompt |
+| `Ctrl+Enter` | Insert Page Break |
+| `Ctrl+P` | Print Document |
 
 ## Documentation
 
-For more detailed information, make sure to check out our [documentation](https://tiptap.dev/docs/editor/installation). If you encounter any problems or have suggestions for our system, please open an issue.
+Visit our documentation at **[digitaltrendz.dev/docs](https://digitaltrendz.dev/docs)** for:
 
-### Examples, CodeSandbox and UI Templates
+- Getting started guides
+- Extension documentation
+- API reference
+- Examples and tutorials
 
-Have a look at the [examples to see Tiptap in action](https://tiptap.dev/examples) or review and fork our codesandboxes.
+## Examples
 
-- [Basic example of the Tiptap editor.](https://codesandbox.io/p/devbox/editor-9x9dkd?embed=1&file=%2Fsrc%2FApp.js)
-- [Collaboration ready Tiptap CodeSandbox](https://codesandbox.io/p/devbox/collaboration-4stk94)
-- React notion-like block editor template: [Demo](https://templates.tiptap.dev/)
+Explore live examples at **[digitaltrendz.app/examples](https://digitaltrendz.app/examples)**:
 
-## About Tiptap
+- Basic editor setup
+- AI document editor
+- Collaborative editing
+- Custom extensions
+- Menu implementations
 
-Tiptap is a collection of developer components based on open-source technology, forming the basis of our advanced, paid features. It includes the open-source editor component, collaboration features, Content AI, and Tiptap Cloud. We are developing open-source products that also shape our paid features. We're committed to improving both, ensuring quality and reliability in every update.
+## About Digital Trendz
 
-For more details, visit the Tiptap [documentation](https://tiptap.dev/docs/editor/introduction) or [website](https://tiptap.dev/).
+InkFlow is developed by **[Digital Trendz](https://digital-trendz.net)**, a technology company focused on building modern developer tools and applications.
 
-### Community
+- **Website:** [digital-trendz.net](https://digital-trendz.net)
+- **App Platform:** [digitaltrendz.app](https://digitaltrendz.app)
+- **Developer Docs:** [digitaltrendz.dev](https://digitaltrendz.dev)
 
-For help, discussion about best practices, or any other conversation that would benefit from being searchable:
+## Contributing
 
-[Discuss Tiptap on GitHub](https://github.com/ueberdosis/tiptap/discussions)
+We welcome contributions! Please see our [CONTRIBUTING](CONTRIBUTING.md) guidelines.
 
-### Sponsors 💖
+## Credits
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://www.complish.app/">
-        <img src="https://uploads-ssl.webflow.com/5fa93d27380666789a1cbbd3/5fae50824b4d2d06f3d2898f_Frame%20374.png" width="25"><br>
-        <strong>Complish</strong>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.storyblok.com/">
-        <img src="https://unavatar.io/github/storyblok" width="25"><br>
-        <strong>Storyblok</strong>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://posthog.com/">
-        <img src="https://unavatar.io/github/posthog" width="25"><br>
-        <strong>PostHog</strong>
-      </a>
-    </td>
-    <td align="center" width="100">
-      <a href="https://reflect.app/">
-        <img src="https://unavatar.io/reflect.app" width="25"><br>
-        <strong>Reflect</strong>
-      </a>
-    </td>
-    <td align="center" width="100">
-      <a href="https://ziffmedia.com/">
-        <img src="https://unavatar.io/github/ziffmedia" width="25"><br>
-        <strong>Ziff Media</strong>
-      </a>
-    </td>
-    <td align="center" width="100">
-      <a href="https://www.basewell.com/">
-        <img src="https://unavatar.io/github/Basewell" width="25"><br>
-        <strong>Basewell</strong>
-      </a>
-    </td>
-    <td align="center" width="100">
-      <a href="https://poggio.io">
-        <img src="https://unavatar.io/github/poggiolabs" width="25"><br>
-        <strong>Poggio</strong>
-      </a>
-    </td>
-  </tr>
-</table>
+InkFlow is built on the excellent work of:
 
-[iFixit](https://www.ifixit.com/), [ApostropheCMS](https://apostrophecms.com/), [Novadiscovery](http://www.novadiscovery.com/), [Omics Data Automation](https://www.omicsautomation.com), [Flow Mobile](https://www.flowmobile.app/), [DocIQ](https://www.dociq.io/) and [hundreds of awesome individuals](https://github.com/sponsors/ueberdosis).
-
-### Contributing
-
-Feel like adding some magic of your own to Tiptap Editor Core? We welcome contributions! Please see our [CONTRIBUTING](CONTRIBUTING.md) guidelines for how to get started.
-
-### Contributors
-
-[Sam Willis](https://github.com/samwillis),
-[Brian Hung](https://github.com/BrianHung),
-[Dirk Holtwick](https://github.com/holtwick),
-[Sam Duvall](https://github.com/SamDuvall),
-[Christoph Flathmann](https://github.com/Chrissi2812),
-[Erick Wilder](https://github.com/erickwilder),
-[Marius Tolzmann](https://github.com/mariux),
-[jjangga0214](https://github.com/jjangga0214),
-[Maya Nedeljkovich](https://github.com/mayacoda),
-[Ryan Bliss](https://github.com/ryanbliss),
-[Gregor](https://github.com/gambolputty) and [many more](../../contributors).
+- [ProseMirror](https://prosemirror.net/) - The foundation for structured text editing
+- [Tiptap](https://tiptap.dev/) - The original headless editor framework (MIT License)
+- [Yjs](https://yjs.dev/) - CRDT implementation for real-time collaboration
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+MIT License - see [LICENSE.md](LICENSE.md) for details.
+
+---
+
+<p align="center">
+  Made with ❤️ by <a href="https://digital-trendz.net">Digital Trendz</a>
+</p>

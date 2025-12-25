@@ -3,11 +3,11 @@
 </template>
 
 <script>
-import { generateText } from '@tiptap/core'
-import Document from '@tiptap/extension-document'
-import HardBreak from '@tiptap/extension-hard-break'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
+import { generateText } from '@inkflow/core'
+import Document from '@inkflow/extension-document'
+import HardBreak from '@inkflow/extension-hard-break'
+import Paragraph from '@inkflow/extension-paragraph'
+import Text from '@inkflow/extension-text'
 
 const json = {
   type: 'doc',

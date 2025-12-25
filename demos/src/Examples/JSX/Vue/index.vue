@@ -3,8 +3,8 @@
 </template>
 
 <script>
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import StarterKit from '@inkflow/starter-kit'
+import { Editor, EditorContent } from '@inkflow/vue-3'
 
 import { Paragraph } from './Paragraph.tsx'
 

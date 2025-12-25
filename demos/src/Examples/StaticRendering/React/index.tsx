@@ -1,9 +1,9 @@
 import './styles.scss'
 
-import type { JSONContent } from '@tiptap/react'
-import { EditorProvider, useCurrentEditor, useEditorState } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
-import { renderToHTMLString, renderToMarkdown, renderToReactElement } from '@tiptap/static-renderer'
+import type { JSONContent } from '@inkflow/react'
+import { EditorProvider, useCurrentEditor, useEditorState } from '@inkflow/react'
+import StarterKit from '@inkflow/starter-kit'
+import { renderToHTMLString, renderToMarkdown, renderToReactElement } from '@inkflow/static-renderer'
 import React, { useState } from 'react'
 
 const extensions = [StarterKit]

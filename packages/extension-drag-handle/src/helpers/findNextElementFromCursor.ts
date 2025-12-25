@@ -1,6 +1,6 @@
-import type { Editor } from '@tiptap/core'
-import type { Node } from '@tiptap/pm/model'
-import type { EditorView } from '@tiptap/pm/view'
+import type { Editor } from '@inkflow/core'
+import type { Node } from '@inkflow/pm/model'
+import type { EditorView } from '@inkflow/pm/view'
 
 export type FindElementNextToCoords = {
   x: number

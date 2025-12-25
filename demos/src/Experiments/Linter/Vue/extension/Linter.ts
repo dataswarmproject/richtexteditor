@@ -1,7 +1,7 @@
-import { Extension } from '@tiptap/core'
-import type { Node as ProsemirrorNode } from '@tiptap/pm/model'
-import { Plugin, PluginKey, TextSelection } from '@tiptap/pm/state'
-import { Decoration, DecorationSet } from '@tiptap/pm/view'
+import { Extension } from '@inkflow/core'
+import type { Node as ProsemirrorNode } from '@inkflow/pm/model'
+import { Plugin, PluginKey, TextSelection } from '@inkflow/pm/state'
+import { Decoration, DecorationSet } from '@inkflow/pm/view'
 
 import type { Result as Issue } from './LinterPlugin.js'
 import type LinterPlugin from './LinterPlugin.js'

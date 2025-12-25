@@ -1,9 +1,9 @@
-import { TextSelection } from '@tiptap/pm/state'
+import { TextSelection } from '@inkflow/pm/state'
 
 import type { Range, RawCommands } from '../types.js'
 import { minMax } from '../utilities/minMax.js'
 
-declare module '@tiptap/core' {
+declare module '@inkflow/core' {
   interface Commands<ReturnType> {
     setTextSelection: {
       /**

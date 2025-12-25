@@ -1,11 +1,11 @@
 {
-  "name": "@tiptap/extension-drag-handle-vue-3",
-  "description": "drag handle extension for tiptap with vue 3",
+  "name": "@inkflow/extension-drag-handle-vue-3",
+  "description": "drag handle extension for inkflow with vue 3",
   "version": "3.14.0",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "tiptap",
-    "tiptap extension"
+    "inkflow",
+    "inkflow extension"
   ],
   "license": "MIT",
   "funding": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/digital-trendz/inkflow",
     "directory": "packages/extension-drag-handle-vue-3"
   },
   "type": "module",
@@ -36,15 +36,15 @@
     "dist"
   ],
   "peerDependencies": {
-    "@tiptap/extension-drag-handle": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "@tiptap/vue-3": "workspace:^",
+    "@inkflow/extension-drag-handle": "workspace:^",
+    "@inkflow/pm": "workspace:^",
+    "@inkflow/vue-3": "workspace:^",
     "vue": "^3.0.0"
   },
   "devDependencies": {
-    "@tiptap/extension-drag-handle": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "@tiptap/vue-3": "workspace:^",
+    "@inkflow/extension-drag-handle": "workspace:^",
+    "@inkflow/pm": "workspace:^",
+    "@inkflow/vue-3": "workspace:^",
     "vue": "^3.0.0"
   },
   "scripts": {

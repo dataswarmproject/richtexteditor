@@ -1,5 +1,5 @@
-import { Extension } from '@tiptap/core'
-import { dropCursor } from '@tiptap/pm/dropcursor'
+import { Extension } from '@inkflow/core'
+import { dropCursor } from '@inkflow/pm/dropcursor'
 
 export interface DropcursorOptions {
   /**

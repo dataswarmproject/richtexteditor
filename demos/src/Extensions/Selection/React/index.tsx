@@ -1,12 +1,12 @@
 import './styles.scss'
 
-import Code from '@tiptap/extension-code'
-import Document from '@tiptap/extension-document'
-import { BulletList, ListItem } from '@tiptap/extension-list'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Selection } from '@tiptap/extensions'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Code from '@inkflow/extension-code'
+import Document from '@inkflow/extension-document'
+import { BulletList, ListItem } from '@inkflow/extension-list'
+import Paragraph from '@inkflow/extension-paragraph'
+import Text from '@inkflow/extension-text'
+import { Selection } from '@inkflow/extensions'
+import { EditorContent, useEditor } from '@inkflow/react'
 import React from 'react'
 
 export default () => {

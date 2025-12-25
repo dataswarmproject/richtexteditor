@@ -1,4 +1,4 @@
-import { Node, mergeAttributes } from '@tiptap/core'
+import { Node, mergeAttributes } from '@inkflow/core'
 
 export interface PageBreakOptions {
   /**
@@ -8,7 +8,7 @@ export interface PageBreakOptions {
   HTMLAttributes: Record<string, unknown>
 }
 
-declare module '@tiptap/core' {
+declare module '@inkflow/core' {
   interface Commands<ReturnType> {
     pageBreak: {
       /**

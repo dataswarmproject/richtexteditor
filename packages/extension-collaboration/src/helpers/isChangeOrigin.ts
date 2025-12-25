@@ -1,5 +1,5 @@
-import type { Transaction } from '@tiptap/pm/state'
-import { ySyncPluginKey } from '@tiptap/y-tiptap'
+import type { Transaction } from '@inkflow/pm/state'
+import { ySyncPluginKey } from '@inkflow/y-tiptap'
 
 /**
  * Checks if a transaction was originated from a Yjs change.

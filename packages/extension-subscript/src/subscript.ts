@@ -1,5 +1,5 @@
-import { Mark, mergeAttributes } from '@tiptap/core'
-import type { StyleParseRule } from '@tiptap/pm/model'
+import { Mark, mergeAttributes } from '@inkflow/core'
+import type { StyleParseRule } from '@inkflow/pm/model'
 
 export interface SubscriptExtensionOptions {
   /**
@@ -10,7 +10,7 @@ export interface SubscriptExtensionOptions {
   HTMLAttributes: Record<string, any>
 }
 
-declare module '@tiptap/core' {
+declare module '@inkflow/core' {
   interface Commands<ReturnType> {
     subscript: {
       /**

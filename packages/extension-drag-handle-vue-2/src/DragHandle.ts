@@ -1,10 +1,10 @@
-import type { Editor } from '@tiptap/core'
+import type { Editor } from '@inkflow/core'
 import {
   type DragHandlePluginProps,
   defaultComputePositionConfig,
   DragHandlePlugin,
   dragHandlePluginDefaultKey,
-} from '@tiptap/extension-drag-handle'
+} from '@inkflow/extension-drag-handle'
 import { type PropType } from 'vue'
 
 import { Vue } from './Vue.js'

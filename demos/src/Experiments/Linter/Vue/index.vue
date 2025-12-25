@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import Document from '@tiptap/extension-document'
-import Heading from '@tiptap/extension-heading'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Document from '@inkflow/extension-document'
+import Heading from '@inkflow/extension-heading'
+import Paragraph from '@inkflow/extension-paragraph'
+import Text from '@inkflow/extension-text'
+import { Editor, EditorContent } from '@inkflow/vue-3'
 
 import Linter, { BadWords, HeadingLevel, Punctuation } from './extension/index.ts'
 

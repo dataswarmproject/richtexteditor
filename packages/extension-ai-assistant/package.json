@@ -1,10 +1,10 @@
 {
-  "name": "@tiptap/extension-ai-assistant",
+  "name": "@inkflow/extension-ai-assistant",
   "description": "AI-powered assistant extension with floating chat for tiptap",
   "version": "3.14.0",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "tiptap",
+    "inkflow",
     "ai",
     "assistant",
     "chat",
@@ -41,8 +41,8 @@
   ],
   "dependencies": {
     "@floating-ui/dom": "^1.6.5",
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^"
+    "@inkflow/core": "workspace:^",
+    "@inkflow/pm": "workspace:^"
   },
   "devDependencies": {
     "@types/react": "^19.0.0",
@@ -64,7 +64,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/digital-trendz/inkflow",
     "directory": "packages/extension-ai-assistant"
   },
   "sideEffects": false,

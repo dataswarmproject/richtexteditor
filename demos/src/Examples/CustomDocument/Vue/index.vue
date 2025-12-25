@@ -3,10 +3,10 @@
 </template>
 
 <script>
-import Document from '@tiptap/extension-document'
-import { Placeholder } from '@tiptap/extensions'
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Document from '@inkflow/extension-document'
+import { Placeholder } from '@inkflow/extensions'
+import StarterKit from '@inkflow/starter-kit'
+import { Editor, EditorContent } from '@inkflow/vue-3'
 
 const CustomDocument = Document.extend({
   content: 'heading block*',

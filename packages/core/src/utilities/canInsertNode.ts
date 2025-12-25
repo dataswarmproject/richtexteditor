@@ -1,5 +1,5 @@
-import type { NodeType } from '@tiptap/pm/model'
-import { type EditorState, NodeSelection } from '@tiptap/pm/state'
+import type { NodeType } from '@inkflow/pm/model'
+import { type EditorState, NodeSelection } from '@inkflow/pm/state'
 
 export function canInsertNode(state: EditorState, nodeType: NodeType): boolean {
   const { selection } = state

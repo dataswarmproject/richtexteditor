@@ -1,5 +1,5 @@
-import type { Editor } from '@tiptap/core'
-import type { PluginKey } from '@tiptap/pm/state'
+import type { Editor } from '@inkflow/core'
+import type { PluginKey } from '@inkflow/pm/state'
 
 export type FileHandlePluginOptions = {
   /**

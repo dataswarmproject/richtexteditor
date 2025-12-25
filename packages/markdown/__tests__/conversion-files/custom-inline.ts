@@ -1,4 +1,4 @@
-import { createInlineMarkdownSpec, Node } from '@tiptap/core'
+import { createInlineMarkdownSpec, Node } from '@inkflow/core'
 
 export const name = 'Custom Inline'
 

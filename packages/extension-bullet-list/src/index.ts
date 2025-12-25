@@ -1,6 +1,6 @@
-import { BulletList } from '@tiptap/extension-list'
+import { BulletList } from '@inkflow/extension-list'
 
-export type { BulletListOptions } from '@tiptap/extension-list'
-export { BulletList } from '@tiptap/extension-list'
+export type { BulletListOptions } from '@inkflow/extension-list'
+export { BulletList } from '@inkflow/extension-list'
 
 export default BulletList

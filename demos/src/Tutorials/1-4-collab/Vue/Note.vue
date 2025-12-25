@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { TiptapCollabProvider } from '@hocuspocus/provider'
-import { Collaboration } from '@tiptap/extension-collaboration'
-import StarterKit from '@tiptap/starter-kit'
-import { EditorContent, useEditor } from '@tiptap/vue-3'
+import { Collaboration } from '@inkflow/extension-collaboration'
+import StarterKit from '@inkflow/starter-kit'
+import { EditorContent, useEditor } from '@inkflow/vue-3'
 import { onMounted, onUnmounted } from 'vue'
 import * as Y from 'yjs'
 

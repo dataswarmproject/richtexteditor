@@ -3,9 +3,9 @@
 </template>
 
 <script>
-import { Placeholder } from '@tiptap/extensions'
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import { Placeholder } from '@inkflow/extensions'
+import StarterKit from '@inkflow/starter-kit'
+import { Editor, EditorContent } from '@inkflow/vue-3'
 
 export default {
   components: {

@@ -1,6 +1,6 @@
-import { Collaboration } from '@tiptap/extension-collaboration'
-import { EditorContent, useEditor } from '@tiptap/react'
-import { StarterKit } from '@tiptap/starter-kit'
+import { Collaboration } from '@inkflow/extension-collaboration'
+import { EditorContent, useEditor } from '@inkflow/react'
+import { StarterKit } from '@inkflow/starter-kit'
 import React from 'react'
 import * as Y from 'yjs'
 

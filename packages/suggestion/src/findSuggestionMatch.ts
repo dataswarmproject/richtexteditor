@@ -1,6 +1,6 @@
-import type { Range } from '@tiptap/core'
-import { escapeForRegEx } from '@tiptap/core'
-import type { ResolvedPos } from '@tiptap/pm/model'
+import type { Range } from '@inkflow/core'
+import { escapeForRegEx } from '@inkflow/core'
+import type { ResolvedPos } from '@inkflow/pm/model'
 
 export interface Trigger {
   char: string

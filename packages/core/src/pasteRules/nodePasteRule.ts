@@ -1,4 +1,4 @@
-import type { NodeType } from '@tiptap/pm/model'
+import type { NodeType } from '@inkflow/pm/model'
 
 import type { PasteRuleFinder } from '../PasteRule.js'
 import { PasteRule } from '../PasteRule.js'

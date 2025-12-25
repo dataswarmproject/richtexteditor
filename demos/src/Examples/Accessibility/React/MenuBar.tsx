@@ -1,5 +1,5 @@
-import type { Editor } from '@tiptap/core'
-import { useEditorState } from '@tiptap/react'
+import type { Editor } from '@inkflow/core'
+import { useEditorState } from '@inkflow/react'
 import React, { useEffect, useRef, useState } from 'react'
 
 import { useMenubarNav } from './useMenubarNav.js'

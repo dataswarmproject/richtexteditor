@@ -1,4 +1,4 @@
-import { Editor as CoreEditor } from '@tiptap/core'
+import { Editor as CoreEditor } from '@inkflow/core'
 import type Vue from 'vue'
 
 export class Editor extends CoreEditor {

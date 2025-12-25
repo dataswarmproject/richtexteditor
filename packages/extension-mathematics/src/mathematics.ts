@@ -1,4 +1,4 @@
-import { Extension } from '@tiptap/core'
+import { Extension } from '@inkflow/core'
 
 import { BlockMath, InlineMath } from './extensions/index.js'
 import type { MathematicsOptions } from './types.js'
@@ -11,9 +11,9 @@ import type { MathematicsOptions } from './types.js'
  *
  * @example
  * ```typescript
- * import { Editor } from '@tiptap/core'
- * import { Mathematics } from '@tiptap/extension-mathematics'
- * import { migrateMathStrings } from '@tiptap/extension-mathematics/utils'
+ * import { Editor } from '@inkflow/core'
+ * import { Mathematics } from '@inkflow/extension-mathematics'
+ * import { migrateMathStrings } from '@inkflow/extension-mathematics/utils'
  *
  * const editor = new Editor({
  *   extensions: [

@@ -1,10 +1,10 @@
 {
-  "name": "@tiptap/core",
+  "name": "@inkflow/core",
   "description": "headless rich text editor",
   "version": "3.14.0",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "tiptap",
+    "inkflow",
     "headless",
     "wysiwyg",
     "text editor",
@@ -52,14 +52,14 @@
     "jsx-dev-runtime"
   ],
   "devDependencies": {
-    "@tiptap/pm": "workspace:^"
+    "@inkflow/pm": "workspace:^"
   },
   "peerDependencies": {
-    "@tiptap/pm": "workspace:^"
+    "@inkflow/pm": "workspace:^"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/digital-trendz/inkflow",
     "directory": "packages/core"
   },
   "sideEffects": false,

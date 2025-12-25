@@ -1,4 +1,4 @@
-import { Node } from '@tiptap/core'
+import { Node } from '@inkflow/core'
 
 export interface IframeOptions {
   allowFullscreen: boolean
@@ -7,7 +7,7 @@ export interface IframeOptions {
   }
 }
 
-declare module '@tiptap/core' {
+declare module '@inkflow/core' {
   interface Commands<ReturnType> {
     iframe: {
       /**

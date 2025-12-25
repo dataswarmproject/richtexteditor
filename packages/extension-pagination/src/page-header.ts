@@ -1,4 +1,4 @@
-import { Node, mergeAttributes } from '@tiptap/core'
+import { Node, mergeAttributes } from '@inkflow/core'
 
 export interface PageHeaderOptions {
   /**
@@ -14,7 +14,7 @@ export interface PageHeaderOptions {
   height: string
 }
 
-declare module '@tiptap/core' {
+declare module '@inkflow/core' {
   interface Commands<ReturnType> {
     pageHeader: {
       /**

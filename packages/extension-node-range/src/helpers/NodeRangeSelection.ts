@@ -1,6 +1,6 @@
-import type { Node as ProseMirrorNode, ResolvedPos } from '@tiptap/pm/model'
-import { Selection } from '@tiptap/pm/state'
-import type { Mapping } from '@tiptap/pm/transform'
+import type { Node as ProseMirrorNode, ResolvedPos } from '@inkflow/pm/model'
+import { Selection } from '@inkflow/pm/state'
+import type { Mapping } from '@inkflow/pm/transform'
 
 import { getSelectionRanges } from './getSelectionRanges.js'
 import { NodeRangeBookmark } from './NodeRangeBookmark.js'

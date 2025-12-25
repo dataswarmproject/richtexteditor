@@ -8,11 +8,11 @@ import {
   Node,
   nodeInputRule,
   PasteRule,
-} from '@tiptap/core'
-import type { Transaction } from '@tiptap/pm/state'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
-import type { SuggestionOptions } from '@tiptap/suggestion'
-import Suggestion from '@tiptap/suggestion'
+} from '@inkflow/core'
+import type { Transaction } from '@inkflow/pm/state'
+import { Plugin, PluginKey } from '@inkflow/pm/state'
+import type { SuggestionOptions } from '@inkflow/suggestion'
+import Suggestion from '@inkflow/suggestion'
 import emojiRegex from 'emoji-regex'
 import { isEmojiSupported } from 'is-emoji-supported'
 
@@ -21,7 +21,7 @@ import { emojiToShortcode } from './helpers/emojiToShortcode.js'
 import { removeDuplicates } from './helpers/removeDuplicates.js'
 import { shortcodeToEmoji } from './helpers/shortcodeToEmoji.js'
 
-declare module '@tiptap/core' {
+declare module '@inkflow/core' {
   interface Commands<ReturnType> {
     emoji: {
       /**

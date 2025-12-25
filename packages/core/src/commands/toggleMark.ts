@@ -1,10 +1,10 @@
-import type { MarkType } from '@tiptap/pm/model'
+import type { MarkType } from '@inkflow/pm/model'
 
 import { getMarkType } from '../helpers/getMarkType.js'
 import { isMarkActive } from '../helpers/isMarkActive.js'
 import type { RawCommands } from '../types.js'
 
-declare module '@tiptap/core' {
+declare module '@inkflow/core' {
   interface Commands<ReturnType> {
     toggleMark: {
       /**

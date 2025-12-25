@@ -1,7 +1,7 @@
-import type { Extensions, JSONContent } from '@tiptap/core'
-import { findChildren, getSchema } from '@tiptap/core'
-import { Node } from '@tiptap/pm/model'
-import { EditorState } from '@tiptap/pm/state'
+import type { Extensions, JSONContent } from '@inkflow/core'
+import { findChildren, getSchema } from '@inkflow/core'
+import { Node } from '@inkflow/pm/model'
+import { EditorState } from '@inkflow/pm/state'
 
 import type { UniqueID } from './unique-id.js'
 

@@ -1,11 +1,11 @@
 {
-  "name": "@tiptap/html",
-  "description": "utility package to render tiptap JSON as HTML",
+  "name": "@inkflow/html",
+  "description": "utility package to render inkflow JSON as HTML",
   "version": "3.14.0",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "tiptap",
-    "tiptap utility"
+    "inkflow",
+    "inkflow utility"
   ],
   "license": "MIT",
   "funding": {
@@ -43,18 +43,18 @@
     "dist"
   ],
   "devDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^",
+    "@inkflow/core": "workspace:^",
+    "@inkflow/pm": "workspace:^",
     "happy-dom": "^20.0.2"
   },
   "peerDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^",
+    "@inkflow/core": "workspace:^",
+    "@inkflow/pm": "workspace:^",
     "happy-dom": "^20.0.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/digital-trendz/inkflow",
     "directory": "packages/html"
   },
   "scripts": {

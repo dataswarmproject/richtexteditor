@@ -1,4 +1,4 @@
-import { mergeAttributes } from '@tiptap/core'
+import { mergeAttributes } from '@inkflow/core'
 import { describe, expect, it } from 'vitest'
 
 describe('mergeAttributes', () => {

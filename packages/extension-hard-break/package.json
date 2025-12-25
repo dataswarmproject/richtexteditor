@@ -1,11 +1,11 @@
 {
-  "name": "@tiptap/extension-hard-break",
+  "name": "@inkflow/extension-hard-break",
   "description": "hard break extension for tiptap",
   "version": "3.14.0",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "tiptap",
-    "tiptap extension"
+    "inkflow",
+    "inkflow extension"
   ],
   "license": "MIT",
   "funding": {
@@ -31,14 +31,14 @@
     "dist"
   ],
   "devDependencies": {
-    "@tiptap/core": "workspace:^"
+    "@inkflow/core": "workspace:^"
   },
   "peerDependencies": {
-    "@tiptap/core": "workspace:^"
+    "@inkflow/core": "workspace:^"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/digital-trendz/inkflow",
     "directory": "packages/extension-hard-break"
   },
   "scripts": {

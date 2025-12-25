@@ -1,4 +1,4 @@
-import { mergeAttributes, Node } from '@tiptap/core'
+import { mergeAttributes, Node } from '@inkflow/core'
 
 export interface HardBreakOptions {
   /**
@@ -16,7 +16,7 @@ export interface HardBreakOptions {
   HTMLAttributes: Record<string, any>
 }
 
-declare module '@tiptap/core' {
+declare module '@inkflow/core' {
   interface Commands<ReturnType> {
     hardBreak: {
       /**

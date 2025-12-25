@@ -1,6 +1,6 @@
-import { Extension, isNodeSelection } from '@tiptap/core'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
-import { Decoration, DecorationSet } from '@tiptap/pm/view'
+import { Extension, isNodeSelection } from '@inkflow/core'
+import { Plugin, PluginKey } from '@inkflow/pm/state'
+import { Decoration, DecorationSet } from '@inkflow/pm/view'
 
 export type SelectionOptions = {
   /**

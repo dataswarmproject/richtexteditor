@@ -1,5 +1,5 @@
-import type { KeyboardShortcutCommand } from '@tiptap/core'
-import { findParentNodeClosestToPos } from '@tiptap/core'
+import type { KeyboardShortcutCommand } from '@inkflow/core'
+import { findParentNodeClosestToPos } from '@inkflow/core'
 
 import { isCellSelection } from './isCellSelection.js'
 
