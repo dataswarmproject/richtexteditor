@@ -1,4 +1,4 @@
-import { Extension } from '@inkflow/core'
+import { Extension } from '@digitaltrendz/core'
 
 import type { TableCellOptions } from '../cell/index.js'
 import { TableCell } from '../cell/index.js'

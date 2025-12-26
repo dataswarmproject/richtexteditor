@@ -1,6 +1,6 @@
-import { OrderedList } from '@inkflow/extension-list'
+import { OrderedList } from '@digitaltrendz/extension-list'
 
-export type { OrderedListOptions } from '@inkflow/extension-list'
-export { OrderedList } from '@inkflow/extension-list'
+export type { OrderedListOptions } from '@digitaltrendz/extension-list'
+export { OrderedList } from '@digitaltrendz/extension-list'
 
 export default OrderedList

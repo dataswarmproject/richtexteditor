@@ -1,8 +1,8 @@
-import type { Plugin, PluginKey } from '@inkflow/pm/state'
+import type { Plugin, PluginKey } from '@digitaltrendz/pm/state'
 
 import type { RawCommands } from '../types.js'
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     setMeta: {
       /**

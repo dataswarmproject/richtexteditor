@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import { NodeViewContent, nodeViewProps, NodeViewWrapper } from '@inkflow/vue-3'
+import { NodeViewContent, nodeViewProps, NodeViewWrapper } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

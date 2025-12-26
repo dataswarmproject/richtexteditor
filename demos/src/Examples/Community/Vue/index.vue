@@ -28,12 +28,12 @@
 </template>
 
 <script>
-import Document from '@inkflow/extension-document'
-import Mention from '@inkflow/extension-mention'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { CharacterCount } from '@inkflow/extensions'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Document from '@digitaltrendz/extension-document'
+import Mention from '@digitaltrendz/extension-mention'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { CharacterCount } from '@digitaltrendz/extensions'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 import suggestion from './suggestion.js'
 

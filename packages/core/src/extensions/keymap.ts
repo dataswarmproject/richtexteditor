@@ -1,4 +1,4 @@
-import { Plugin, PluginKey, Selection } from '@inkflow/pm/state'
+import { Plugin, PluginKey, Selection } from '@digitaltrendz/pm/state'
 
 import { CommandManager } from '../CommandManager.js'
 import { Extension } from '../Extension.js'

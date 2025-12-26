@@ -1,10 +1,10 @@
 {
-  "name": "@inkflow/extension-pagination",
+  "name": "@digitaltrendz/extension-pagination",
   "description": "Google Docs-like pagination extension for tiptap",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "inkflow",
+    "digitaltrendz",
     "pagination",
     "page-break",
     "document",
@@ -30,8 +30,8 @@
     "dist"
   ],
   "dependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/pm": "workspace:^"
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^"
   },
   "repository": {
     "type": "git",

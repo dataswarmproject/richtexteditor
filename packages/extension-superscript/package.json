@@ -1,10 +1,10 @@
 {
-  "name": "@inkflow/extension-superscript",
+  "name": "@digitaltrendz/extension-superscript",
   "description": "superscript extension for tiptap",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "inkflow",
+    "digitaltrendz",
     "inkflow extension"
   ],
   "license": "MIT",
@@ -31,12 +31,12 @@
     "dist"
   ],
   "devDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/pm": "workspace:^"
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^"
   },
   "peerDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/pm": "workspace:^"
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^"
   },
   "repository": {
     "type": "git",

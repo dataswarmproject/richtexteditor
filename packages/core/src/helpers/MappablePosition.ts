@@ -1,5 +1,5 @@
-import type { Transaction } from '@inkflow/pm/state'
-import type { MapResult } from '@inkflow/pm/transform'
+import type { Transaction } from '@digitaltrendz/pm/state'
+import type { MapResult } from '@digitaltrendz/pm/transform'
 
 /**
  * A class that represents a mappable position in the editor. It can be extended

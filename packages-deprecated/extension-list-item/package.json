@@ -1,5 +1,5 @@
 {
-  "name": "@inkflow/extension-list-item",
+  "name": "@digitaltrendz/extension-list-item",
   "description": "list item extension for tiptap",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app",
@@ -31,10 +31,10 @@
     "dist"
   ],
   "devDependencies": {
-    "@inkflow/extension-list": "workspace:^"
+    "@digitaltrendz/extension-list": "workspace:^"
   },
   "peerDependencies": {
-    "@inkflow/extension-list": "workspace:^"
+    "@digitaltrendz/extension-list": "workspace:^"
   },
   "repository": {
     "type": "git",

@@ -1,4 +1,4 @@
-import { createBlockMarkdownSpec, mergeAttributes, Node } from '@inkflow/core'
+import { createBlockMarkdownSpec, mergeAttributes, Node } from '@digitaltrendz/core'
 
 export interface DetailsSummaryOptions {
   /**

@@ -1,5 +1,5 @@
-import { Extension } from '@inkflow/core'
-import { history, redo, undo } from '@inkflow/pm/history'
+import { Extension } from '@digitaltrendz/core'
+import { history, redo, undo } from '@digitaltrendz/pm/history'
 
 export interface UndoRedoOptions {
   /**
@@ -17,7 +17,7 @@ export interface UndoRedoOptions {
   newGroupDelay: number
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     undoRedo: {
       /**

@@ -1,6 +1,6 @@
-import { Extension } from '@inkflow/core'
-import type { Node as ProseMirrorNode } from '@inkflow/pm/model'
-import { Plugin, PluginKey } from '@inkflow/pm/state'
+import { Extension } from '@digitaltrendz/core'
+import type { Node as ProseMirrorNode } from '@digitaltrendz/pm/model'
+import { Plugin, PluginKey } from '@digitaltrendz/pm/state'
 
 export interface CharacterCountOptions {
   /**
@@ -47,7 +47,7 @@ export interface CharacterCountStorage {
   words: (options?: { node?: ProseMirrorNode }) => number
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Storage {
     characterCount: CharacterCountStorage
   }

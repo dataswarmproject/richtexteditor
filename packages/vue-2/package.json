@@ -1,10 +1,10 @@
 {
-  "name": "@inkflow/vue-2",
+  "name": "@digitaltrendz/vue-2",
   "description": "Vue components for tiptap",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "inkflow",
+    "digitaltrendz",
     "inkflow vue components"
   ],
   "license": "MIT",
@@ -42,17 +42,17 @@
     "vue-ts-types": "1.6.2"
   },
   "devDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/pm": "workspace:^",
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
     "vue": "^2.7.16"
   },
   "optionalDependencies": {
-    "@inkflow/extension-bubble-menu": "workspace:^",
-    "@inkflow/extension-floating-menu": "workspace:^"
+    "@digitaltrendz/extension-bubble-menu": "workspace:^",
+    "@digitaltrendz/extension-floating-menu": "workspace:^"
   },
   "peerDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/pm": "workspace:^",
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
     "vue": "^2.6.0"
   },
   "repository": {

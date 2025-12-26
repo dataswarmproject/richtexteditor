@@ -1,5 +1,5 @@
-import { Extension } from '@inkflow/core'
-import { dropCursor } from '@inkflow/pm/dropcursor'
+import { Extension } from '@digitaltrendz/core'
+import { dropCursor } from '@digitaltrendz/pm/dropcursor'
 
 export interface DropcursorOptions {
   /**

@@ -6,9 +6,9 @@ import {
   isActive,
   mergeAttributes,
   Node,
-} from '@inkflow/core'
-import { Plugin, PluginKey, Selection, TextSelection } from '@inkflow/pm/state'
-import type { ViewMutationRecord } from '@inkflow/pm/view'
+} from '@digitaltrendz/core'
+import { Plugin, PluginKey, Selection, TextSelection } from '@digitaltrendz/pm/state'
+import type { ViewMutationRecord } from '@digitaltrendz/pm/view'
 
 import { findClosestVisibleNode } from './helpers/findClosestVisibleNode.js'
 import { isNodeVisible } from './helpers/isNodeVisible.js'
@@ -31,7 +31,7 @@ export interface DetailsOptions {
   }
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     details: {
       /**

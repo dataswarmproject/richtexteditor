@@ -1,4 +1,4 @@
-import type { MarkType } from '@inkflow/pm/model'
+import type { MarkType } from '@digitaltrendz/pm/model'
 
 import { getMarksBetween } from '../helpers/getMarksBetween.js'
 import type { PasteRuleFinder } from '../PasteRule.js'

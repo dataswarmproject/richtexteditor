@@ -23,8 +23,8 @@
 </template>
 
 <script>
-import StarterKit from '@inkflow/starter-kit'
-import { Editor, EditorContent, Extension } from '@inkflow/vue-3'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { Editor, EditorContent, Extension } from '@digitaltrendz/vue-3'
 
 const CustomKeyboardShortcutExtension = Extension.create({
   name: 'customKeyboardShortcuts',

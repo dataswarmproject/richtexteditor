@@ -1,6 +1,6 @@
-import { Node, NodeViewContent, ReactNodeViewContentProvider, ReactNodeViewRenderer } from '@inkflow/react'
-import StarterKit from '@inkflow/starter-kit'
-import { renderToReactElement } from '@inkflow/static-renderer'
+import { Node, NodeViewContent, ReactNodeViewContentProvider, ReactNodeViewRenderer } from '@digitaltrendz/react'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { renderToReactElement } from '@digitaltrendz/static-renderer'
 import React, { useMemo } from 'react'
 
 // This component does not have a NodeViewContent, so it does not render it's children's rich text content

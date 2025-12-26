@@ -1,10 +1,10 @@
 {
-  "name": "@inkflow/html",
+  "name": "@digitaltrendz/html",
   "description": "utility package to render inkflow JSON as HTML",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "inkflow",
+    "digitaltrendz",
     "inkflow utility"
   ],
   "license": "MIT",
@@ -43,13 +43,13 @@
     "dist"
   ],
   "devDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/pm": "workspace:^",
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
     "happy-dom": "^20.0.2"
   },
   "peerDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/pm": "workspace:^",
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
     "happy-dom": "^20.0.2"
   },
   "repository": {

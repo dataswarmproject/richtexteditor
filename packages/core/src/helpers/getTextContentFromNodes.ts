@@ -1,4 +1,4 @@
-import type { ResolvedPos } from '@inkflow/pm/model'
+import type { ResolvedPos } from '@digitaltrendz/pm/model'
 
 /**
  * Returns the text content of a resolved prosemirror position

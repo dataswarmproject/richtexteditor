@@ -1,6 +1,6 @@
-import type { Extensions, JSONContent } from '@inkflow/core'
-import { getSchema } from '@inkflow/core'
-import { Node } from '@inkflow/pm/model'
+import type { Extensions, JSONContent } from '@digitaltrendz/core'
+import { getSchema } from '@digitaltrendz/core'
+import { Node } from '@digitaltrendz/pm/model'
 
 import { getHTMLFromFragment } from './getHTMLFromFragment.js'
 

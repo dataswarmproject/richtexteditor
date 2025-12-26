@@ -3,13 +3,13 @@
 </template>
 
 <script>
-import Code from '@inkflow/extension-code'
-import Document from '@inkflow/extension-document'
-import { BulletList, ListItem } from '@inkflow/extension-list'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { Selection } from '@inkflow/extensions'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Code from '@digitaltrendz/extension-code'
+import Document from '@digitaltrendz/extension-document'
+import { BulletList, ListItem } from '@digitaltrendz/extension-list'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { Selection } from '@digitaltrendz/extensions'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

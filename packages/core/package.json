@@ -1,10 +1,10 @@
 {
-  "name": "@inkflow/core",
+  "name": "@digitaltrendz/core",
   "description": "headless rich text editor",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "inkflow",
+    "digitaltrendz",
     "headless",
     "wysiwyg",
     "text editor",
@@ -52,10 +52,10 @@
     "jsx-dev-runtime"
   ],
   "devDependencies": {
-    "@inkflow/pm": "workspace:^"
+    "@digitaltrendz/pm": "workspace:^"
   },
   "peerDependencies": {
-    "@inkflow/pm": "workspace:^"
+    "@digitaltrendz/pm": "workspace:^"
   },
   "repository": {
     "type": "git",

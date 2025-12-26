@@ -1,4 +1,4 @@
-import type { EditorState } from '@inkflow/pm/state'
+import type { EditorState } from '@digitaltrendz/pm/state'
 
 export const hasListItemBefore = (typeOrName: string, state: EditorState): boolean => {
   const { $anchor } = state.selection

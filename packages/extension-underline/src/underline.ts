@@ -1,4 +1,4 @@
-import { Mark, mergeAttributes } from '@inkflow/core'
+import { Mark, mergeAttributes } from '@digitaltrendz/core'
 
 export interface UnderlineOptions {
   /**
@@ -9,7 +9,7 @@ export interface UnderlineOptions {
   HTMLAttributes: Record<string, any>
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     underline: {
       /**

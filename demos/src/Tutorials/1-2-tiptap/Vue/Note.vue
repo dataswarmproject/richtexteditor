@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import StarterKit from '@inkflow/starter-kit'
-import { EditorContent, useEditor } from '@inkflow/vue-3'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { EditorContent, useEditor } from '@digitaltrendz/vue-3'
 import { ref, watch } from 'vue'
 
 import type { TNote } from './types.js'

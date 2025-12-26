@@ -1,6 +1,6 @@
-import type { Editor } from '@inkflow/core'
-import { getSelectionRanges, NodeRangeSelection } from '@inkflow/extension-node-range'
-import type { SelectionRange } from '@inkflow/pm/state'
+import type { Editor } from '@digitaltrendz/core'
+import { getSelectionRanges, NodeRangeSelection } from '@digitaltrendz/extension-node-range'
+import type { SelectionRange } from '@digitaltrendz/pm/state'
 
 import { cloneElement } from './cloneElement.js'
 import { findElementNextToCoords } from './findNextElementFromCursor.js'

@@ -1,12 +1,12 @@
 import './styles.scss'
 
-import Code from '@inkflow/extension-code'
-import Document from '@inkflow/extension-document'
-import { BulletList, ListItem } from '@inkflow/extension-list'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { Selection } from '@inkflow/extensions'
-import { EditorContent, useEditor } from '@inkflow/react'
+import Code from '@digitaltrendz/extension-code'
+import Document from '@digitaltrendz/extension-document'
+import { BulletList, ListItem } from '@digitaltrendz/extension-list'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { Selection } from '@digitaltrendz/extensions'
+import { EditorContent, useEditor } from '@digitaltrendz/react'
 import React from 'react'
 
 export default () => {

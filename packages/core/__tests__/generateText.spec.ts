@@ -1,8 +1,8 @@
-import type { NodeConfig } from '@inkflow/core'
-import { generateText, Node } from '@inkflow/core'
-import Document from '@inkflow/extension-document'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
+import type { NodeConfig } from '@digitaltrendz/core'
+import { generateText, Node } from '@digitaltrendz/core'
+import Document from '@digitaltrendz/extension-document'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
 import { describe, expect, it } from 'vitest'
 
 describe(generateText.name, () => {

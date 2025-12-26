@@ -1,10 +1,10 @@
 {
-  "name": "@inkflow/pm",
+  "name": "@digitaltrendz/pm",
   "description": "prosemirror wrapper package for tiptap",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "inkflow",
+    "digitaltrendz",
     "prosemirror"
   ],
   "license": "MIT",

@@ -1,6 +1,6 @@
-import type { Mark as ProseMirrorMark, Node as ProseMirrorNode, ParseOptions, Slice } from '@inkflow/pm/model'
-import type { EditorState, Transaction } from '@inkflow/pm/state'
-import type { Mappable, Transform } from '@inkflow/pm/transform'
+import type { Mark as ProseMirrorMark, Node as ProseMirrorNode, ParseOptions, Slice } from '@digitaltrendz/pm/model'
+import type { EditorState, Transaction } from '@digitaltrendz/pm/state'
+import type { Mappable, Transform } from '@digitaltrendz/pm/transform'
 import type {
   Decoration,
   DecorationAttrs,
@@ -11,7 +11,7 @@ import type {
   NodeView,
   NodeViewConstructor,
   ViewMutationRecord,
-} from '@inkflow/pm/view'
+} from '@digitaltrendz/pm/view'
 
 import type { Editor } from './Editor.js'
 import type { Extendable } from './Extendable.js'

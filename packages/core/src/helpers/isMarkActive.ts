@@ -1,5 +1,5 @@
-import type { MarkType } from '@inkflow/pm/model'
-import type { EditorState } from '@inkflow/pm/state'
+import type { MarkType } from '@digitaltrendz/pm/model'
+import type { EditorState } from '@digitaltrendz/pm/state'
 
 import type { MarkRange } from '../types.js'
 import { objectIncludes } from '../utilities/objectIncludes.js'

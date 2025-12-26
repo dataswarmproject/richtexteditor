@@ -1,10 +1,10 @@
-import type { Extension } from '@inkflow/core'
-import { Blockquote } from '@inkflow/extension-blockquote'
-import { Document } from '@inkflow/extension-document'
-import { Heading } from '@inkflow/extension-heading'
-import { Paragraph } from '@inkflow/extension-paragraph'
-import { Text } from '@inkflow/extension-text'
-import { MarkdownManager } from '@inkflow/markdown'
+import type { Extension } from '@digitaltrendz/core'
+import { Blockquote } from '@digitaltrendz/extension-blockquote'
+import { Document } from '@digitaltrendz/extension-document'
+import { Heading } from '@digitaltrendz/extension-heading'
+import { Paragraph } from '@digitaltrendz/extension-paragraph'
+import { Text } from '@digitaltrendz/extension-text'
+import { MarkdownManager } from '@digitaltrendz/markdown'
 import { beforeEach, describe, expect, it } from 'vitest'
 
 describe('Blockquote Markdown Conversion', () => {

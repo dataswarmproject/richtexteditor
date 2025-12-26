@@ -1,5 +1,5 @@
-import { type ResolvedPos, NodeRange } from '@inkflow/pm/model'
-import { SelectionRange } from '@inkflow/pm/state'
+import { type ResolvedPos, NodeRange } from '@digitaltrendz/pm/model'
+import { SelectionRange } from '@digitaltrendz/pm/state'
 
 export function getSelectionRanges($from: ResolvedPos, $to: ResolvedPos, depth?: number): SelectionRange[] {
   const ranges: SelectionRange[] = []

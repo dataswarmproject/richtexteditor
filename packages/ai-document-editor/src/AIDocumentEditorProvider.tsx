@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useMemo, type ReactNode } from 'react'
-import type { Editor } from '@inkflow/react'
-import type { AIProviderInterface } from '@inkflow/extension-ai-assistant'
+import type { Editor } from '@digitaltrendz/react'
+import type { AIProviderInterface } from '@digitaltrendz/extension-ai-assistant'
 
 export interface AIDocumentEditorContextValue {
   /**

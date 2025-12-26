@@ -57,11 +57,11 @@
 </template>
 
 <script>
-import Document from '@inkflow/extension-document'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { Color, TextStyle } from '@inkflow/extension-text-style'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Document from '@digitaltrendz/extension-document'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { Color, TextStyle } from '@digitaltrendz/extension-text-style'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

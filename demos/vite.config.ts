@@ -55,8 +55,8 @@ const getPackageDependencies = () => {
   collectPackageInformation('packages-deprecated')
 
   // Handle the JSX runtime alias
-  paths.unshift({ find: '@inkflow/core/jsx-runtime', replacement: resolve('../packages/core/src/jsx-runtime.ts') })
-  paths.unshift({ find: '@inkflow/core/jsx-dev-runtime', replacement: resolve('../packages/core/src/jsx-runtime.ts') })
+  paths.unshift({ find: '@digitaltrendz/core/jsx-runtime', replacement: resolve('../packages/core/src/jsx-runtime.ts') })
+  paths.unshift({ find: '@digitaltrendz/core/jsx-dev-runtime', replacement: resolve('../packages/core/src/jsx-runtime.ts') })
 
   return paths
 }

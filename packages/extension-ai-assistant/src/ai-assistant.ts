@@ -1,5 +1,5 @@
-import { Extension } from '@inkflow/core'
-import { PluginKey } from '@inkflow/pm/state'
+import { Extension } from '@digitaltrendz/core'
+import { PluginKey } from '@digitaltrendz/pm/state'
 
 import {
   AIAssistantPlugin,
@@ -191,7 +191,7 @@ const defaultActions: AIAction[] = [
   },
 ]
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     aiAssistant: {
       /**

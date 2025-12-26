@@ -15,11 +15,11 @@
 </template>
 
 <script>
-import CodeBlockLowlight from '@inkflow/extension-code-block-lowlight'
-import Document from '@inkflow/extension-document'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { Editor, EditorContent, VueNodeViewRenderer } from '@inkflow/vue-3'
+import CodeBlockLowlight from '@digitaltrendz/extension-code-block-lowlight'
+import Document from '@digitaltrendz/extension-document'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { Editor, EditorContent, VueNodeViewRenderer } from '@digitaltrendz/vue-3'
 import css from 'highlight.js/lib/languages/css'
 import js from 'highlight.js/lib/languages/javascript'
 import ts from 'highlight.js/lib/languages/typescript'

@@ -1,6 +1,6 @@
-import type { KeyboardShortcutCommand } from '@inkflow/core'
-import { mergeAttributes, Node, renderNestedMarkdownContent, wrappingInputRule } from '@inkflow/core'
-import type { Node as ProseMirrorNode } from '@inkflow/pm/model'
+import type { KeyboardShortcutCommand } from '@digitaltrendz/core'
+import { mergeAttributes, Node, renderNestedMarkdownContent, wrappingInputRule } from '@digitaltrendz/core'
+import type { Node as ProseMirrorNode } from '@digitaltrendz/pm/model'
 
 export interface TaskItemOptions {
   /**

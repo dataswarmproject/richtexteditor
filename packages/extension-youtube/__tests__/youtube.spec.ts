@@ -1,8 +1,8 @@
-import { Editor } from '@inkflow/core'
-import Document from '@inkflow/extension-document'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import Youtube from '@inkflow/extension-youtube'
+import { Editor } from '@digitaltrendz/core'
+import Document from '@digitaltrendz/extension-document'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import Youtube from '@digitaltrendz/extension-youtube'
 import { describe, expect, it } from 'vitest'
 
 /**

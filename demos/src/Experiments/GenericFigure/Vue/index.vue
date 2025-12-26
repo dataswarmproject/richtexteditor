@@ -13,10 +13,10 @@
 </template>
 
 <script>
-import Image from '@inkflow/extension-image'
-import { TableKit } from '@inkflow/extension-table'
-import StarterKit from '@inkflow/starter-kit'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Image from '@digitaltrendz/extension-image'
+import { TableKit } from '@digitaltrendz/extension-table'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 import { Figcaption } from './figcaption.ts'
 import { Figure } from './figure.ts'

@@ -1,5 +1,5 @@
-import { NodeSelection } from '@inkflow/pm/state'
-import type { NodeView as ProseMirrorNodeView, ViewMutationRecord } from '@inkflow/pm/view'
+import { NodeSelection } from '@digitaltrendz/pm/state'
+import type { NodeView as ProseMirrorNodeView, ViewMutationRecord } from '@digitaltrendz/pm/view'
 
 import type { Editor as CoreEditor } from './Editor.js'
 import type { DecorationWithType, NodeViewRendererOptions, NodeViewRendererProps } from './types.js'

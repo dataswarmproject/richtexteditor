@@ -1,4 +1,4 @@
-import { Extension, textInputRule } from '@inkflow/core'
+import { Extension, textInputRule } from '@digitaltrendz/core'
 
 export interface TypographyOptions {
   /**

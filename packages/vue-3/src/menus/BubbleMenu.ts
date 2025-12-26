@@ -1,5 +1,5 @@
-import type { BubbleMenuPluginProps } from '@inkflow/extension-bubble-menu'
-import { BubbleMenuPlugin } from '@inkflow/extension-bubble-menu'
+import type { BubbleMenuPluginProps } from '@digitaltrendz/extension-bubble-menu'
+import { BubbleMenuPlugin } from '@digitaltrendz/extension-bubble-menu'
 import type { PropType } from 'vue'
 import { defineComponent, h, nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
 

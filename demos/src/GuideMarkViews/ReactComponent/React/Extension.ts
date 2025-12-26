@@ -1,5 +1,5 @@
-import { Mark } from '@inkflow/core'
-import { ReactMarkViewRenderer } from '@inkflow/react'
+import { Mark } from '@digitaltrendz/core'
+import { ReactMarkViewRenderer } from '@digitaltrendz/react'
 
 import Component from './Component.js'
 

@@ -10,12 +10,12 @@ import {
   shift,
   size,
 } from '@floating-ui/dom'
-import type { Editor } from '@inkflow/core'
-import { getText, getTextSerializersFromSchema, posToDOMRect } from '@inkflow/core'
-import type { Node as ProsemirrorNode } from '@inkflow/pm/model'
-import type { EditorState } from '@inkflow/pm/state'
-import { Plugin, PluginKey } from '@inkflow/pm/state'
-import type { EditorView } from '@inkflow/pm/view'
+import type { Editor } from '@digitaltrendz/core'
+import { getText, getTextSerializersFromSchema, posToDOMRect } from '@digitaltrendz/core'
+import type { Node as ProsemirrorNode } from '@digitaltrendz/pm/model'
+import type { EditorState } from '@digitaltrendz/pm/state'
+import { Plugin, PluginKey } from '@digitaltrendz/pm/state'
+import type { EditorView } from '@digitaltrendz/pm/view'
 
 export interface FloatingMenuPluginProps {
   /**

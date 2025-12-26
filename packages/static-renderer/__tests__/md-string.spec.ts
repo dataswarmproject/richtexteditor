@@ -1,6 +1,6 @@
-import { TableKit } from '@inkflow/extension-table'
-import StarterKit from '@inkflow/starter-kit'
-import { renderToMarkdown } from '@inkflow/static-renderer/pm/markdown'
+import { TableKit } from '@digitaltrendz/extension-table'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { renderToMarkdown } from '@digitaltrendz/static-renderer/pm/markdown'
 import { describe, expect, it } from 'vitest'
 
 describe('static render json to string (no prosemirror)', () => {

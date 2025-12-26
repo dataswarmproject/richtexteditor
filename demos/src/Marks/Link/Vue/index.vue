@@ -13,12 +13,12 @@
 </template>
 
 <script>
-import Code from '@inkflow/extension-code'
-import Document from '@inkflow/extension-document'
-import Link from '@inkflow/extension-link'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Code from '@digitaltrendz/extension-code'
+import Document from '@digitaltrendz/extension-document'
+import Link from '@digitaltrendz/extension-link'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

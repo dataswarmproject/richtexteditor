@@ -55,10 +55,10 @@
 </template>
 
 <script>
-import { findParentNode, posToDOMRect } from '@inkflow/core'
-import StarterKit from '@inkflow/starter-kit'
-import { Editor, EditorContent } from '@inkflow/vue-3'
-import { BubbleMenu } from '@inkflow/vue-3/menus'
+import { findParentNode, posToDOMRect } from '@digitaltrendz/core'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
+import { BubbleMenu } from '@digitaltrendz/vue-3/menus'
 
 export default {
   components: {

@@ -1,5 +1,5 @@
-import { InputRule, mergeAttributes, Node } from '@inkflow/core'
-import type { Node as PMNode } from '@inkflow/pm/model'
+import { InputRule, mergeAttributes, Node } from '@digitaltrendz/core'
+import type { Node as PMNode } from '@digitaltrendz/pm/model'
 import katex, { type KatexOptions } from 'katex'
 
 /**
@@ -39,7 +39,7 @@ export type InlineMathOptions = {
   onClick?: (node: PMNode, pos: number) => void
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     inlineMath: {
       /**
@@ -72,8 +72,8 @@ declare module '@inkflow/core' {
  *
  * @example
  * ```javascript
- * import { InlineMath } from '@inkflow/extension-mathematics'
- * import { Editor } from '@inkflow/core'
+ * import { InlineMath } from '@digitaltrendz/extension-mathematics'
+ * import { Editor } from '@digitaltrendz/core'
  *
  * const editor = new Editor({
  *   extensions: [

@@ -1,6 +1,6 @@
-import { createBlockMarkdownSpec, defaultBlockAt, findParentNode, mergeAttributes, Node } from '@inkflow/core'
-import { Selection } from '@inkflow/pm/state'
-import type { ViewMutationRecord } from '@inkflow/pm/view'
+import { createBlockMarkdownSpec, defaultBlockAt, findParentNode, mergeAttributes, Node } from '@digitaltrendz/core'
+import { Selection } from '@digitaltrendz/pm/state'
+import type { ViewMutationRecord } from '@digitaltrendz/pm/view'
 
 export interface DetailsContentOptions {
   /**

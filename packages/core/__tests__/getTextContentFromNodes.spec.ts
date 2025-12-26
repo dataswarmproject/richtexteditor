@@ -1,9 +1,9 @@
-import { getSchemaByResolvedExtensions, getTextContentFromNodes } from '@inkflow/core'
-import Document from '@inkflow/extension-document'
-import Mention from '@inkflow/extension-mention'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { Node } from '@inkflow/pm/model'
+import { getSchemaByResolvedExtensions, getTextContentFromNodes } from '@digitaltrendz/core'
+import Document from '@digitaltrendz/extension-document'
+import Mention from '@digitaltrendz/extension-mention'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { Node } from '@digitaltrendz/pm/model'
 import { describe, expect, it } from 'vitest'
 
 describe(getTextContentFromNodes.name, () => {

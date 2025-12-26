@@ -8,11 +8,11 @@ import {
   Node,
   nodeInputRule,
   PasteRule,
-} from '@inkflow/core'
-import type { Transaction } from '@inkflow/pm/state'
-import { Plugin, PluginKey } from '@inkflow/pm/state'
-import type { SuggestionOptions } from '@inkflow/suggestion'
-import Suggestion from '@inkflow/suggestion'
+} from '@digitaltrendz/core'
+import type { Transaction } from '@digitaltrendz/pm/state'
+import { Plugin, PluginKey } from '@digitaltrendz/pm/state'
+import type { SuggestionOptions } from '@digitaltrendz/suggestion'
+import Suggestion from '@digitaltrendz/suggestion'
 import emojiRegex from 'emoji-regex'
 import { isEmojiSupported } from 'is-emoji-supported'
 
@@ -21,7 +21,7 @@ import { emojiToShortcode } from './helpers/emojiToShortcode.js'
 import { removeDuplicates } from './helpers/removeDuplicates.js'
 import { shortcodeToEmoji } from './helpers/shortcodeToEmoji.js'
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     emoji: {
       /**

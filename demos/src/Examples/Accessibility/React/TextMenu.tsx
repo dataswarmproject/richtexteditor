@@ -1,7 +1,7 @@
-import { Selection } from '@inkflow/pm/state'
-import type { Editor } from '@inkflow/react'
-import { useEditorState } from '@inkflow/react'
-import { BubbleMenu } from '@inkflow/react/menus'
+import { Selection } from '@digitaltrendz/pm/state'
+import type { Editor } from '@digitaltrendz/react'
+import { useEditorState } from '@digitaltrendz/react'
+import { BubbleMenu } from '@digitaltrendz/react/menus'
 import React, { useRef } from 'react'
 
 import { useMenubarNav } from './useMenubarNav.js'

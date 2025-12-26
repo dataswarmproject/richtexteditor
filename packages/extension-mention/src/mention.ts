@@ -1,9 +1,9 @@
-import type { Editor } from '@inkflow/core'
-import { createInlineMarkdownSpec, mergeAttributes, Node } from '@inkflow/core'
-import type { DOMOutputSpec } from '@inkflow/pm/model'
-import { Node as ProseMirrorNode } from '@inkflow/pm/model'
-import type { SuggestionOptions } from '@inkflow/suggestion'
-import { Suggestion } from '@inkflow/suggestion'
+import type { Editor } from '@digitaltrendz/core'
+import { createInlineMarkdownSpec, mergeAttributes, Node } from '@digitaltrendz/core'
+import type { DOMOutputSpec } from '@digitaltrendz/pm/model'
+import { Node as ProseMirrorNode } from '@digitaltrendz/pm/model'
+import type { SuggestionOptions } from '@digitaltrendz/suggestion'
+import { Suggestion } from '@digitaltrendz/suggestion'
 
 import { getSuggestionOptions } from './utils/get-default-suggestion-attributes.js'
 

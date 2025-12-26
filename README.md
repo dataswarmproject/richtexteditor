@@ -14,8 +14,8 @@
 <br>
 
 <!-- Badges -->
-[![npm version](https://img.shields.io/npm/v/@inkflow/core?color=6366f1&label=version)](https://www.npmjs.com/package/@inkflow/core)
-[![Downloads](https://img.shields.io/npm/dm/@inkflow/core?color=8b5cf6)](https://www.npmjs.com/package/@inkflow/core)
+[![npm version](https://img.shields.io/npm/v/@digitaltrendz/core?color=6366f1&label=version)](https://www.npmjs.com/package/@digitaltrendz/core)
+[![Downloads](https://img.shields.io/npm/dm/@digitaltrendz/core?color=8b5cf6)](https://www.npmjs.com/package/@digitaltrendz/core)
 [![License](https://img.shields.io/badge/license-MIT-10b981)](LICENSE.md)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-3178c6)](https://www.typescriptlang.org/)
 
@@ -42,7 +42,7 @@
 **InkFlow** is a headless, framework-agnostic rich text editor with built-in AI capabilities and Google Docs-like pagination. Built on [ProseMirror](https://prosemirror.net/) and designed for modern web applications.
 
 ```tsx
-import { AIDocumentEditor } from '@inkflow/ai-document-editor'
+import { AIDocumentEditor } from '@digitaltrendz/ai-document-editor'
 
 export default function App() {
   return <AIDocumentEditor showAIPanel={true} />
@@ -131,7 +131,7 @@ export default function App() {
 ### Installation
 
 ```bash
-npm install @inkflow/ai-document-editor
+npm install @digitaltrendz/ai-document-editor
 ```
 
 ### Usage
@@ -139,8 +139,8 @@ npm install @inkflow/ai-document-editor
 ```tsx
 'use client'
 
-import { AIDocumentEditor } from '@inkflow/ai-document-editor'
-import '@inkflow/ai-document-editor/styles'
+import { AIDocumentEditor } from '@digitaltrendz/ai-document-editor'
+import '@digitaltrendz/ai-document-editor/styles'
 
 export default function Editor() {
   return (
@@ -164,10 +164,10 @@ export default function Editor() {
 ### Or Build Your Own
 
 ```tsx
-import { useEditor, EditorContent } from '@inkflow/react'
-import StarterKit from '@inkflow/starter-kit'
-import { Pagination } from '@inkflow/extension-pagination'
-import { AIAssistant } from '@inkflow/extension-ai-assistant'
+import { useEditor, EditorContent } from '@digitaltrendz/react'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { Pagination } from '@digitaltrendz/extension-pagination'
+import { AIAssistant } from '@digitaltrendz/extension-ai-assistant'
 
 function Editor() {
   const editor = useEditor({
@@ -195,29 +195,29 @@ function Editor() {
 
 | Package | Description |
 |:--------|:------------|
-| `@inkflow/core` | Core editor engine |
-| `@inkflow/react` | React bindings & hooks |
-| `@inkflow/vue-3` | Vue 3 composition API |
-| `@inkflow/starter-kit` | Essential extensions bundle |
+| `@digitaltrendz/core` | Core editor engine |
+| `@digitaltrendz/react` | React bindings & hooks |
+| `@digitaltrendz/vue-3` | Vue 3 composition API |
+| `@digitaltrendz/starter-kit` | Essential extensions bundle |
 
 ### AI & Documents
 
 | Package | Description |
 |:--------|:------------|
-| `@inkflow/ai-document-editor` | Complete AI-powered editor |
-| `@inkflow/extension-ai-assistant` | Floating AI chat & tools |
-| `@inkflow/extension-pagination` | Google Docs-like pages |
+| `@digitaltrendz/ai-document-editor` | Complete AI-powered editor |
+| `@digitaltrendz/extension-ai-assistant` | Floating AI chat & tools |
+| `@digitaltrendz/extension-pagination` | Google Docs-like pages |
 
 ### Extensions
 
 | Package | Description |
 |:--------|:------------|
-| `@inkflow/extension-table` | Advanced tables |
-| `@inkflow/extension-image` | Image handling |
-| `@inkflow/extension-link` | Smart links |
-| `@inkflow/extension-collaboration` | Real-time editing |
-| `@inkflow/extension-mention` | @mentions |
-| `@inkflow/extension-code-block-lowlight` | Syntax highlighting |
+| `@digitaltrendz/extension-table` | Advanced tables |
+| `@digitaltrendz/extension-image` | Image handling |
+| `@digitaltrendz/extension-link` | Smart links |
+| `@digitaltrendz/extension-collaboration` | Real-time editing |
+| `@digitaltrendz/extension-mention` | @mentions |
+| `@digitaltrendz/extension-code-block-lowlight` | Syntax highlighting |
 
 > [View all 50+ extensions →](https://digitaltrendz.dev/docs/extensions)
 
@@ -284,22 +284,22 @@ const myAIProvider: AIProviderInterface = {
 <td align="center" width="25%">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="40">
 <br><strong>React</strong>
-<br><code>@inkflow/react</code>
+<br><code>@digitaltrendz/react</code>
 </td>
 <td align="center" width="25%">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" width="40">
 <br><strong>Vue 3</strong>
-<br><code>@inkflow/vue-3</code>
+<br><code>@digitaltrendz/vue-3</code>
 </td>
 <td align="center" width="25%">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="40">
 <br><strong>Next.js</strong>
-<br><code>@inkflow/react</code>
+<br><code>@digitaltrendz/react</code>
 </td>
 <td align="center" width="25%">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40">
 <br><strong>Vanilla</strong>
-<br><code>@inkflow/core</code>
+<br><code>@digitaltrendz/core</code>
 </td>
 </tr>
 </table>
@@ -315,7 +315,7 @@ const myAIProvider: AIProviderInterface = {
 import dynamic from 'next/dynamic'
 
 const Editor = dynamic(
-  () => import('@inkflow/ai-document-editor').then(m => m.AIDocumentEditor),
+  () => import('@digitaltrendz/ai-document-editor').then(m => m.AIDocumentEditor),
   { ssr: false }
 )
 
@@ -334,7 +334,7 @@ export default function Page() {
 
 ```tsx
 // Import base styles
-import '@inkflow/ai-document-editor/styles'
+import '@digitaltrendz/ai-document-editor/styles'
 ```
 
 ```css

@@ -29,16 +29,16 @@
 </template>
 
 <script>
-import Bold from '@inkflow/extension-bold'
-import Collaboration from '@inkflow/extension-collaboration'
-import Document from '@inkflow/extension-document'
-import Heading from '@inkflow/extension-heading'
-import { TaskItem, TaskList } from '@inkflow/extension-list'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { Dropcursor } from '@inkflow/extensions'
-import { Editor, EditorContent } from '@inkflow/vue-3'
-import { yDocToProsemirrorJSON } from '@inkflow/y-tiptap'
+import Bold from '@digitaltrendz/extension-bold'
+import Collaboration from '@digitaltrendz/extension-collaboration'
+import Document from '@digitaltrendz/extension-document'
+import Heading from '@digitaltrendz/extension-heading'
+import { TaskItem, TaskList } from '@digitaltrendz/extension-list'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { Dropcursor } from '@digitaltrendz/extensions'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
+import { yDocToProsemirrorJSON } from '@digitaltrendz/y-tiptap'
 import * as Y from 'yjs'
 
 const HeadingDocument = Document.extend({

@@ -3,10 +3,10 @@
 </template>
 
 <script>
-import Highlight from '@inkflow/extension-highlight'
-import Typography from '@inkflow/extension-typography'
-import StarterKit from '@inkflow/starter-kit'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Highlight from '@digitaltrendz/extension-highlight'
+import Typography from '@digitaltrendz/extension-typography'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

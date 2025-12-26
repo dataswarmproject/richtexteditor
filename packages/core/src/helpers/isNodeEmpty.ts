@@ -1,4 +1,4 @@
-import type { Node as ProseMirrorNode } from '@inkflow/pm/model'
+import type { Node as ProseMirrorNode } from '@digitaltrendz/pm/model'
 
 /**
  * Returns true if the given prosemirror node is empty.

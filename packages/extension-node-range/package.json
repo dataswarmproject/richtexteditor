@@ -1,10 +1,10 @@
 {
-  "name": "@inkflow/extension-node-range",
+  "name": "@digitaltrendz/extension-node-range",
   "description": "node range extension for tiptap",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "inkflow",
+    "digitaltrendz",
     "inkflow extension"
   ],
   "license": "MIT",
@@ -36,12 +36,12 @@
     "dist"
   ],
   "peerDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/pm": "workspace:^"
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^"
   },
   "devDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/pm": "workspace:^"
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^"
   },
   "scripts": {
     "build": "tsup",

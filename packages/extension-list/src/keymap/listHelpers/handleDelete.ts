@@ -1,5 +1,5 @@
-import type { Editor } from '@inkflow/core'
-import { isAtEndOfNode, isNodeActive } from '@inkflow/core'
+import type { Editor } from '@digitaltrendz/core'
+import { isAtEndOfNode, isNodeActive } from '@digitaltrendz/core'
 
 import { nextListIsDeeper } from './nextListIsDeeper.js'
 import { nextListIsHigher } from './nextListIsHigher.js'

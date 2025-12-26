@@ -1,4 +1,4 @@
-import type { Transaction } from '@inkflow/pm/state'
+import type { Transaction } from '@digitaltrendz/pm/state'
 
 export interface TrackerResult {
   position: number

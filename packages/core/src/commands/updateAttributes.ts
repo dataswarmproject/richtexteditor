@@ -1,12 +1,12 @@
-import type { Mark, MarkType, Node, NodeType } from '@inkflow/pm/model'
-import type { SelectionRange } from '@inkflow/pm/state'
+import type { Mark, MarkType, Node, NodeType } from '@digitaltrendz/pm/model'
+import type { SelectionRange } from '@digitaltrendz/pm/state'
 
 import { getMarkType } from '../helpers/getMarkType.js'
 import { getNodeType } from '../helpers/getNodeType.js'
 import { getSchemaTypeNameByName } from '../helpers/getSchemaTypeNameByName.js'
 import type { RawCommands } from '../types.js'
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     updateAttributes: {
       /**

@@ -1,6 +1,6 @@
-import type { Transaction } from '@inkflow/pm/state'
-import { Selection } from '@inkflow/pm/state'
-import { ReplaceAroundStep, ReplaceStep } from '@inkflow/pm/transform'
+import type { Transaction } from '@digitaltrendz/pm/state'
+import { Selection } from '@digitaltrendz/pm/state'
+import { ReplaceAroundStep, ReplaceStep } from '@digitaltrendz/pm/transform'
 
 // source: https://github.com/ProseMirror/prosemirror-state/blob/master/src/selection.js#L466
 export function selectionToInsertionEnd(tr: Transaction, startLen: number, bias: number) {

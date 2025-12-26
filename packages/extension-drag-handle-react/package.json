@@ -1,10 +1,10 @@
 {
-  "name": "@inkflow/extension-drag-handle-react",
+  "name": "@digitaltrendz/extension-drag-handle-react",
   "description": "drag handle extension for inkflow with react",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "inkflow",
+    "digitaltrendz",
     "inkflow extension"
   ],
   "license": "MIT",
@@ -36,16 +36,16 @@
     "dist"
   ],
   "peerDependencies": {
-    "@inkflow/extension-drag-handle": "workspace:^",
-    "@inkflow/pm": "workspace:^",
-    "@inkflow/react": "workspace:^",
+    "@digitaltrendz/extension-drag-handle": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
+    "@digitaltrendz/react": "workspace:^",
     "react": "^16.8 || ^17 || ^18 || ^19",
     "react-dom": "^16.8 || ^17 || ^18 || ^19"
   },
   "devDependencies": {
-    "@inkflow/extension-drag-handle": "workspace:^",
-    "@inkflow/pm": "workspace:^",
-    "@inkflow/react": "workspace:^",
+    "@digitaltrendz/extension-drag-handle": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
+    "@digitaltrendz/react": "workspace:^",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "react": "^18.0.0",

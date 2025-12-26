@@ -1,6 +1,6 @@
-import type { PasteRuleMatch } from '@inkflow/core'
-import { Mark, markPasteRule, mergeAttributes } from '@inkflow/core'
-import type { Plugin } from '@inkflow/pm/state'
+import type { PasteRuleMatch } from '@digitaltrendz/core'
+import { Mark, markPasteRule, mergeAttributes } from '@digitaltrendz/core'
+import type { Plugin } from '@digitaltrendz/pm/state'
 import { find, registerCustomProtocol, reset } from 'linkifyjs'
 
 import { autolink } from './helpers/autolink.js'
@@ -128,7 +128,7 @@ export interface LinkOptions {
   shouldAutoLink: (url: string) => boolean
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     link: {
       /**

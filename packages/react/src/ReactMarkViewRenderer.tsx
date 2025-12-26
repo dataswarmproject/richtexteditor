@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-shadow */
-import type { MarkViewProps, MarkViewRenderer, MarkViewRendererOptions } from '@inkflow/core'
-import { MarkView } from '@inkflow/core'
+import type { MarkViewProps, MarkViewRenderer, MarkViewRendererOptions } from '@digitaltrendz/core'
+import { MarkView } from '@digitaltrendz/core'
 import React from 'react'
 
 // import { flushSync } from 'react-dom'

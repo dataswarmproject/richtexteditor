@@ -1,4 +1,4 @@
-import type { EditorOptions } from '@inkflow/core'
+import type { EditorOptions } from '@digitaltrendz/core'
 import { onBeforeUnmount, onMounted, shallowRef } from 'vue'
 
 import { Editor } from './Editor.js'

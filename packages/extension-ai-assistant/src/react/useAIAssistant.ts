@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
-import type { Editor } from '@inkflow/core'
+import type { Editor } from '@digitaltrendz/core'
 import type { AIAssistantState, ChatMessage } from '../types.js'
 
 export interface UseAIAssistantOptions {

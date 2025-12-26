@@ -1,5 +1,5 @@
-import type { SelectionRange } from '@inkflow/pm/state'
-import { Decoration, DecorationSet } from '@inkflow/pm/view'
+import type { SelectionRange } from '@digitaltrendz/pm/state'
+import { Decoration, DecorationSet } from '@digitaltrendz/pm/view'
 
 export function getNodeRangeDecorations(ranges: SelectionRange[]): DecorationSet {
   if (!ranges.length) {

@@ -35,9 +35,9 @@
 <script>
 import './styles.scss'
 
-import { LineHeight, TextStyle } from '@inkflow/extension-text-style'
-import StarterKit from '@inkflow/starter-kit'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import { LineHeight, TextStyle } from '@digitaltrendz/extension-text-style'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

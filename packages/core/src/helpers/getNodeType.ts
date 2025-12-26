@@ -1,4 +1,4 @@
-import type { NodeType, Schema } from '@inkflow/pm/model'
+import type { NodeType, Schema } from '@digitaltrendz/pm/model'
 
 export function getNodeType(nameOrType: string | NodeType, schema: Schema): NodeType {
   if (typeof nameOrType === 'string') {

@@ -1,6 +1,6 @@
-import { Extension } from '@inkflow/core'
-import type { DecorationAttrs } from '@inkflow/pm/view'
-import { defaultSelectionBuilder, yCursorPlugin } from '@inkflow/y-tiptap'
+import { Extension } from '@digitaltrendz/core'
+import type { DecorationAttrs } from '@digitaltrendz/pm/view'
+import { defaultSelectionBuilder, yCursorPlugin } from '@digitaltrendz/y-tiptap'
 
 type CollaborationCaretStorage = {
   users: { clientId: number; [key: string]: any }[]
@@ -60,7 +60,7 @@ export interface CollaborationCaretOptions {
   onUpdate: (users: { clientId: number; [key: string]: any }[]) => null
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     collaborationCaret: {
       /**

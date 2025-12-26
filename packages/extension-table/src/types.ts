@@ -1,6 +1,6 @@
-import type { ParentConfig } from '@inkflow/core'
+import type { ParentConfig } from '@digitaltrendz/core'
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface NodeConfig<Options, Storage> {
     /**
      * A string or function to determine the role of the table.

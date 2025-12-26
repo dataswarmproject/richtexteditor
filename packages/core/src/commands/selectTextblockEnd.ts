@@ -1,10 +1,10 @@
 // @ts-ignore
 // TODO: add types to @types/prosemirror-commands
-import { selectTextblockEnd as originalSelectTextblockEnd } from '@inkflow/pm/commands'
+import { selectTextblockEnd as originalSelectTextblockEnd } from '@digitaltrendz/pm/commands'
 
 import type { RawCommands } from '../types.js'
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     selectTextblockEnd: {
       /**

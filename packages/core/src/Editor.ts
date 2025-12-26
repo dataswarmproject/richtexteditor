@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-empty-object-type */
-import type { MarkType, Node as ProseMirrorNode, NodeType, Schema } from '@inkflow/pm/model'
-import type { Plugin, PluginKey, Transaction } from '@inkflow/pm/state'
-import { EditorState } from '@inkflow/pm/state'
-import { EditorView } from '@inkflow/pm/view'
+import type { MarkType, Node as ProseMirrorNode, NodeType, Schema } from '@digitaltrendz/pm/model'
+import type { Plugin, PluginKey, Transaction } from '@digitaltrendz/pm/state'
+import { EditorState } from '@digitaltrendz/pm/state'
+import { EditorView } from '@digitaltrendz/pm/view'
 
 import { CommandManager } from './CommandManager.js'
 import { EventEmitter } from './EventEmitter.js'

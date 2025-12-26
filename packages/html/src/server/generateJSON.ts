@@ -1,6 +1,6 @@
-import type { Extensions } from '@inkflow/core'
-import { getSchema } from '@inkflow/core'
-import { type ParseOptions, DOMParser as PMDOMParser } from '@inkflow/pm/model'
+import type { Extensions } from '@digitaltrendz/core'
+import { getSchema } from '@digitaltrendz/core'
+import { type ParseOptions, DOMParser as PMDOMParser } from '@digitaltrendz/pm/model'
 import { Window } from 'happy-dom'
 
 /**

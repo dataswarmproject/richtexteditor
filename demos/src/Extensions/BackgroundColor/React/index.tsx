@@ -1,10 +1,10 @@
 import './styles.scss'
 
-import Document from '@inkflow/extension-document'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { BackgroundColor, TextStyle } from '@inkflow/extension-text-style'
-import { EditorContent, useEditor, useEditorState } from '@inkflow/react'
+import Document from '@digitaltrendz/extension-document'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { BackgroundColor, TextStyle } from '@digitaltrendz/extension-text-style'
+import { EditorContent, useEditor, useEditorState } from '@digitaltrendz/react'
 import React from 'react'
 
 export default () => {

@@ -1,10 +1,10 @@
-import { setBlockType } from '@inkflow/pm/commands'
-import type { NodeType } from '@inkflow/pm/model'
+import { setBlockType } from '@digitaltrendz/pm/commands'
+import type { NodeType } from '@digitaltrendz/pm/model'
 
 import { getNodeType } from '../helpers/getNodeType.js'
 import type { RawCommands } from '../types.js'
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     setNode: {
       /**

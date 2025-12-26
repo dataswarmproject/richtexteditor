@@ -1,5 +1,5 @@
-import { canInsertNode, isNodeSelection, mergeAttributes, Node, nodeInputRule } from '@inkflow/core'
-import { NodeSelection, TextSelection } from '@inkflow/pm/state'
+import { canInsertNode, isNodeSelection, mergeAttributes, Node, nodeInputRule } from '@digitaltrendz/core'
+import { NodeSelection, TextSelection } from '@digitaltrendz/pm/state'
 
 export interface HorizontalRuleOptions {
   /**
@@ -16,7 +16,7 @@ export interface HorizontalRuleOptions {
   nextNodeType: string
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     horizontalRule: {
       /**

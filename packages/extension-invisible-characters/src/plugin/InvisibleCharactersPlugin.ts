@@ -1,6 +1,6 @@
-import type { EditorState } from '@inkflow/pm/state'
-import { AllSelection, Plugin, PluginKey } from '@inkflow/pm/state'
-import { DecorationSet } from '@inkflow/pm/view'
+import type { EditorState } from '@digitaltrendz/pm/state'
+import { AllSelection, Plugin, PluginKey } from '@digitaltrendz/pm/state'
+import { DecorationSet } from '@digitaltrendz/pm/view'
 
 import type { InvisibleCharactersOptions, PluginState } from '../types.js'
 import { stateReducer } from './reducers.js'

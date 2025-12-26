@@ -1,4 +1,4 @@
-import { Extension } from '@inkflow/core'
+import { Extension } from '@digitaltrendz/core'
 
 export interface TextAlignOptions {
   /**
@@ -23,7 +23,7 @@ export interface TextAlignOptions {
   defaultAlignment: string | null
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     textAlign: {
       /**

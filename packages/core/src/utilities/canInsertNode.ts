@@ -1,5 +1,5 @@
-import type { NodeType } from '@inkflow/pm/model'
-import { type EditorState, NodeSelection } from '@inkflow/pm/state'
+import type { NodeType } from '@digitaltrendz/pm/model'
+import { type EditorState, NodeSelection } from '@digitaltrendz/pm/state'
 
 export function canInsertNode(state: EditorState, nodeType: NodeType): boolean {
   const { selection } = state

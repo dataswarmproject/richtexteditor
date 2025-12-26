@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import StarterKit from '@inkflow/starter-kit'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 import DraggableItem from './DraggableItem.js'
 

@@ -1,4 +1,4 @@
-import type { Step, Transform } from '@inkflow/pm/transform'
+import type { Step, Transform } from '@digitaltrendz/pm/transform'
 
 import type { Range } from '../types.js'
 import { removeDuplicates } from '../utilities/removeDuplicates.js'

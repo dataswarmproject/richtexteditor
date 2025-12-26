@@ -1,5 +1,5 @@
 /** @jsxImportSource @tiptap/core */
-import { mergeAttributes, Node, wrappingInputRule } from '@inkflow/core'
+import { mergeAttributes, Node, wrappingInputRule } from '@digitaltrendz/core'
 
 export interface BlockquoteOptions {
   /**
@@ -10,7 +10,7 @@ export interface BlockquoteOptions {
   HTMLAttributes: Record<string, any>
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     blockQuote: {
       /**

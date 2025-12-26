@@ -1,5 +1,5 @@
-import { Mark, mergeAttributes } from '@inkflow/core'
-import type { StyleParseRule } from '@inkflow/pm/model'
+import { Mark, mergeAttributes } from '@digitaltrendz/core'
+import type { StyleParseRule } from '@digitaltrendz/pm/model'
 
 export interface SuperscriptExtensionOptions {
   /**
@@ -10,7 +10,7 @@ export interface SuperscriptExtensionOptions {
   HTMLAttributes: Record<string, any>
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     superscript: {
       /**

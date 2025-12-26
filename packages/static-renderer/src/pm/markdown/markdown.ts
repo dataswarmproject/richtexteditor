@@ -1,5 +1,5 @@
-import type { Extensions, JSONContent } from '@inkflow/core'
-import type { Mark, Node } from '@inkflow/pm/model'
+import type { Extensions, JSONContent } from '@digitaltrendz/core'
+import type { Mark, Node } from '@digitaltrendz/pm/model'
 
 import type { TiptapStaticRendererOptions } from '../../json/renderer.js'
 import { renderToHTMLString, serializeChildrenToHTMLString } from '../html-string/html-string.js'

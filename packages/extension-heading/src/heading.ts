@@ -1,4 +1,4 @@
-import { mergeAttributes, Node, textblockTypeInputRule } from '@inkflow/core'
+import { mergeAttributes, Node, textblockTypeInputRule } from '@digitaltrendz/core'
 
 /**
  * The heading level options.
@@ -21,7 +21,7 @@ export interface HeadingOptions {
   HTMLAttributes: Record<string, any>
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     heading: {
       /**

@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import { TextSelection } from '@inkflow/pm/state'
+import { TextSelection } from '@digitaltrendz/pm/state'
 import { defineComponent } from 'vue'
 
 import ToCEmptyState from './ToCEmptyState.vue'

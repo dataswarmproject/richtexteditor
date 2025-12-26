@@ -78,10 +78,10 @@
 </template>
 
 <script>
-import Highlight from '@inkflow/extension-highlight'
-import TextAlign from '@inkflow/extension-text-align'
-import StarterKit from '@inkflow/starter-kit'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Highlight from '@digitaltrendz/extension-highlight'
+import TextAlign from '@digitaltrendz/extension-text-align'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

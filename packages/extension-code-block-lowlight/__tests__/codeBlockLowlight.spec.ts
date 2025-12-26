@@ -1,8 +1,8 @@
-import { Editor } from '@inkflow/core'
-import { CodeBlockLowlight } from '@inkflow/extension-code-block-lowlight'
-import { Document } from '@inkflow/extension-document'
-import { Paragraph } from '@inkflow/extension-paragraph'
-import { Text } from '@inkflow/extension-text'
+import { Editor } from '@digitaltrendz/core'
+import { CodeBlockLowlight } from '@digitaltrendz/extension-code-block-lowlight'
+import { Document } from '@digitaltrendz/extension-document'
+import { Paragraph } from '@digitaltrendz/extension-paragraph'
+import { Text } from '@digitaltrendz/extension-text'
 import { all, createLowlight } from 'lowlight'
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
 

@@ -1,10 +1,10 @@
 {
-  "name": "@inkflow/extension-details",
+  "name": "@digitaltrendz/extension-details",
   "description": "details extension for tiptap",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app/api/nodes/details",
   "keywords": [
-    "inkflow",
+    "digitaltrendz",
     "inkflow extension"
   ],
   "license": "MIT",
@@ -31,14 +31,14 @@
     "dist"
   ],
   "devDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/extension-text-style": "workspace:^",
-    "@inkflow/pm": "workspace:^"
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/extension-text-style": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^"
   },
   "peerDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/extension-text-style": "workspace:^",
-    "@inkflow/pm": "workspace:^"
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/extension-text-style": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
-import { BulletList } from '@inkflow/extension-list'
+import { BulletList } from '@digitaltrendz/extension-list'
 
-export type { BulletListOptions } from '@inkflow/extension-list'
-export { BulletList } from '@inkflow/extension-list'
+export type { BulletListOptions } from '@digitaltrendz/extension-list'
+export { BulletList } from '@digitaltrendz/extension-list'
 
 export default BulletList

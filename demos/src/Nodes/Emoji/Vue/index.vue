@@ -8,9 +8,9 @@
 </template>
 
 <script>
-import Emoji, { gitHubEmojis } from '@inkflow/extension-emoji'
-import StarterKit from '@inkflow/starter-kit'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Emoji, { gitHubEmojis } from '@digitaltrendz/extension-emoji'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 import { defineComponent } from 'vue'
 
 import suggestion from './suggestion.js'

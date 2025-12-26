@@ -1,8 +1,8 @@
 import './styles.scss'
 
-import { LineHeight, TextStyle } from '@inkflow/extension-text-style'
-import { EditorContent, useEditor, useEditorState } from '@inkflow/react'
-import StarterKit from '@inkflow/starter-kit'
+import { LineHeight, TextStyle } from '@digitaltrendz/extension-text-style'
+import { EditorContent, useEditor, useEditorState } from '@digitaltrendz/react'
+import StarterKit from '@digitaltrendz/starter-kit'
 import React from 'react'
 
 export default () => {

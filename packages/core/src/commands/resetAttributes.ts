@@ -1,4 +1,4 @@
-import type { MarkType, NodeType } from '@inkflow/pm/model'
+import type { MarkType, NodeType } from '@digitaltrendz/pm/model'
 
 import { getMarkType } from '../helpers/getMarkType.js'
 import { getNodeType } from '../helpers/getNodeType.js'
@@ -6,7 +6,7 @@ import { getSchemaTypeNameByName } from '../helpers/getSchemaTypeNameByName.js'
 import type { RawCommands } from '../types.js'
 import { deleteProps } from '../utilities/deleteProps.js'
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     resetAttributes: {
       /**

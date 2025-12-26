@@ -1,7 +1,7 @@
-import { keymap } from '@inkflow/pm/keymap'
-import type { Schema } from '@inkflow/pm/model'
-import type { Plugin } from '@inkflow/pm/state'
-import type { MarkViewConstructor, NodeViewConstructor } from '@inkflow/pm/view'
+import { keymap } from '@digitaltrendz/pm/keymap'
+import type { Schema } from '@digitaltrendz/pm/model'
+import type { Plugin } from '@digitaltrendz/pm/state'
+import type { MarkViewConstructor, NodeViewConstructor } from '@digitaltrendz/pm/view'
 
 import type { Editor } from './Editor.js'
 import {

@@ -1,8 +1,8 @@
 import './styles.scss'
 
-import type { Editor } from '@inkflow/react'
-import { EditorContent, useEditor } from '@inkflow/react'
-import StarterKit from '@inkflow/starter-kit'
+import type { Editor } from '@digitaltrendz/react'
+import { EditorContent, useEditor } from '@digitaltrendz/react'
+import StarterKit from '@digitaltrendz/starter-kit'
 import React, { useState } from 'react'
 
 const extensions = [StarterKit]

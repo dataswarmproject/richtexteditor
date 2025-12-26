@@ -1,5 +1,5 @@
-import type { ResizableNodeViewDirection } from '@inkflow/core'
-import { mergeAttributes, Node, nodeInputRule, ResizableNodeView } from '@inkflow/core'
+import type { ResizableNodeViewDirection } from '@digitaltrendz/core'
+import { mergeAttributes, Node, nodeInputRule, ResizableNodeView } from '@digitaltrendz/core'
 
 export interface ImageOptions {
   /**
@@ -48,7 +48,7 @@ export interface SetImageOptions {
   height?: number
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     image: {
       /**

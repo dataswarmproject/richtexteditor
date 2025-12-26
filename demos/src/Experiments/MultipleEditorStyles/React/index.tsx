@@ -1,5 +1,5 @@
-import { EditorContent, useEditor } from '@inkflow/react'
-import StarterKit from '@inkflow/starter-kit'
+import { EditorContent, useEditor } from '@digitaltrendz/react'
+import StarterKit from '@digitaltrendz/starter-kit'
 import { useState } from 'react'
 
 function EditorComponent({ label }: { label?: string }) {

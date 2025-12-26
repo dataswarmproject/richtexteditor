@@ -1,6 +1,6 @@
-import { Extension } from '@inkflow/core'
-import type { SelectionRange } from '@inkflow/pm/state'
-import { Plugin, PluginKey } from '@inkflow/pm/state'
+import { Extension } from '@digitaltrendz/core'
+import type { SelectionRange } from '@digitaltrendz/pm/state'
+import { Plugin, PluginKey } from '@digitaltrendz/pm/state'
 
 import { getNodeRangeDecorations } from './helpers/getNodeRangeDecorations.js'
 import { getSelectionRanges } from './helpers/getSelectionRanges.js'

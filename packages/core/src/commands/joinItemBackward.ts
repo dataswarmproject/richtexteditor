@@ -1,8 +1,8 @@
-import { joinPoint } from '@inkflow/pm/transform'
+import { joinPoint } from '@digitaltrendz/pm/transform'
 
 import type { RawCommands } from '../types.js'
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     joinItemBackward: {
       /**

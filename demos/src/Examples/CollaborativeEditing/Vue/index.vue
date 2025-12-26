@@ -23,13 +23,13 @@
 
 <script>
 import { TiptapCollabProvider } from '@hocuspocus/provider'
-import Collaboration from '@inkflow/extension-collaboration'
-import CollaborationCaret from '@inkflow/extension-collaboration-caret'
-import Highlight from '@inkflow/extension-highlight'
-import { TaskItem, TaskList } from '@inkflow/extension-list'
-import { CharacterCount } from '@inkflow/extensions'
-import StarterKit from '@inkflow/starter-kit'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Collaboration from '@digitaltrendz/extension-collaboration'
+import CollaborationCaret from '@digitaltrendz/extension-collaboration-caret'
+import Highlight from '@digitaltrendz/extension-highlight'
+import { TaskItem, TaskList } from '@digitaltrendz/extension-list'
+import { CharacterCount } from '@digitaltrendz/extensions'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 import * as Y from 'yjs'
 
 import { variables } from '../../../variables.js'

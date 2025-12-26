@@ -1,10 +1,10 @@
 {
-  "name": "@inkflow/extension-drag-handle-vue-3",
+  "name": "@digitaltrendz/extension-drag-handle-vue-3",
   "description": "drag handle extension for inkflow with vue 3",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "inkflow",
+    "digitaltrendz",
     "inkflow extension"
   ],
   "license": "MIT",
@@ -36,15 +36,15 @@
     "dist"
   ],
   "peerDependencies": {
-    "@inkflow/extension-drag-handle": "workspace:^",
-    "@inkflow/pm": "workspace:^",
-    "@inkflow/vue-3": "workspace:^",
+    "@digitaltrendz/extension-drag-handle": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
+    "@digitaltrendz/vue-3": "workspace:^",
     "vue": "^3.0.0"
   },
   "devDependencies": {
-    "@inkflow/extension-drag-handle": "workspace:^",
-    "@inkflow/pm": "workspace:^",
-    "@inkflow/vue-3": "workspace:^",
+    "@digitaltrendz/extension-drag-handle": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
+    "@digitaltrendz/vue-3": "workspace:^",
     "vue": "^3.0.0"
   },
   "scripts": {

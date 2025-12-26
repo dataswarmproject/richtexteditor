@@ -1,10 +1,10 @@
 // @ts-ignore
 // TODO: add types to @types/prosemirror-commands
-import { selectTextblockStart as originalSelectTextblockStart } from '@inkflow/pm/commands'
+import { selectTextblockStart as originalSelectTextblockStart } from '@digitaltrendz/pm/commands'
 
 import type { RawCommands } from '../types.js'
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     selectTextblockStart: {
       /**

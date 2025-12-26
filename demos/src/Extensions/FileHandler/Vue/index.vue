@@ -3,13 +3,13 @@
 </template>
 
 <script>
-import Document from '@inkflow/extension-document'
-import FileHandler from '@inkflow/extension-file-handler'
-import Heading from '@inkflow/extension-heading'
-import Image from '@inkflow/extension-image'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Document from '@digitaltrendz/extension-document'
+import FileHandler from '@digitaltrendz/extension-file-handler'
+import Heading from '@digitaltrendz/extension-heading'
+import Image from '@digitaltrendz/extension-image'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 import { defineComponent } from 'vue'
 
 export default defineComponent({

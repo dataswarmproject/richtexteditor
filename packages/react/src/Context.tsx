@@ -1,4 +1,4 @@
-import type { Editor } from '@inkflow/core'
+import type { Editor } from '@digitaltrendz/core'
 import type { HTMLAttributes, ReactNode } from 'react'
 import React, { createContext, useContext, useMemo } from 'react'
 

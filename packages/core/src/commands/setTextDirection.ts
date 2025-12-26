@@ -1,6 +1,6 @@
 import type { Range, RawCommands } from '../types.js'
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     setTextDirection: {
       /**

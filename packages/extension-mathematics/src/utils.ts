@@ -1,5 +1,5 @@
-import type { Editor } from '@inkflow/core'
-import type { Transaction } from '@inkflow/pm/state'
+import type { Editor } from '@digitaltrendz/core'
+import type { Transaction } from '@digitaltrendz/pm/state'
 
 /**
  * Regular expression to match LaTeX math strings wrapped in single dollar signs.

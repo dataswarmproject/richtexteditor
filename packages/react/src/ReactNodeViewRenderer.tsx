@@ -4,10 +4,10 @@ import type {
   NodeViewRenderer,
   NodeViewRendererOptions,
   NodeViewRendererProps,
-} from '@inkflow/core'
-import { getRenderedAttributes, NodeView } from '@inkflow/core'
-import type { Node, Node as ProseMirrorNode } from '@inkflow/pm/model'
-import type { Decoration, DecorationSource, NodeView as ProseMirrorNodeView } from '@inkflow/pm/view'
+} from '@digitaltrendz/core'
+import { getRenderedAttributes, NodeView } from '@digitaltrendz/core'
+import type { Node, Node as ProseMirrorNode } from '@digitaltrendz/pm/model'
+import type { Decoration, DecorationSource, NodeView as ProseMirrorNodeView } from '@digitaltrendz/pm/view'
 import type { ComponentType, NamedExoticComponent } from 'react'
 import { createElement, createRef, memo } from 'react'
 

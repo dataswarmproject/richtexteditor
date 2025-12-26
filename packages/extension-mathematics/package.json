@@ -1,10 +1,10 @@
 {
-  "name": "@inkflow/extension-mathematics",
+  "name": "@digitaltrendz/extension-mathematics",
   "description": "latex math extension for tiptap",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app/api/extensions/mathematics",
   "keywords": [
-    "inkflow",
+    "digitaltrendz",
     "inkflow extension"
   ],
   "license": "MIT",
@@ -36,13 +36,13 @@
     "dist"
   ],
   "devDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/pm": "workspace:^",
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
     "@types/katex": "^0.16.7"
   },
   "peerDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/pm": "workspace:^",
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
     "katex": "^0.16.4"
   },
   "scripts": {

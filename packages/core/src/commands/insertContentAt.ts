@@ -1,5 +1,5 @@
-import type { Node as ProseMirrorNode, ParseOptions } from '@inkflow/pm/model'
-import { Fragment } from '@inkflow/pm/model'
+import type { Node as ProseMirrorNode, ParseOptions } from '@digitaltrendz/pm/model'
+import { Fragment } from '@digitaltrendz/pm/model'
 
 import { createNodeFromContent } from '../helpers/createNodeFromContent.js'
 import { selectionToInsertionEnd } from '../helpers/selectionToInsertionEnd.js'
@@ -32,7 +32,7 @@ export interface InsertContentAtOptions {
   errorOnInvalidContent?: boolean
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     insertContentAt: {
       /**

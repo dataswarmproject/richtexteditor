@@ -1,5 +1,5 @@
-import type { ReactNodeViewProps } from '@inkflow/react'
-import { NodeViewWrapper } from '@inkflow/react'
+import type { ReactNodeViewProps } from '@digitaltrendz/react'
+import { NodeViewWrapper } from '@digitaltrendz/react'
 import React, { useContext } from 'react'
 
 import { Context } from './Context.js'

@@ -3,10 +3,10 @@ import {
   defaultComputePositionConfig,
   DragHandlePlugin,
   dragHandlePluginDefaultKey,
-} from '@inkflow/extension-drag-handle'
-import type { Node } from '@inkflow/pm/model'
-import type { Plugin } from '@inkflow/pm/state'
-import type { Editor } from '@inkflow/react'
+} from '@digitaltrendz/extension-drag-handle'
+import type { Node } from '@digitaltrendz/pm/model'
+import type { Plugin } from '@digitaltrendz/pm/state'
+import type { Editor } from '@digitaltrendz/react'
 import { type ReactNode, useEffect, useRef, useState } from 'react'
 
 type Optional<T, K extends keyof T> = Pick<Partial<T>, K> & Omit<T, K>

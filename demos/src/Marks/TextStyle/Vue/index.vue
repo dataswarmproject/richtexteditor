@@ -5,12 +5,12 @@
 </template>
 
 <script>
-import Bold from '@inkflow/extension-bold'
-import Document from '@inkflow/extension-document'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { TextStyleKit } from '@inkflow/extension-text-style'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Bold from '@digitaltrendz/extension-bold'
+import Document from '@digitaltrendz/extension-document'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { TextStyleKit } from '@digitaltrendz/extension-text-style'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

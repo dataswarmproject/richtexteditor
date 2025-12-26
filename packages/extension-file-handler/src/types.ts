@@ -1,5 +1,5 @@
-import type { Editor } from '@inkflow/core'
-import type { PluginKey } from '@inkflow/pm/state'
+import type { Editor } from '@digitaltrendz/core'
+import type { PluginKey } from '@digitaltrendz/pm/state'
 
 export type FileHandlePluginOptions = {
   /**

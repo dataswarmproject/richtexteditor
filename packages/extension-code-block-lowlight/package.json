@@ -1,10 +1,10 @@
 {
-  "name": "@inkflow/extension-code-block-lowlight",
+  "name": "@digitaltrendz/extension-code-block-lowlight",
   "description": "code block extension for tiptap",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "inkflow",
+    "digitaltrendz",
     "inkflow extension"
   ],
   "license": "MIT",
@@ -31,15 +31,15 @@
     "dist"
   ],
   "devDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/extension-code-block": "workspace:^",
-    "@inkflow/pm": "workspace:^",
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/extension-code-block": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
     "lowlight": "^3.3.0"
   },
   "peerDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/extension-code-block": "workspace:^",
-    "@inkflow/pm": "workspace:^",
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/extension-code-block": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
     "lowlight": "^2 || ^3",
     "highlight.js": "^11"
   },

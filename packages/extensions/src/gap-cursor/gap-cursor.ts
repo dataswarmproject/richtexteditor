@@ -1,8 +1,8 @@
-import type { ParentConfig } from '@inkflow/core'
-import { callOrReturn, Extension, getExtensionField } from '@inkflow/core'
-import { gapCursor } from '@inkflow/pm/gapcursor'
+import type { ParentConfig } from '@digitaltrendz/core'
+import { callOrReturn, Extension, getExtensionField } from '@digitaltrendz/core'
+import { gapCursor } from '@digitaltrendz/pm/gapcursor'
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface NodeConfig<Options, Storage> {
     /**
      * A function to determine whether the gap cursor is allowed at the current position. Must return `true` or `false`.

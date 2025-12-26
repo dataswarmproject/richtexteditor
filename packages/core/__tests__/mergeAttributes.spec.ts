@@ -1,4 +1,4 @@
-import { mergeAttributes } from '@inkflow/core'
+import { mergeAttributes } from '@digitaltrendz/core'
 import { describe, expect, it } from 'vitest'
 
 describe('mergeAttributes', () => {

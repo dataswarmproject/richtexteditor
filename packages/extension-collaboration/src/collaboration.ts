@@ -1,7 +1,7 @@
-import { Extension } from '@inkflow/core'
-import { Plugin, PluginKey } from '@inkflow/pm/state'
-import type { EditorView } from '@inkflow/pm/view'
-import { redo, undo, ySyncPlugin, yUndoPlugin, yUndoPluginKey, yXmlFragmentToProsemirrorJSON } from '@inkflow/y-tiptap'
+import { Extension } from '@digitaltrendz/core'
+import { Plugin, PluginKey } from '@digitaltrendz/pm/state'
+import type { EditorView } from '@digitaltrendz/pm/view'
+import { redo, undo, ySyncPlugin, yUndoPlugin, yUndoPluginKey, yXmlFragmentToProsemirrorJSON } from '@digitaltrendz/y-tiptap'
 import type { Doc, UndoManager, XmlFragment } from 'yjs'
 
 import { createMappablePosition, getUpdatedPosition } from './helpers/CollaborationMappablePosition.js'
@@ -17,7 +17,7 @@ export interface CollaborationStorage {
   isDisabled: boolean
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     collaboration: {
       /**
@@ -107,7 +107,7 @@ export const Collaboration = Extension.create<CollaborationOptions, Collaboratio
   onCreate() {
     if (this.editor.extensionManager.extensions.find(extension => extension.name === 'undoRedo')) {
       console.warn(
-        '[tiptap warn]: "@inkflow/extension-collaboration" comes with its own history support and is not compatible with "@inkflow/extension-undo-redo".',
+        '[tiptap warn]: "@digitaltrendz/extension-collaboration" comes with its own history support and is not compatible with "@digitaltrendz/extension-undo-redo".',
       )
     }
   },

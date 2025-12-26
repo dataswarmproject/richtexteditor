@@ -1,4 +1,4 @@
-import { mergeAttributes, Node, renderNestedMarkdownContent } from '@inkflow/core'
+import { mergeAttributes, Node, renderNestedMarkdownContent } from '@digitaltrendz/core'
 
 export interface ListItemOptions {
   /**

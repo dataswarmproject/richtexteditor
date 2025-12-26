@@ -1,4 +1,4 @@
-import { Extension } from '@inkflow/core'
+import { Extension } from '@digitaltrendz/core'
 
 import type { BulletListOptions } from '../bullet-list/index.js'
 import { BulletList } from '../bullet-list/index.js'

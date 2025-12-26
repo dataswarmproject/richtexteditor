@@ -1,9 +1,9 @@
-import { Editor } from '@inkflow/core'
-import Document from '@inkflow/extension-document'
-import HorizontalRule from '@inkflow/extension-horizontal-rule'
-import Image from '@inkflow/extension-image'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
+import { Editor } from '@digitaltrendz/core'
+import Document from '@digitaltrendz/extension-document'
+import HorizontalRule from '@digitaltrendz/extension-horizontal-rule'
+import Image from '@digitaltrendz/extension-image'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
 import { describe, expect, it } from 'vitest'
 
 describe('extension-horizontal-rule', () => {

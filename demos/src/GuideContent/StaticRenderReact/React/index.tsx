@@ -1,8 +1,8 @@
-import Bold from '@inkflow/extension-bold'
-import Document from '@inkflow/extension-document'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { renderToReactElement } from '@inkflow/static-renderer'
+import Bold from '@digitaltrendz/extension-bold'
+import Document from '@digitaltrendz/extension-document'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { renderToReactElement } from '@digitaltrendz/static-renderer'
 import React, { useMemo } from 'react'
 
 const json = {

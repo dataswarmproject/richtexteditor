@@ -1,4 +1,4 @@
-import type { DecorationSet } from '@inkflow/pm/view'
+import type { DecorationSet } from '@digitaltrendz/pm/view'
 
 import type { InvisibleCharacter } from './plugin/InvisibleCharacter.js'
 import type { InvisibleNode } from './plugin/InvisibleNode.js'

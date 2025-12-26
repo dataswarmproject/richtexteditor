@@ -1,7 +1,7 @@
-import type { Editor } from '@inkflow/core'
-import { getAttributes } from '@inkflow/core'
-import type { MarkType } from '@inkflow/pm/model'
-import { Plugin, PluginKey } from '@inkflow/pm/state'
+import type { Editor } from '@digitaltrendz/core'
+import { getAttributes } from '@digitaltrendz/core'
+import type { MarkType } from '@digitaltrendz/pm/model'
+import { Plugin, PluginKey } from '@digitaltrendz/pm/state'
 
 type ClickHandlerOptions = {
   type: MarkType

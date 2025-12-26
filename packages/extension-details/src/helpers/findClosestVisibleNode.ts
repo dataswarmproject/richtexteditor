@@ -1,5 +1,5 @@
-import type { Editor, Predicate } from '@inkflow/core'
-import type { Node as ProseMirrorNode, ResolvedPos } from '@inkflow/pm/model'
+import type { Editor, Predicate } from '@digitaltrendz/core'
+import type { Node as ProseMirrorNode, ResolvedPos } from '@digitaltrendz/pm/model'
 
 import { isNodeVisible } from './isNodeVisible.js'
 

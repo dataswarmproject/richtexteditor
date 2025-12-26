@@ -1,4 +1,4 @@
-import type { EditorView } from '@inkflow/pm/view'
+import type { EditorView } from '@digitaltrendz/pm/view'
 
 import { getComputedStyle } from './getComputedStyle.js'
 import { minMax } from './minMax.js'

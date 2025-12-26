@@ -1,8 +1,8 @@
-import { getSchema, isNodeEmpty } from '@inkflow/core'
-import Document from '@inkflow/extension-document'
-import Image from '@inkflow/extension-image'
-import Mention from '@inkflow/extension-mention'
-import StarterKit from '@inkflow/starter-kit'
+import { getSchema, isNodeEmpty } from '@digitaltrendz/core'
+import Document from '@digitaltrendz/extension-document'
+import Image from '@digitaltrendz/extension-image'
+import Mention from '@digitaltrendz/extension-mention'
+import StarterKit from '@digitaltrendz/starter-kit'
 import { describe, expect, it } from 'vitest'
 
 const schema = getSchema([StarterKit, Mention])

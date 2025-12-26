@@ -1,4 +1,4 @@
-import { Mark, markInputRule, markPasteRule, mergeAttributes } from '@inkflow/core'
+import { Mark, markInputRule, markPasteRule, mergeAttributes } from '@digitaltrendz/core'
 
 export interface ItalicOptions {
   /**
@@ -9,7 +9,7 @@ export interface ItalicOptions {
   HTMLAttributes: Record<string, any>
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     italic: {
       /**

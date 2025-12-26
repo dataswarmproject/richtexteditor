@@ -1,4 +1,4 @@
-import { Mark, markInputRule, markPasteRule, mergeAttributes } from '@inkflow/core'
+import { Mark, markInputRule, markPasteRule, mergeAttributes } from '@digitaltrendz/core'
 
 export interface CodeOptions {
   /**
@@ -9,7 +9,7 @@ export interface CodeOptions {
   HTMLAttributes: Record<string, any>
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     code: {
       /**

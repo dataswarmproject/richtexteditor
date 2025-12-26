@@ -119,10 +119,10 @@
 </template>
 
 <script>
-import { ListItem } from '@inkflow/extension-list'
-import { Color, TextStyle } from '@inkflow/extension-text-style'
-import StarterKit from '@inkflow/starter-kit'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import { ListItem } from '@digitaltrendz/extension-list'
+import { Color, TextStyle } from '@digitaltrendz/extension-text-style'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

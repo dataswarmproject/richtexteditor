@@ -4,7 +4,7 @@ import type { FocusPosition, RawCommands } from '../types.js'
 import { isAndroid } from '../utilities/isAndroid.js'
 import { isiOS } from '../utilities/isiOS.js'
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     focus: {
       /**

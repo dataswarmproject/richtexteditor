@@ -1,8 +1,8 @@
-import type { Editor, Range } from '@inkflow/core'
-import type { EditorState } from '@inkflow/pm/state'
-import { Plugin, PluginKey } from '@inkflow/pm/state'
-import type { EditorView } from '@inkflow/pm/view'
-import { Decoration, DecorationSet } from '@inkflow/pm/view'
+import type { Editor, Range } from '@digitaltrendz/core'
+import type { EditorState } from '@digitaltrendz/pm/state'
+import { Plugin, PluginKey } from '@digitaltrendz/pm/state'
+import type { EditorView } from '@digitaltrendz/pm/view'
+import { Decoration, DecorationSet } from '@digitaltrendz/pm/view'
 
 import { findSuggestionMatch as defaultFindSuggestionMatch } from './findSuggestionMatch.js'
 

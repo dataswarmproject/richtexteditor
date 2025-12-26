@@ -1,6 +1,6 @@
-import { Extension, isNodeSelection } from '@inkflow/core'
-import { Plugin, PluginKey } from '@inkflow/pm/state'
-import { Decoration, DecorationSet } from '@inkflow/pm/view'
+import { Extension, isNodeSelection } from '@digitaltrendz/core'
+import { Plugin, PluginKey } from '@digitaltrendz/pm/state'
+import { Decoration, DecorationSet } from '@digitaltrendz/pm/view'
 
 export type SelectionOptions = {
   /**

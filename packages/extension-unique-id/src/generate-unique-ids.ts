@@ -1,7 +1,7 @@
-import type { Extensions, JSONContent } from '@inkflow/core'
-import { findChildren, getSchema } from '@inkflow/core'
-import { Node } from '@inkflow/pm/model'
-import { EditorState } from '@inkflow/pm/state'
+import type { Extensions, JSONContent } from '@digitaltrendz/core'
+import { findChildren, getSchema } from '@digitaltrendz/core'
+import { Node } from '@digitaltrendz/pm/model'
+import { EditorState } from '@digitaltrendz/pm/state'
 
 import type { UniqueID } from './unique-id.js'
 

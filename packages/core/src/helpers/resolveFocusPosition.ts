@@ -1,5 +1,5 @@
-import type { Node as ProseMirrorNode } from '@inkflow/pm/model'
-import { Selection, TextSelection } from '@inkflow/pm/state'
+import type { Node as ProseMirrorNode } from '@digitaltrendz/pm/model'
+import { Selection, TextSelection } from '@digitaltrendz/pm/state'
 
 import type { FocusPosition } from '../types.js'
 import { minMax } from '../utilities/minMax.js'

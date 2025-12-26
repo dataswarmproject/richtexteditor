@@ -1,9 +1,9 @@
 import './styles.scss'
 
-import type { JSONContent } from '@inkflow/react'
-import { EditorProvider, useCurrentEditor, useEditorState } from '@inkflow/react'
-import StarterKit from '@inkflow/starter-kit'
-import { renderToHTMLString, renderToMarkdown, renderToReactElement } from '@inkflow/static-renderer'
+import type { JSONContent } from '@digitaltrendz/react'
+import { EditorProvider, useCurrentEditor, useEditorState } from '@digitaltrendz/react'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { renderToHTMLString, renderToMarkdown, renderToReactElement } from '@digitaltrendz/static-renderer'
 import React, { useState } from 'react'
 
 const extensions = [StarterKit]

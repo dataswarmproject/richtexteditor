@@ -1,6 +1,6 @@
-import { getNodeType } from '@inkflow/core'
-import type { Node } from '@inkflow/pm/model'
-import type { EditorState } from '@inkflow/pm/state'
+import { getNodeType } from '@digitaltrendz/core'
+import type { Node } from '@digitaltrendz/pm/model'
+import type { EditorState } from '@digitaltrendz/pm/state'
 
 export const listItemHasSubList = (typeOrName: string, state: EditorState, node?: Node) => {
   if (!node) {

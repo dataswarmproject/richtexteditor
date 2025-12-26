@@ -1,10 +1,10 @@
 import './styles.scss'
 
-import Bold from '@inkflow/extension-bold'
-import Document from '@inkflow/extension-document'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { EditorContent, useEditor } from '@inkflow/react'
+import Bold from '@digitaltrendz/extension-bold'
+import Document from '@digitaltrendz/extension-document'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { EditorContent, useEditor } from '@digitaltrendz/react'
 import React from 'react'
 
 export default () => {

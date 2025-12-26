@@ -12,13 +12,13 @@
 </template>
 
 <script>
-import Document from '@inkflow/extension-document'
-import Heading from '@inkflow/extension-heading'
-import { ListKit } from '@inkflow/extension-list'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import Twitch from '@inkflow/extension-twitch'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Document from '@digitaltrendz/extension-document'
+import Heading from '@digitaltrendz/extension-heading'
+import { ListKit } from '@digitaltrendz/extension-list'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import Twitch from '@digitaltrendz/extension-twitch'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

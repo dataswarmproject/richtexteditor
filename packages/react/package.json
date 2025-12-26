@@ -1,10 +1,10 @@
 {
-  "name": "@inkflow/react",
+  "name": "@digitaltrendz/react",
   "description": "React components for tiptap",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "inkflow",
+    "digitaltrendz",
     "inkflow react components"
   ],
   "license": "MIT",
@@ -44,20 +44,20 @@
     "use-sync-external-store": "^1.4.0"
   },
   "devDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/pm": "workspace:^",
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "optionalDependencies": {
-    "@inkflow/extension-bubble-menu": "workspace:^",
-    "@inkflow/extension-floating-menu": "workspace:^"
+    "@digitaltrendz/extension-bubble-menu": "workspace:^",
+    "@digitaltrendz/extension-floating-menu": "workspace:^"
   },
   "peerDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/pm": "workspace:^",
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
     "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
     "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0",
     "@types/react": "^17.0.0 || ^18.0.0 || ^19.0.0",

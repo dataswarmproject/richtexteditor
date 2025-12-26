@@ -1,7 +1,7 @@
-import { Extension, getExtensionField, Mark, Node } from '@inkflow/core'
+import { Extension, getExtensionField, Mark, Node } from '@digitaltrendz/core'
 import { describe, expect, it } from 'vitest'
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   // Extension does not have a addAttributes defined, but we just want to test it anyway
   interface ExtensionConfig {
     // @ts-ignore - this is a dynamic key

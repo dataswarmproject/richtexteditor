@@ -1,8 +1,8 @@
-import type { Editor } from '@inkflow/core'
-import { Extension, isNodeEmpty } from '@inkflow/core'
-import type { Node as ProsemirrorNode } from '@inkflow/pm/model'
-import { Plugin, PluginKey } from '@inkflow/pm/state'
-import { Decoration, DecorationSet } from '@inkflow/pm/view'
+import type { Editor } from '@digitaltrendz/core'
+import { Extension, isNodeEmpty } from '@digitaltrendz/core'
+import type { Node as ProsemirrorNode } from '@digitaltrendz/pm/model'
+import { Plugin, PluginKey } from '@digitaltrendz/pm/state'
+import { Decoration, DecorationSet } from '@digitaltrendz/pm/view'
 
 export interface PlaceholderOptions {
   /**

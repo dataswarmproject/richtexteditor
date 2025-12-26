@@ -1,7 +1,7 @@
 import { TiptapCollabProvider } from '@hocuspocus/provider'
-import { Collaboration } from '@inkflow/extension-collaboration'
-import { EditorContent, useEditor } from '@inkflow/react'
-import { StarterKit } from '@inkflow/starter-kit'
+import { Collaboration } from '@digitaltrendz/extension-collaboration'
+import { EditorContent, useEditor } from '@digitaltrendz/react'
+import { StarterKit } from '@digitaltrendz/starter-kit'
 import React, { useEffect } from 'react'
 import * as Y from 'yjs'
 

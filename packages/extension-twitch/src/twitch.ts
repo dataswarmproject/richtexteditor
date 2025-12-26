@@ -1,4 +1,4 @@
-import { createAtomBlockMarkdownSpec, mergeAttributes, Node, nodePasteRule } from '@inkflow/core'
+import { createAtomBlockMarkdownSpec, mergeAttributes, Node, nodePasteRule } from '@digitaltrendz/core'
 
 import { getEmbedUrlFromTwitchUrl, isValidTwitchUrl, TWITCH_REGEX_GLOBAL } from './utils.js'
 
@@ -87,7 +87,7 @@ type SetTwitchVideoOptions = {
   time?: string
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     twitch: {
       /**
@@ -106,9 +106,9 @@ declare module '@inkflow/core' {
  *
  * @example
  * ```ts
- * import { useEditor, EditorContent } from '@inkflow/react'
- * import { StarterKit } from '@inkflow/starter-kit'
- * import { Twitch } from '@inkflow/extension-twitch'
+ * import { useEditor, EditorContent } from '@digitaltrendz/react'
+ * import { StarterKit } from '@digitaltrendz/starter-kit'
+ * import { Twitch } from '@digitaltrendz/extension-twitch'
  *
  * const editor = useEditor({
  *   extensions: [

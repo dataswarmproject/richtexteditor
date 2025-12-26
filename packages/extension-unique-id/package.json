@@ -1,10 +1,10 @@
 {
-  "name": "@inkflow/extension-unique-id",
+  "name": "@digitaltrendz/extension-unique-id",
   "description": "unique id extension for tiptap",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app/api/extensions/unique-id",
   "keywords": [
-    "inkflow",
+    "digitaltrendz",
     "inkflow extension"
   ],
   "license": "MIT",
@@ -31,15 +31,15 @@
     "dist"
   ],
   "peerDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/pm": "workspace:^"
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^"
   },
   "dependencies": {
     "uuid": "^10.0.0"
   },
   "devDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/pm": "workspace:^",
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
     "@types/uuid": "^10.0.0"
   },
   "repository": {

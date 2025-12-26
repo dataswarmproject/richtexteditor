@@ -1,5 +1,5 @@
-import type { KeyboardShortcutCommand } from '@inkflow/core'
-import { findParentNodeClosestToPos } from '@inkflow/core'
+import type { KeyboardShortcutCommand } from '@digitaltrendz/core'
+import { findParentNodeClosestToPos } from '@digitaltrendz/core'
 
 import { isCellSelection } from './isCellSelection.js'
 

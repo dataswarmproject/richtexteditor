@@ -1,6 +1,6 @@
-import type { Editor } from '@inkflow/core'
-import { Extension } from '@inkflow/core'
-import type { Node as TiptapNode } from '@inkflow/pm/model'
+import type { Editor } from '@digitaltrendz/core'
+import { Extension } from '@digitaltrendz/core'
+import type { Node as TiptapNode } from '@digitaltrendz/pm/model'
 import { v4 as uuidv4 } from 'uuid'
 
 import { TableOfContentsPlugin } from './plugin.js'

@@ -1,7 +1,7 @@
-import type { NodeWithPos } from '@inkflow/core'
-import { combineTransactionSteps, findChildrenInRange, getChangedRanges, getMarksBetween } from '@inkflow/core'
-import type { MarkType } from '@inkflow/pm/model'
-import { Plugin, PluginKey } from '@inkflow/pm/state'
+import type { NodeWithPos } from '@digitaltrendz/core'
+import { combineTransactionSteps, findChildrenInRange, getChangedRanges, getMarksBetween } from '@digitaltrendz/core'
+import type { MarkType } from '@digitaltrendz/pm/model'
+import { Plugin, PluginKey } from '@digitaltrendz/pm/state'
 import type { MultiToken } from 'linkifyjs'
 import { tokenize } from 'linkifyjs'
 

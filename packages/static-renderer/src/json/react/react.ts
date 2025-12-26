@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import type { MarkType, NodeType } from '@inkflow/core'
+import type { MarkType, NodeType } from '@digitaltrendz/core'
 import React from 'react'
 
 import type { TiptapStaticRendererOptions } from '../renderer.js'

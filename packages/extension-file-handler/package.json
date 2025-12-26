@@ -1,10 +1,10 @@
 {
-  "name": "@inkflow/extension-file-handler",
+  "name": "@digitaltrendz/extension-file-handler",
   "description": "file handler extension for tiptap",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app/docs/editor/extensions/functionality/filehandler",
   "keywords": [
-    "inkflow",
+    "digitaltrendz",
     "inkflow extension"
   ],
   "license": "MIT",
@@ -31,14 +31,14 @@
     "dist"
   ],
   "devDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/extension-text-style": "workspace:^",
-    "@inkflow/pm": "workspace:^"
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/extension-text-style": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^"
   },
   "peerDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/extension-text-style": "workspace:^",
-    "@inkflow/pm": "workspace:^"
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/extension-text-style": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^"
   },
   "repository": {
     "type": "git",

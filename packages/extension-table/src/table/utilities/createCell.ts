@@ -1,4 +1,4 @@
-import type { Fragment, Node as ProsemirrorNode, NodeType } from '@inkflow/pm/model'
+import type { Fragment, Node as ProsemirrorNode, NodeType } from '@digitaltrendz/pm/model'
 
 export function createCell(
   cellType: NodeType,

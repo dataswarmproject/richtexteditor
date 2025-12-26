@@ -1,5 +1,5 @@
-import type { JSONContent } from '@inkflow/core'
-import { createAtomBlockMarkdownSpec, createBlockMarkdownSpec, createInlineMarkdownSpec } from '@inkflow/core'
+import type { JSONContent } from '@digitaltrendz/core'
+import { createAtomBlockMarkdownSpec, createBlockMarkdownSpec, createInlineMarkdownSpec } from '@digitaltrendz/core'
 import { describe, expect, it } from 'vitest'
 
 describe('Markdown Utilities', () => {

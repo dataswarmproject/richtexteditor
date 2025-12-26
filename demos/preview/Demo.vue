@@ -68,7 +68,7 @@
 </template>
 
 <script>
-import { getDebugJSON } from '@inkflow/core'
+import { getDebugJSON } from '@digitaltrendz/core'
 
 import DemoFrame from './DemoFrame.vue'
 import Shiki from './Shiki.vue'

@@ -1,9 +1,9 @@
-import type { EditorState } from '@inkflow/pm/state'
+import type { EditorState } from '@digitaltrendz/pm/state'
 import {
   absolutePositionToRelativePosition,
   relativePositionToAbsolutePosition,
   ySyncPluginKey,
-} from '@inkflow/y-tiptap'
+} from '@digitaltrendz/y-tiptap'
 
 /**
  * A type that represents a Y.js relative position. Used to map a position from

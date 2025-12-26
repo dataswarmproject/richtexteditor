@@ -3,12 +3,12 @@
 </template>
 
 <script>
-import Code from '@inkflow/extension-code'
-import Document from '@inkflow/extension-document'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import Typography from '@inkflow/extension-typography'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Code from '@digitaltrendz/extension-code'
+import Document from '@digitaltrendz/extension-document'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import Typography from '@digitaltrendz/extension-typography'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 import { ColorHighlighter } from './ColorHighlighter.ts'
 import { SmilieReplacer } from './SmilieReplacer.ts'

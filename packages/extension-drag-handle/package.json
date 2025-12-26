@@ -1,10 +1,10 @@
 {
-  "name": "@inkflow/extension-drag-handle",
+  "name": "@digitaltrendz/extension-drag-handle",
   "description": "drag handle extension for tiptap",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app/docs/editor/extensions/functionality/drag-handle",
   "keywords": [
-    "inkflow",
+    "digitaltrendz",
     "inkflow extension"
   ],
   "license": "MIT",
@@ -36,22 +36,22 @@
     "dist"
   ],
   "peerDependencies": {
-    "@inkflow/extension-node-range": "workspace:^",
-    "@inkflow/core": "workspace:^",
-    "@inkflow/extension-collaboration": "workspace:^",
-    "@inkflow/pm": "workspace:^",
-    "@inkflow/y-tiptap": "^3.0.0"
+    "@digitaltrendz/extension-node-range": "workspace:^",
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/extension-collaboration": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
+    "@digitaltrendz/y-tiptap": "^3.0.0"
   },
   "dependencies": {
     "@floating-ui/dom": "^1.6.13"
   },
   "devDependencies": {
     "@floating-ui/dom": "^1.6.13",
-    "@inkflow/extension-node-range": "workspace:^",
-    "@inkflow/core": "workspace:^",
-    "@inkflow/extension-collaboration": "workspace:^",
-    "@inkflow/pm": "workspace:^",
-    "@inkflow/y-tiptap": "^3.0.0"
+    "@digitaltrendz/extension-node-range": "workspace:^",
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/extension-collaboration": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
+    "@digitaltrendz/y-tiptap": "^3.0.0"
   },
   "scripts": {
     "build": "tsup",

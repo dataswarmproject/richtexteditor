@@ -1,4 +1,4 @@
-import type { JSONContent, MarkdownLexerConfiguration, MarkdownParseHelpers, MarkdownToken } from '@inkflow/core'
+import type { JSONContent, MarkdownLexerConfiguration, MarkdownParseHelpers, MarkdownToken } from '@digitaltrendz/core'
 
 /**
  * Matches an ordered list item line with optional leading whitespace.

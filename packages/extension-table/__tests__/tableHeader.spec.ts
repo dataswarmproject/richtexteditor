@@ -1,8 +1,8 @@
-import { Editor } from '@inkflow/core'
-import Document from '@inkflow/extension-document'
-import Paragraph from '@inkflow/extension-paragraph'
-import { Table, TableCell, TableHeader, TableRow } from '@inkflow/extension-table'
-import Text from '@inkflow/extension-text'
+import { Editor } from '@digitaltrendz/core'
+import Document from '@digitaltrendz/extension-document'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import { Table, TableCell, TableHeader, TableRow } from '@digitaltrendz/extension-table'
+import Text from '@digitaltrendz/extension-text'
 import { describe, expect, it } from 'vitest'
 
 describe('extension table header', () => {

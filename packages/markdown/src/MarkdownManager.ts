@@ -12,7 +12,7 @@ import {
   flattenExtensions,
   generateJSON,
   getExtensionField,
-} from '@inkflow/core'
+} from '@digitaltrendz/core'
 import { type Lexer, type Token, type TokenizerExtension, marked } from 'marked'
 
 import {

@@ -1,9 +1,9 @@
 import './styles.scss'
 
-import Document from '@inkflow/extension-document'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { EditorContent, Node as NodeExtension, ResizableNodeview, useEditor } from '@inkflow/react'
+import Document from '@digitaltrendz/extension-document'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { EditorContent, Node as NodeExtension, ResizableNodeview, useEditor } from '@digitaltrendz/react'
 
 const ResizableNode = NodeExtension.create({
   name: 'resizableNode',

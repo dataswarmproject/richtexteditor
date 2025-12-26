@@ -1,4 +1,4 @@
-import type { Fragment, Node as ProsemirrorNode, Schema } from '@inkflow/pm/model'
+import type { Fragment, Node as ProsemirrorNode, Schema } from '@digitaltrendz/pm/model'
 
 import { createCell } from './createCell.js'
 import { getTableNodeTypes } from './getTableNodeTypes.js'

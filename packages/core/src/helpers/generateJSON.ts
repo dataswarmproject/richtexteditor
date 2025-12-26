@@ -1,4 +1,4 @@
-import { DOMParser } from '@inkflow/pm/model'
+import { DOMParser } from '@digitaltrendz/pm/model'
 
 import type { Extensions } from '../types.js'
 import { elementFromString } from '../utilities/elementFromString.js'

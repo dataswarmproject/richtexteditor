@@ -1,5 +1,5 @@
-import type { Node as ProseMirrorNode } from '@inkflow/pm/model'
-import type { Mappable } from '@inkflow/pm/transform'
+import type { Node as ProseMirrorNode } from '@digitaltrendz/pm/model'
+import type { Mappable } from '@digitaltrendz/pm/transform'
 
 import { NodeRangeSelection } from './NodeRangeSelection.js'
 

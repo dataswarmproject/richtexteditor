@@ -1,4 +1,4 @@
-import type { Mark as ProseMirrorMark, MarkType, ResolvedPos } from '@inkflow/pm/model'
+import type { Mark as ProseMirrorMark, MarkType, ResolvedPos } from '@digitaltrendz/pm/model'
 
 import type { Range } from '../types.js'
 import { objectIncludes } from '../utilities/objectIncludes.js'

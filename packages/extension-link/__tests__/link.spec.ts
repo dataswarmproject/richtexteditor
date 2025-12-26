@@ -1,8 +1,8 @@
-import { Editor } from '@inkflow/core'
-import Document from '@inkflow/extension-document'
-import Link from '@inkflow/extension-link'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
+import { Editor } from '@digitaltrendz/core'
+import Document from '@digitaltrendz/extension-document'
+import Link from '@digitaltrendz/extension-link'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
 import { describe, expect, it } from 'vitest'
 
 /**

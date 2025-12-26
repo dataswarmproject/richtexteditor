@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import { MarkViewContent, markViewProps } from '@inkflow/vue-3'
+import { MarkViewContent, markViewProps } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

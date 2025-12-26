@@ -3,9 +3,9 @@
 </template>
 
 <script>
-import Document from '@inkflow/extension-document'
-import Text from '@inkflow/extension-text'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Document from '@digitaltrendz/extension-document'
+import Text from '@digitaltrendz/extension-text'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 import Paper from './Paper.js'
 

@@ -1,4 +1,4 @@
-import { mergeDeep } from '@inkflow/core'
+import { mergeDeep } from '@digitaltrendz/core'
 import { describe, expect, it } from 'vitest'
 
 describe('mergeDeep', () => {

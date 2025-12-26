@@ -1,6 +1,6 @@
 import '../text-style/index.js'
 
-import { Extension } from '@inkflow/core'
+import { Extension } from '@digitaltrendz/core'
 
 export type LineHeightOptions = {
   /**
@@ -11,7 +11,7 @@ export type LineHeightOptions = {
   types: string[]
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     lineHeight: {
       /**
@@ -30,7 +30,7 @@ declare module '@inkflow/core' {
 }
 
 // @ts-ignore because the module is not found during dts build
-declare module '@inkflow/extension-text-style' {
+declare module '@digitaltrendz/extension-text-style' {
   interface TextStyleAttributes {
     lineHeight?: string | null
   }

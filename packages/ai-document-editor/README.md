@@ -1,4 +1,4 @@
-# @inkflow/ai-document-editor
+# @digitaltrendz/ai-document-editor
 
 A complete AI-powered Google Docs-like document editor built on InkFlow. Features pagination, AI assistant with agentic tools, and seamless Next.js/React integration.
 
@@ -16,11 +16,11 @@ A complete AI-powered Google Docs-like document editor built on InkFlow. Feature
 ## Installation
 
 ```bash
-npm install @inkflow/ai-document-editor
+npm install @digitaltrendz/ai-document-editor
 # or
-pnpm add @inkflow/ai-document-editor
+pnpm add @digitaltrendz/ai-document-editor
 # or
-yarn add @inkflow/ai-document-editor
+yarn add @digitaltrendz/ai-document-editor
 ```
 
 ## Quick Start
@@ -28,8 +28,8 @@ yarn add @inkflow/ai-document-editor
 ### Basic Usage
 
 ```tsx
-import { AIDocumentEditor } from '@inkflow/ai-document-editor'
-import '@inkflow/ai-document-editor/styles'
+import { AIDocumentEditor } from '@digitaltrendz/ai-document-editor'
+import '@digitaltrendz/ai-document-editor/styles'
 
 export default function DocumentPage() {
   return (
@@ -46,8 +46,8 @@ export default function DocumentPage() {
 ### With AI Provider
 
 ```tsx
-import { AIDocumentEditor } from '@inkflow/ai-document-editor'
-import type { AIProviderInterface } from '@inkflow/extension-ai-assistant'
+import { AIDocumentEditor } from '@digitaltrendz/ai-document-editor'
+import type { AIProviderInterface } from '@digitaltrendz/extension-ai-assistant'
 
 // Create your AI provider (OpenAI, Anthropic, or custom)
 const myAIProvider: AIProviderInterface = {
@@ -80,7 +80,7 @@ export default function DocumentPage() {
 ### Using the Hook
 
 ```tsx
-import { useAIDocumentEditor, EditorContent } from '@inkflow/ai-document-editor'
+import { useAIDocumentEditor, EditorContent } from '@digitaltrendz/ai-document-editor'
 
 export default function CustomEditor() {
   const {
@@ -144,7 +144,7 @@ export default function CustomEditor() {
 ### Custom AI Tools
 
 ```tsx
-import type { AITool } from '@inkflow/extension-ai-assistant'
+import type { AITool } from '@digitaltrendz/extension-ai-assistant'
 
 const customTool: AITool = {
   name: 'my_custom_tool',
@@ -222,7 +222,7 @@ Inline AI prompt that appears at cursor position.
 Import the base styles and override as needed:
 
 ```css
-@import '@inkflow/ai-document-editor/styles';
+@import '@digitaltrendz/ai-document-editor/styles';
 
 .ai-document-editor {
   /* Your custom styles */
@@ -247,7 +247,7 @@ For Next.js 13+ with App Router:
 import dynamic from 'next/dynamic'
 
 const AIDocumentEditor = dynamic(
-  () => import('@inkflow/ai-document-editor').then(mod => mod.AIDocumentEditor),
+  () => import('@digitaltrendz/ai-document-editor').then(mod => mod.AIDocumentEditor),
   { ssr: false }
 )
 

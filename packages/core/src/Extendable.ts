@@ -1,4 +1,4 @@
-import type { Plugin } from '@inkflow/pm/state'
+import type { Plugin } from '@digitaltrendz/pm/state'
 
 import type { Editor } from './Editor.js'
 import { getExtensionField } from './helpers/getExtensionField.js'

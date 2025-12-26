@@ -1,10 +1,10 @@
 {
-  "name": "@inkflow/extension-bullet-list",
+  "name": "@digitaltrendz/extension-bullet-list",
   "description": "bullet list extension for tiptap",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "inkflow",
+    "digitaltrendz",
     "inkflow extension"
   ],
   "license": "MIT",
@@ -31,10 +31,10 @@
     "dist"
   ],
   "devDependencies": {
-    "@inkflow/extension-list": "workspace:^"
+    "@digitaltrendz/extension-list": "workspace:^"
   },
   "peerDependencies": {
-    "@inkflow/extension-list": "workspace:^"
+    "@digitaltrendz/extension-list": "workspace:^"
   },
   "repository": {
     "type": "git",

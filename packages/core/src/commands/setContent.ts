@@ -1,4 +1,4 @@
-import type { Fragment, Node as ProseMirrorNode, ParseOptions } from '@inkflow/pm/model'
+import type { Fragment, Node as ProseMirrorNode, ParseOptions } from '@digitaltrendz/pm/model'
 
 import { createDocument } from '../helpers/createDocument.js'
 import type { Content, RawCommands } from '../types.js'
@@ -22,7 +22,7 @@ export interface SetContentOptions {
   emitUpdate?: boolean
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     setContent: {
       /**

@@ -1,5 +1,5 @@
 {
-  "name": "@inkflow/extension-table-row",
+  "name": "@digitaltrendz/extension-table-row",
   "description": "table row extension for tiptap",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app",
@@ -31,10 +31,10 @@
     "dist"
   ],
   "devDependencies": {
-    "@inkflow/extension-table": "workspace:^"
+    "@digitaltrendz/extension-table": "workspace:^"
   },
   "peerDependencies": {
-    "@inkflow/extension-table": "workspace:^"
+    "@digitaltrendz/extension-table": "workspace:^"
   },
   "repository": {
     "type": "git",

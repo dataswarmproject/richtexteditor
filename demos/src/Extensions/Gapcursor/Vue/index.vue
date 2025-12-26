@@ -3,12 +3,12 @@
 </template>
 
 <script>
-import Document from '@inkflow/extension-document'
-import Image from '@inkflow/extension-image'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { Gapcursor } from '@inkflow/extensions'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Document from '@digitaltrendz/extension-document'
+import Image from '@digitaltrendz/extension-image'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { Gapcursor } from '@digitaltrendz/extensions'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

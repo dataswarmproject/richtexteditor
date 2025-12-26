@@ -1,4 +1,4 @@
-import { createBlockMarkdownSpec, Node } from '@inkflow/core'
+import { createBlockMarkdownSpec, Node } from '@digitaltrendz/core'
 
 export const name = 'Nested Nodes'
 

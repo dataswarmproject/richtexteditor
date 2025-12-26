@@ -1,4 +1,4 @@
-import type { JSONContent } from '@inkflow/core'
+import type { JSONContent } from '@digitaltrendz/core'
 
 /**
  * @fileoverview Utility functions for rendering nested content in markdown.

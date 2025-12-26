@@ -1,7 +1,7 @@
-import type { Node as ProseMirrorNode } from '@inkflow/pm/model'
-import { Fragment } from '@inkflow/pm/model'
-import type { EditorState, TextSelection } from '@inkflow/pm/state'
-import { Plugin } from '@inkflow/pm/state'
+import type { Node as ProseMirrorNode } from '@digitaltrendz/pm/model'
+import { Fragment } from '@digitaltrendz/pm/model'
+import type { EditorState, TextSelection } from '@digitaltrendz/pm/state'
+import { Plugin } from '@digitaltrendz/pm/state'
 
 import { CommandManager } from './CommandManager.js'
 import type { Editor } from './Editor.js'

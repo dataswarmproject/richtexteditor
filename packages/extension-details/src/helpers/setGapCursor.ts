@@ -1,8 +1,8 @@
-import type { Editor } from '@inkflow/core'
-import { findChildren, findParentNode } from '@inkflow/core'
-import { GapCursor } from '@inkflow/pm/gapcursor'
-import type { ResolvedPos } from '@inkflow/pm/model'
-import type { Selection } from '@inkflow/pm/state'
+import type { Editor } from '@digitaltrendz/core'
+import { findChildren, findParentNode } from '@digitaltrendz/core'
+import { GapCursor } from '@digitaltrendz/pm/gapcursor'
+import type { ResolvedPos } from '@digitaltrendz/pm/model'
+import type { Selection } from '@digitaltrendz/pm/state'
 
 import { isNodeVisible } from './isNodeVisible.js'
 

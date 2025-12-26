@@ -1,5 +1,5 @@
-import type { CodeBlockOptions } from '@inkflow/extension-code-block'
-import CodeBlock from '@inkflow/extension-code-block'
+import type { CodeBlockOptions } from '@digitaltrendz/extension-code-block'
+import CodeBlock from '@digitaltrendz/extension-code-block'
 
 import { LowlightPlugin } from './lowlight-plugin.js'
 

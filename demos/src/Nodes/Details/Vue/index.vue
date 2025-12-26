@@ -15,10 +15,10 @@
 </template>
 
 <script>
-import { Details, DetailsContent, DetailsSummary } from '@inkflow/extension-details'
-import { Placeholder } from '@inkflow/extensions'
-import StarterKit from '@inkflow/starter-kit'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import { Details, DetailsContent, DetailsSummary } from '@digitaltrendz/extension-details'
+import { Placeholder } from '@digitaltrendz/extensions'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

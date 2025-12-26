@@ -1,4 +1,4 @@
-import { Extension, Mark, Node } from '@inkflow/core'
+import { Extension, Mark, Node } from '@digitaltrendz/core'
 import { describe, expect, it } from 'vitest'
 
 describe('extension options', () => {

@@ -1,5 +1,5 @@
-import type { Node as ProseMirrorNode } from '@inkflow/pm/model'
-import type { NodeView, ViewMutationRecord } from '@inkflow/pm/view'
+import type { Node as ProseMirrorNode } from '@digitaltrendz/pm/model'
+import type { NodeView, ViewMutationRecord } from '@digitaltrendz/pm/view'
 
 import { getColStyleDeclaration } from './utilities/colStyle.js'
 

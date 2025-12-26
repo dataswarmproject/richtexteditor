@@ -1,6 +1,6 @@
-import type { Editor } from '@inkflow/core'
-import type { EditorState } from '@inkflow/pm/state'
-import type { EditorView } from '@inkflow/pm/view'
+import type { Editor } from '@digitaltrendz/core'
+import type { EditorState } from '@digitaltrendz/pm/state'
+import type { EditorView } from '@digitaltrendz/pm/view'
 
 /**
  * AI Provider types

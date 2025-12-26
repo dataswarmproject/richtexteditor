@@ -23,13 +23,13 @@
 </template>
 
 <script>
-import Document from '@inkflow/extension-document'
-import HardBreak from '@inkflow/extension-hard-break'
-import Heading from '@inkflow/extension-heading'
-import InvisibleCharacters from '@inkflow/extension-invisible-characters'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Document from '@digitaltrendz/extension-document'
+import HardBreak from '@digitaltrendz/extension-hard-break'
+import Heading from '@digitaltrendz/extension-heading'
+import InvisibleCharacters from '@digitaltrendz/extension-invisible-characters'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

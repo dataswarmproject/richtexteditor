@@ -3,11 +3,11 @@
 </template>
 
 <script>
-import Bold from '@inkflow/extension-bold'
-import Document from '@inkflow/extension-document'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { renderToHTMLString } from '@inkflow/static-renderer'
+import Bold from '@digitaltrendz/extension-bold'
+import Document from '@digitaltrendz/extension-document'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { renderToHTMLString } from '@digitaltrendz/static-renderer'
 
 const json = {
   type: 'doc',

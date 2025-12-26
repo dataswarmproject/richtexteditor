@@ -1,5 +1,5 @@
-import type { MarkViewRendererProps } from '@inkflow/react'
-import { MarkViewContent } from '@inkflow/react'
+import type { MarkViewRendererProps } from '@digitaltrendz/react'
+import { MarkViewContent } from '@digitaltrendz/react'
 import React from 'react'
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars

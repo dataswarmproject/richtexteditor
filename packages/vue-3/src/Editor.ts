@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import type { EditorOptions, Storage } from '@inkflow/core'
-import { Editor as CoreEditor } from '@inkflow/core'
-import type { EditorState, Plugin, PluginKey } from '@inkflow/pm/state'
+import type { EditorOptions, Storage } from '@digitaltrendz/core'
+import { Editor as CoreEditor } from '@digitaltrendz/core'
+import type { EditorState, Plugin, PluginKey } from '@digitaltrendz/pm/state'
 import type { AppContext, ComponentInternalInstance, ComponentPublicInstance, Ref } from 'vue'
 import { customRef, markRaw } from 'vue'
 

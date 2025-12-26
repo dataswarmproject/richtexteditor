@@ -1,4 +1,4 @@
-import { Extension } from '@inkflow/core'
+import { Extension } from '@digitaltrendz/core'
 
 import { InvisibleCharactersPlugin, InvisibleCharactersPluginKey } from './plugin/index.js'
 import { HardBreakNode } from './plugin/invisible-characters/hardBreak.js'
@@ -8,7 +8,7 @@ import type { InvisibleCharactersOptions } from './types.js'
 
 export { HardBreakNode, ParagraphNode, SpaceCharacter }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     invisibleCharacters: {
       /**

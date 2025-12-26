@@ -1,4 +1,4 @@
-import { mergeAttributes, Node, parseIndentedBlocks } from '@inkflow/core'
+import { mergeAttributes, Node, parseIndentedBlocks } from '@digitaltrendz/core'
 
 export interface TaskListOptions {
   /**
@@ -16,7 +16,7 @@ export interface TaskListOptions {
   HTMLAttributes: Record<string, any>
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     taskList: {
       /**

@@ -1,5 +1,5 @@
-import { getNodeAtPosition } from '@inkflow/core'
-import type { EditorState } from '@inkflow/pm/state'
+import { getNodeAtPosition } from '@digitaltrendz/core'
+import type { EditorState } from '@digitaltrendz/pm/state'
 
 import { findListItemPos } from './findListItemPos.js'
 

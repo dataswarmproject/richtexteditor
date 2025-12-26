@@ -21,11 +21,11 @@
 </template>
 
 <script>
-import Document from '@inkflow/extension-document'
-import Paragraph from '@inkflow/extension-paragraph'
-import Strike from '@inkflow/extension-strike'
-import Text from '@inkflow/extension-text'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Document from '@digitaltrendz/extension-document'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Strike from '@digitaltrendz/extension-strike'
+import Text from '@digitaltrendz/extension-text'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

@@ -1,4 +1,4 @@
-import { mergeAttributes, Node } from '@inkflow/core'
+import { mergeAttributes, Node } from '@digitaltrendz/core'
 
 export interface ParagraphOptions {
   /**
@@ -9,7 +9,7 @@ export interface ParagraphOptions {
   HTMLAttributes: Record<string, any>
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     paragraph: {
       /**

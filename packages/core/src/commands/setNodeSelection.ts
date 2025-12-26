@@ -1,9 +1,9 @@
-import { NodeSelection } from '@inkflow/pm/state'
+import { NodeSelection } from '@digitaltrendz/pm/state'
 
 import type { RawCommands } from '../types.js'
 import { minMax } from '../utilities/minMax.js'
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     setNodeSelection: {
       /**

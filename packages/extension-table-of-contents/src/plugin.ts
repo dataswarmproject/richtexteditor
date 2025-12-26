@@ -1,5 +1,5 @@
-import type { NodeType } from '@inkflow/pm/model'
-import { Plugin, PluginKey } from '@inkflow/pm/state'
+import type { NodeType } from '@digitaltrendz/pm/model'
+import { Plugin, PluginKey } from '@digitaltrendz/pm/state'
 import { v4 as uuidv4 } from 'uuid'
 
 export const TableOfContentsPlugin = ({

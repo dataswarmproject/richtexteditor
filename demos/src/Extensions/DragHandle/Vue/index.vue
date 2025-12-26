@@ -22,10 +22,10 @@
 </template>
 
 <script>
-import { DragHandle } from '@inkflow/extension-drag-handle-vue-3'
-import NodeRange from '@inkflow/extension-node-range'
-import StarterKit from '@inkflow/starter-kit'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import { DragHandle } from '@digitaltrendz/extension-drag-handle-vue-3'
+import NodeRange from '@digitaltrendz/extension-node-range'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

@@ -1,5 +1,5 @@
-import type { MarkType, NodeType } from '@inkflow/pm/model'
-import type { EditorState } from '@inkflow/pm/state'
+import type { MarkType, NodeType } from '@digitaltrendz/pm/model'
+import type { EditorState } from '@digitaltrendz/pm/state'
 
 import { getMarkAttributes } from './getMarkAttributes.js'
 import { getNodeAttributes } from './getNodeAttributes.js'

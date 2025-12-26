@@ -1,4 +1,4 @@
-import { Extension } from '@inkflow/core'
+import { Extension } from '@digitaltrendz/core'
 
 import type { BackgroundColorOptions } from '../background-color/index.js'
 import { BackgroundColor } from '../background-color/index.js'

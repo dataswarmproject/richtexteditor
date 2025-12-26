@@ -9,16 +9,16 @@ import type {
   MarkConfig,
   Node as NodeExtension,
   NodeConfig,
-} from '@inkflow/core'
+} from '@digitaltrendz/core'
 import {
   getAttributesFromExtensions,
   getExtensionField,
   getSchemaByResolvedExtensions,
   resolveExtensions,
   splitExtensions,
-} from '@inkflow/core'
-import type { DOMOutputSpec, Mark } from '@inkflow/pm/model'
-import { Node } from '@inkflow/pm/model'
+} from '@digitaltrendz/core'
+import type { DOMOutputSpec, Mark } from '@digitaltrendz/pm/model'
+import { Node } from '@digitaltrendz/pm/model'
 
 import { getHTMLAttributes } from '../helpers.js'
 import type { MarkProps, NodeProps, TiptapStaticRendererOptions } from '../json/renderer.js'

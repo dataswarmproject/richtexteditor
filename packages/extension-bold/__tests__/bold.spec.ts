@@ -1,4 +1,4 @@
-import { starInputRegex, starPasteRegex, underscoreInputRegex, underscorePasteRegex } from '@inkflow/extension-bold'
+import { starInputRegex, starPasteRegex, underscoreInputRegex, underscorePasteRegex } from '@digitaltrendz/extension-bold'
 import { describe, expect, it } from 'vitest'
 
 describe('bold regex test', () => {

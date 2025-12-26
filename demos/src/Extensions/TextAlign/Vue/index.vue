@@ -46,12 +46,12 @@
 </template>
 
 <script>
-import Document from '@inkflow/extension-document'
-import Heading from '@inkflow/extension-heading'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import TextAlign from '@inkflow/extension-text-align'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Document from '@digitaltrendz/extension-document'
+import Heading from '@digitaltrendz/extension-heading'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import TextAlign from '@digitaltrendz/extension-text-align'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

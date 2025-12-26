@@ -1,9 +1,9 @@
 import './styles.scss'
 
-import { TextStyleKit } from '@inkflow/extension-text-style'
-import type { Editor } from '@inkflow/react'
-import { EditorContent, useEditor, useEditorState } from '@inkflow/react'
-import StarterKit from '@inkflow/starter-kit'
+import { TextStyleKit } from '@digitaltrendz/extension-text-style'
+import type { Editor } from '@digitaltrendz/react'
+import { EditorContent, useEditor, useEditorState } from '@digitaltrendz/react'
+import StarterKit from '@digitaltrendz/starter-kit'
 import React from 'react'
 
 const extensions = [TextStyleKit, StarterKit]

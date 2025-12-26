@@ -1,6 +1,6 @@
-import type { EditorState } from '@inkflow/pm/state'
-import { NodeSelection, TextSelection } from '@inkflow/pm/state'
-import { canSplit } from '@inkflow/pm/transform'
+import type { EditorState } from '@digitaltrendz/pm/state'
+import { NodeSelection, TextSelection } from '@digitaltrendz/pm/state'
+import { canSplit } from '@digitaltrendz/pm/transform'
 
 import { defaultBlockAt } from '../helpers/defaultBlockAt.js'
 import { getSplittedAttributes } from '../helpers/getSplittedAttributes.js'
@@ -16,7 +16,7 @@ function ensureMarks(state: EditorState, splittableMarks?: string[]) {
   }
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     splitBlock: {
       /**

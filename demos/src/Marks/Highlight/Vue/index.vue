@@ -54,11 +54,11 @@
 </template>
 
 <script>
-import Document from '@inkflow/extension-document'
-import Highlight from '@inkflow/extension-highlight'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Document from '@digitaltrendz/extension-document'
+import Highlight from '@digitaltrendz/extension-highlight'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

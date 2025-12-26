@@ -31,13 +31,13 @@
 </template>
 
 <script>
-import Bold from '@inkflow/extension-bold'
-import Collaboration from '@inkflow/extension-collaboration'
-import Document from '@inkflow/extension-document'
-import Heading from '@inkflow/extension-heading'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Bold from '@digitaltrendz/extension-bold'
+import Collaboration from '@digitaltrendz/extension-collaboration'
+import Document from '@digitaltrendz/extension-document'
+import Heading from '@digitaltrendz/extension-heading'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 import * as Y from 'yjs'
 
 import CollaborationAnnotation from './extension/index.ts'

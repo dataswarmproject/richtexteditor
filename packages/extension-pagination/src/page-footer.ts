@@ -1,4 +1,4 @@
-import { Node, mergeAttributes } from '@inkflow/core'
+import { Node, mergeAttributes } from '@digitaltrendz/core'
 
 export interface PageFooterOptions {
   /**
@@ -14,7 +14,7 @@ export interface PageFooterOptions {
   height: string
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     pageFooter: {
       /**

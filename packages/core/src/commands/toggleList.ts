@@ -1,6 +1,6 @@
-import type { NodeType } from '@inkflow/pm/model'
-import type { Transaction } from '@inkflow/pm/state'
-import { canJoin } from '@inkflow/pm/transform'
+import type { NodeType } from '@digitaltrendz/pm/model'
+import type { Transaction } from '@digitaltrendz/pm/state'
+import { canJoin } from '@digitaltrendz/pm/transform'
 
 import { findParentNode } from '../helpers/findParentNode.js'
 import { getNodeType } from '../helpers/getNodeType.js'
@@ -57,7 +57,7 @@ const joinListForwards = (tr: Transaction, listType: NodeType): boolean => {
   return true
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     toggleList: {
       /**

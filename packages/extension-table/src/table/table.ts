@@ -7,9 +7,9 @@ import {
   getExtensionField,
   mergeAttributes,
   Node,
-} from '@inkflow/core'
-import type { DOMOutputSpec, Node as ProseMirrorNode } from '@inkflow/pm/model'
-import { TextSelection } from '@inkflow/pm/state'
+} from '@digitaltrendz/core'
+import type { DOMOutputSpec, Node as ProseMirrorNode } from '@digitaltrendz/pm/model'
+import { TextSelection } from '@digitaltrendz/pm/state'
 import {
   addColumnAfter,
   addColumnBefore,
@@ -28,8 +28,8 @@ import {
   tableEditing,
   toggleHeader,
   toggleHeaderCell,
-} from '@inkflow/pm/tables'
-import type { EditorView, NodeView } from '@inkflow/pm/view'
+} from '@digitaltrendz/pm/tables'
+import type { EditorView, NodeView } from '@digitaltrendz/pm/view'
 
 import { TableView } from './TableView.js'
 import { createColGroup } from './utilities/createColGroup.js'
@@ -100,7 +100,7 @@ export interface TableOptions {
   allowTableNodeSelection: boolean
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     table: {
       /**

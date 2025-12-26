@@ -1,4 +1,4 @@
-import { Extension } from '@inkflow/core'
+import { Extension } from '@digitaltrendz/core'
 
 import type { FloatingMenuPluginProps } from './floating-menu-plugin.js'
 import { FloatingMenuPlugin } from './floating-menu-plugin.js'

@@ -1,4 +1,4 @@
-import { createInlineMarkdownSpec, Node } from '@inkflow/core'
+import { createInlineMarkdownSpec, Node } from '@digitaltrendz/core'
 
 export const name = 'Custom Inline'
 

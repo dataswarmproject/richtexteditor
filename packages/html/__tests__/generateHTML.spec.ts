@@ -1,10 +1,10 @@
-import Document from '@inkflow/extension-document'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { TextStyle } from '@inkflow/extension-text-style'
-import Youtube from '@inkflow/extension-youtube'
-import { generateHTML, generateJSON } from '@inkflow/html'
-import StarterKit from '@inkflow/starter-kit'
+import Document from '@digitaltrendz/extension-document'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { TextStyle } from '@digitaltrendz/extension-text-style'
+import Youtube from '@digitaltrendz/extension-youtube'
+import { generateHTML, generateJSON } from '@digitaltrendz/html'
+import StarterKit from '@digitaltrendz/starter-kit'
 import { describe, expect, it } from 'vitest'
 
 describe('generateHTML', () => {

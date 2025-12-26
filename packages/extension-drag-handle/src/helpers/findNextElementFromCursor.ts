@@ -1,6 +1,6 @@
-import type { Editor } from '@inkflow/core'
-import type { Node } from '@inkflow/pm/model'
-import type { EditorView } from '@inkflow/pm/view'
+import type { Editor } from '@digitaltrendz/core'
+import type { Node } from '@digitaltrendz/pm/model'
+import type { EditorView } from '@digitaltrendz/pm/view'
 
 export type FindElementNextToCoords = {
   x: number

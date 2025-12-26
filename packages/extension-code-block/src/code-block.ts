@@ -1,5 +1,5 @@
-import { mergeAttributes, Node, textblockTypeInputRule } from '@inkflow/core'
-import { Plugin, PluginKey, Selection, TextSelection } from '@inkflow/pm/state'
+import { mergeAttributes, Node, textblockTypeInputRule } from '@digitaltrendz/core'
+import { Plugin, PluginKey, Selection, TextSelection } from '@digitaltrendz/pm/state'
 
 const DEFAULT_TAB_SIZE = 4
 
@@ -43,7 +43,7 @@ export interface CodeBlockOptions {
   HTMLAttributes: Record<string, any>
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     codeBlock: {
       /**

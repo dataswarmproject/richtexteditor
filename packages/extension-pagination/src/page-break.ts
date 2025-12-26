@@ -1,4 +1,4 @@
-import { Node, mergeAttributes } from '@inkflow/core'
+import { Node, mergeAttributes } from '@digitaltrendz/core'
 
 export interface PageBreakOptions {
   /**
@@ -8,7 +8,7 @@ export interface PageBreakOptions {
   HTMLAttributes: Record<string, unknown>
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     pageBreak: {
       /**

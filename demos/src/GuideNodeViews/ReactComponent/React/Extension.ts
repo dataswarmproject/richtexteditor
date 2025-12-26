@@ -1,5 +1,5 @@
-import { mergeAttributes, Node } from '@inkflow/core'
-import { ReactNodeViewRenderer } from '@inkflow/react'
+import { mergeAttributes, Node } from '@digitaltrendz/core'
+import { ReactNodeViewRenderer } from '@digitaltrendz/react'
 
 import Component from './Component.jsx'
 

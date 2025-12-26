@@ -1,10 +1,10 @@
 {
-  "name": "@inkflow/extension-table-of-contents",
+  "name": "@digitaltrendz/extension-table-of-contents",
   "description": "table of contents extension for Tiptap",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app/docs/editor/extensions/functionality/table-of-contents",
   "keywords": [
-    "inkflow",
+    "digitaltrendz",
     "inkflow extension"
   ],
   "license": "SEE LICENSE IN LICENSE.md",
@@ -39,13 +39,13 @@
     "uuid": "^10.0.0"
   },
   "devDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/pm": "workspace:^",
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
     "@types/uuid": "^10.0.0"
   },
   "peerDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/pm": "workspace:^"
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^"
   },
   "scripts": {
     "build": "tsup",

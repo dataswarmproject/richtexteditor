@@ -1,4 +1,4 @@
-import type { Node as ProsemirrorNode } from '@inkflow/pm/model'
+import type { Node as ProsemirrorNode } from '@digitaltrendz/pm/model'
 
 export interface Result {
   message: string

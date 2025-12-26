@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import type { DOMOutputSpecArray, Extensions, JSONContent } from '@inkflow/core'
-import type { DOMOutputSpec, Mark, Node } from '@inkflow/pm/model'
+import type { DOMOutputSpecArray, Extensions, JSONContent } from '@digitaltrendz/core'
+import type { DOMOutputSpec, Mark, Node } from '@digitaltrendz/pm/model'
 
 import {
   renderJSONContentToString,

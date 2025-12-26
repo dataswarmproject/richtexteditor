@@ -1,14 +1,14 @@
 import { type ComputePositionConfig, type VirtualElement, computePosition } from '@floating-ui/dom'
-import type { Editor } from '@inkflow/core'
-import { isChangeOrigin } from '@inkflow/extension-collaboration'
-import type { Node } from '@inkflow/pm/model'
-import { type EditorState, type Transaction, Plugin, PluginKey } from '@inkflow/pm/state'
-import type { EditorView } from '@inkflow/pm/view'
+import type { Editor } from '@digitaltrendz/core'
+import { isChangeOrigin } from '@digitaltrendz/extension-collaboration'
+import type { Node } from '@digitaltrendz/pm/model'
+import { type EditorState, type Transaction, Plugin, PluginKey } from '@digitaltrendz/pm/state'
+import type { EditorView } from '@digitaltrendz/pm/view'
 import {
   absolutePositionToRelativePosition,
   relativePositionToAbsolutePosition,
   ySyncPluginKey,
-} from '@inkflow/y-tiptap'
+} from '@digitaltrendz/y-tiptap'
 
 import { dragHandler } from './helpers/dragHandler.js'
 import { findElementNextToCoords } from './helpers/findNextElementFromCursor.js'

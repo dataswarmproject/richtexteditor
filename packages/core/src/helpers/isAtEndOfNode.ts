@@ -1,4 +1,4 @@
-import type { EditorState } from '@inkflow/pm/state'
+import type { EditorState } from '@digitaltrendz/pm/state'
 
 import { findParentNode } from './findParentNode.js'
 

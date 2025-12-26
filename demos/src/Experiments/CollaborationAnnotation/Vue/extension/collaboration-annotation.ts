@@ -1,4 +1,4 @@
-import { Extension } from '@inkflow/core'
+import { Extension } from '@digitaltrendz/core'
 import type * as Y from 'yjs'
 
 import { AnnotationPlugin, AnnotationPluginKey } from './AnnotationPlugin.js'
@@ -48,7 +48,7 @@ function getMapFromOptions(options: AnnotationOptions): Y.Map<any> {
   return options.map ? options.map : (options.document?.getMap(options.field) as Y.Map<any>)
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     annotation: {
       addAnnotation: (data: any) => ReturnType

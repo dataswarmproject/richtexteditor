@@ -1,4 +1,4 @@
-import { Editor as CoreEditor } from '@inkflow/core'
+import { Editor as CoreEditor } from '@digitaltrendz/core'
 import type Vue from 'vue'
 
 export class Editor extends CoreEditor {

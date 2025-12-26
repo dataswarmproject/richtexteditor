@@ -1,5 +1,5 @@
 /** @jsxImportSource @tiptap/core */
-import { Mark, markInputRule, markPasteRule, mergeAttributes } from '@inkflow/core'
+import { Mark, markInputRule, markPasteRule, mergeAttributes } from '@digitaltrendz/core'
 
 export interface BoldOptions {
   /**
@@ -10,7 +10,7 @@ export interface BoldOptions {
   HTMLAttributes: Record<string, any>
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     bold: {
       /**

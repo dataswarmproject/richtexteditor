@@ -1,6 +1,6 @@
-import type { Range } from '@inkflow/core'
-import { escapeForRegEx } from '@inkflow/core'
-import type { ResolvedPos } from '@inkflow/pm/model'
+import type { Range } from '@digitaltrendz/core'
+import { escapeForRegEx } from '@digitaltrendz/core'
+import type { ResolvedPos } from '@digitaltrendz/pm/model'
 
 export interface Trigger {
   char: string

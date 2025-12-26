@@ -1,4 +1,4 @@
-import type { Editor } from '@inkflow/core'
+import type { Editor } from '@digitaltrendz/core'
 import type {
   ComponentClass,
   ForwardRefExoticComponent,

@@ -1,7 +1,7 @@
 import './styles.scss'
 
-import { EditorContent, Extension, useEditor } from '@inkflow/react'
-import StarterKit from '@inkflow/starter-kit'
+import { EditorContent, Extension, useEditor } from '@digitaltrendz/react'
+import StarterKit from '@digitaltrendz/starter-kit'
 import React from 'react'
 
 const CustomKeyboardShortcutExtension = Extension.create({

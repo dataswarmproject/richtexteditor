@@ -21,11 +21,11 @@
 </template>
 
 <script>
-import Document from '@inkflow/extension-document'
-import Italic from '@inkflow/extension-italic'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Document from '@digitaltrendz/extension-document'
+import Italic from '@digitaltrendz/extension-italic'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { type ExtensionAttribute, type MarkType, type NodeType, mergeAttributes } from '@inkflow/core'
+import { type ExtensionAttribute, type MarkType, type NodeType, mergeAttributes } from '@digitaltrendz/core'
 
 /**
  * This function returns the attributes of a node or mark that are defined by the given extension attributes.

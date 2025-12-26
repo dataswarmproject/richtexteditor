@@ -4,9 +4,9 @@ import {
   useAIDocumentEditor,
   AIDocumentEditorKit,
   EditorContent,
-} from '@inkflow/ai-document-editor'
-import type { AIAssistantState, AIProviderInterface } from '@inkflow/extension-ai-assistant'
-import '@inkflow/ai-document-editor/styles'
+} from '@digitaltrendz/ai-document-editor'
+import type { AIAssistantState, AIProviderInterface } from '@digitaltrendz/extension-ai-assistant'
+import '@digitaltrendz/ai-document-editor/styles'
 
 // Sample initial content
 const initialContent = `

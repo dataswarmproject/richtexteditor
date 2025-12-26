@@ -1,4 +1,4 @@
-import { Node, mergeAttributes } from '@inkflow/core'
+import { Node, mergeAttributes } from '@digitaltrendz/core'
 
 export interface PageNumberOptions {
   /**
@@ -26,7 +26,7 @@ export interface PageNumberOptions {
   separator: string
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     pageNumber: {
       /**

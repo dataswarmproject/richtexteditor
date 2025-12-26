@@ -1,8 +1,8 @@
-import Document from '@inkflow/extension-document'
-import Paragraph from '@inkflow/extension-paragraph'
-import Text from '@inkflow/extension-text'
-import TextAlign from '@inkflow/extension-text-align'
-import { generateJSON } from '@inkflow/html'
+import Document from '@digitaltrendz/extension-document'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import TextAlign from '@digitaltrendz/extension-text-align'
+import { generateJSON } from '@digitaltrendz/html'
 import { describe, expect, it } from 'vitest'
 
 describe('generateJSON', () => {

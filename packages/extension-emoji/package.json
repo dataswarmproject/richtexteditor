@@ -1,10 +1,10 @@
 {
-  "name": "@inkflow/extension-emoji",
+  "name": "@digitaltrendz/extension-emoji",
   "description": "emoji extension for tiptap",
   "version": "3.14.0",
   "homepage": "https://digitaltrendz.app/api/nodes/emoji",
   "keywords": [
-    "inkflow",
+    "digitaltrendz",
     "inkflow extension"
   ],
   "license": "MIT",
@@ -36,9 +36,9 @@
     "dist"
   ],
   "peerDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/pm": "workspace:^",
-    "@inkflow/suggestion": "workspace:^"
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
+    "@digitaltrendz/suggestion": "workspace:^"
   },
   "dependencies": {
     "emoji-regex": "^10.4.0",
@@ -46,9 +46,9 @@
     "is-emoji-supported": "^0.0.5"
   },
   "devDependencies": {
-    "@inkflow/core": "workspace:^",
-    "@inkflow/pm": "workspace:^",
-    "@inkflow/suggestion": "workspace:^",
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
+    "@digitaltrendz/suggestion": "workspace:^",
     "emoji-datasource": "^7.0.2",
     "json5": "^2.2.3",
     "tsm": "^2.3.0"

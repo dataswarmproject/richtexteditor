@@ -1,4 +1,4 @@
-import { Plugin, PluginKey } from '@inkflow/pm/state'
+import { Plugin, PluginKey } from '@digitaltrendz/pm/state'
 
 import type { FileHandlePluginOptions } from './types.js'
 

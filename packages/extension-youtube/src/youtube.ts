@@ -1,4 +1,4 @@
-import { createAtomBlockMarkdownSpec, mergeAttributes, Node, nodePasteRule } from '@inkflow/core'
+import { createAtomBlockMarkdownSpec, mergeAttributes, Node, nodePasteRule } from '@digitaltrendz/core'
 
 import { getEmbedUrlFromYoutubeUrl, isValidYoutubeUrl, YOUTUBE_REGEX_GLOBAL } from './utils.js'
 
@@ -163,7 +163,7 @@ export interface YoutubeOptions {
  */
 type SetYoutubeVideoOptions = { src: string; width?: number; height?: number; start?: number }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     youtube: {
       /**

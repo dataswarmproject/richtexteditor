@@ -21,9 +21,9 @@
 </template>
 
 <script>
-import Image from '@inkflow/extension-image'
-import StarterKit from '@inkflow/starter-kit'
-import { Editor, EditorContent } from '@inkflow/vue-3'
+import Image from '@digitaltrendz/extension-image'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 import { Figure } from './figure.ts'
 

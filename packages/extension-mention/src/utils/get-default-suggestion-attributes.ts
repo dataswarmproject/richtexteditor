@@ -1,6 +1,6 @@
-import type { Editor } from '@inkflow/core'
-import { PluginKey } from '@inkflow/pm/state'
-import type { SuggestionOptions } from '@inkflow/suggestion'
+import type { Editor } from '@digitaltrendz/core'
+import { PluginKey } from '@digitaltrendz/pm/state'
+import type { SuggestionOptions } from '@digitaltrendz/suggestion'
 
 /**
  * Arguments for the `getSuggestionOptions` function

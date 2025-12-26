@@ -1,11 +1,11 @@
-import { lift as originalLift } from '@inkflow/pm/commands'
-import type { NodeType } from '@inkflow/pm/model'
+import { lift as originalLift } from '@digitaltrendz/pm/commands'
+import type { NodeType } from '@digitaltrendz/pm/model'
 
 import { getNodeType } from '../helpers/getNodeType.js'
 import { isNodeActive } from '../helpers/isNodeActive.js'
 import type { RawCommands } from '../types.js'
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     lift: {
       /**

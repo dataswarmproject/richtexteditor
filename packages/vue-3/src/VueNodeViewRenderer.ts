@@ -1,8 +1,8 @@
 /* eslint-disable no-underscore-dangle */
-import type { DecorationWithType, NodeViewProps, NodeViewRenderer, NodeViewRendererOptions } from '@inkflow/core'
-import { NodeView } from '@inkflow/core'
-import type { Node as ProseMirrorNode } from '@inkflow/pm/model'
-import type { Decoration, DecorationSource, NodeView as ProseMirrorNodeView } from '@inkflow/pm/view'
+import type { DecorationWithType, NodeViewProps, NodeViewRenderer, NodeViewRendererOptions } from '@digitaltrendz/core'
+import { NodeView } from '@digitaltrendz/core'
+import type { Node as ProseMirrorNode } from '@digitaltrendz/pm/model'
+import type { Decoration, DecorationSource, NodeView as ProseMirrorNodeView } from '@digitaltrendz/pm/view'
 import type { Component, PropType, Ref } from 'vue'
 import { defineComponent, provide, ref } from 'vue'
 

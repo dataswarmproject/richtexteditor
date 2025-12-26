@@ -1,5 +1,5 @@
-import type { Editor } from '@inkflow/core'
-import type { Node } from '@inkflow/pm/model'
+import type { Editor } from '@digitaltrendz/core'
+import type { Node } from '@digitaltrendz/pm/model'
 
 export type GetTableOfContentLevelFunction = (
   headline: { node: Node; pos: number },
@@ -44,7 +44,7 @@ export type TableOfContentDataItem = {
   textContent: string
 }
 
-declare module '@inkflow/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     tableOfContents: {
       updateTableOfContents: () => ReturnType
