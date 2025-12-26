@@ -2,12 +2,12 @@
  * @vitest-environment happy-dom
  */
 
-import { Document } from '@tiptap/extension-document'
-import { Heading } from '@tiptap/extension-heading'
-import { Italic } from '@tiptap/extension-italic'
-import { Paragraph } from '@tiptap/extension-paragraph'
-import { Text } from '@tiptap/extension-text'
-import { MarkdownManager } from '@tiptap/markdown'
+import { Document } from '@digitaltrendz/extension-document'
+import { Heading } from '@digitaltrendz/extension-heading'
+import { Italic } from '@digitaltrendz/extension-italic'
+import { Paragraph } from '@digitaltrendz/extension-paragraph'
+import { Text } from '@digitaltrendz/extension-text'
+import { MarkdownManager } from '@digitaltrendz/markdown'
 import { beforeEach, describe, expect, it } from 'vitest'
 
 describe('MarkdownManager Mixed Markdown + HTML', () => {

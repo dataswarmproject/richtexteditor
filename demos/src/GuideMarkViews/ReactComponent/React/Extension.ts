@@ -1,5 +1,5 @@
-import { Mark } from '@tiptap/core'
-import { ReactMarkViewRenderer } from '@tiptap/react'
+import { Mark } from '@digitaltrendz/core'
+import { ReactMarkViewRenderer } from '@digitaltrendz/react'
 
 import Component from './Component.js'
 

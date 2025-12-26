@@ -15,10 +15,10 @@
 </template>
 
 <script>
-import { Details, DetailsContent, DetailsSummary } from '@tiptap/extension-details'
-import { Placeholder } from '@tiptap/extensions'
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import { Details, DetailsContent, DetailsSummary } from '@digitaltrendz/extension-details'
+import { Placeholder } from '@digitaltrendz/extensions'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

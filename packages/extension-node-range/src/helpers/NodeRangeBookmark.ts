@@ -1,5 +1,5 @@
-import type { Node as ProseMirrorNode } from '@tiptap/pm/model'
-import type { Mappable } from '@tiptap/pm/transform'
+import type { Node as ProseMirrorNode } from '@digitaltrendz/pm/model'
+import type { Mappable } from '@digitaltrendz/pm/transform'
 
 import { NodeRangeSelection } from './NodeRangeSelection.js'
 

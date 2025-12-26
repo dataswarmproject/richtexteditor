@@ -1,6 +1,6 @@
-import type { Editor } from '@tiptap/core'
-import type { MarkType } from '@tiptap/pm/model'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
+import type { Editor } from '@digitaltrendz/core'
+import type { MarkType } from '@digitaltrendz/pm/model'
+import { Plugin, PluginKey } from '@digitaltrendz/pm/state'
 import { find } from 'linkifyjs'
 
 import type { LinkOptions } from '../link.js'

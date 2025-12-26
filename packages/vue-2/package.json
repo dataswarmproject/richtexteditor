@@ -1,16 +1,16 @@
 {
-  "name": "@tiptap/vue-2",
+  "name": "@digitaltrendz/vue-2",
   "description": "Vue components for tiptap",
   "version": "3.14.0",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "tiptap",
-    "tiptap vue components"
+    "digitaltrendz",
+    "inkflow vue components"
   ],
   "license": "MIT",
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/ueberdosis"
+    "url": "https://github.com/sponsors/digital-trendz"
   },
   "exports": {
     ".": {
@@ -42,27 +42,35 @@
     "vue-ts-types": "1.6.2"
   },
   "devDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^",
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
     "vue": "^2.7.16"
   },
   "optionalDependencies": {
-    "@tiptap/extension-bubble-menu": "workspace:^",
-    "@tiptap/extension-floating-menu": "workspace:^"
+    "@digitaltrendz/extension-bubble-menu": "workspace:^",
+    "@digitaltrendz/extension-floating-menu": "workspace:^"
   },
   "peerDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^",
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^",
     "vue": "^2.6.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/digital-trendz/inkflow",
     "directory": "packages/vue-2"
   },
   "sideEffects": false,
   "scripts": {
     "build": "tsup",
     "lint": "prettier ./src/ --check && eslint --cache --quiet --no-error-on-unmatched-pattern ./src/"
+  },
+  "author": "Digital Trendz <hello@digital-trendz.net> (https://digital-trendz.net)",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/digital-trendz/inkflow/issues"
   }
 }

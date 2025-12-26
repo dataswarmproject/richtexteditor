@@ -1,5 +1,5 @@
-import type { FloatingMenuPluginProps } from '@tiptap/extension-floating-menu'
-import { FloatingMenuPlugin } from '@tiptap/extension-floating-menu'
+import type { FloatingMenuPluginProps } from '@digitaltrendz/extension-floating-menu'
+import { FloatingMenuPlugin } from '@digitaltrendz/extension-floating-menu'
 import type { Component, CreateElement, PropType } from 'vue'
 import type Vue from 'vue'
 

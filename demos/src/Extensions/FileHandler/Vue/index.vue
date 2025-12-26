@@ -3,13 +3,13 @@
 </template>
 
 <script>
-import Document from '@tiptap/extension-document'
-import FileHandler from '@tiptap/extension-file-handler'
-import Heading from '@tiptap/extension-heading'
-import Image from '@tiptap/extension-image'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Document from '@digitaltrendz/extension-document'
+import FileHandler from '@digitaltrendz/extension-file-handler'
+import Heading from '@digitaltrendz/extension-heading'
+import Image from '@digitaltrendz/extension-image'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 import { defineComponent } from 'vue'
 
 export default defineComponent({

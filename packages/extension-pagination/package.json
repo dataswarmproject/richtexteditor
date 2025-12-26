@@ -1,10 +1,10 @@
 {
-  "name": "@tiptap/extension-pagination",
+  "name": "@digitaltrendz/extension-pagination",
   "description": "Google Docs-like pagination extension for tiptap",
   "version": "3.14.0",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "tiptap",
+    "digitaltrendz",
     "pagination",
     "page-break",
     "document",
@@ -30,17 +30,25 @@
     "dist"
   ],
   "dependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^"
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/digital-trendz/inkflow",
     "directory": "packages/extension-pagination"
   },
   "sideEffects": false,
   "scripts": {
     "build": "tsup",
     "lint": "prettier ./src/ --check && eslint --cache --quiet --no-error-on-unmatched-pattern ./src/"
+  },
+  "author": "Digital Trendz <hello@digital-trendz.net> (https://digital-trendz.net)",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/digital-trendz/inkflow/issues"
   }
 }

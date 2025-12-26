@@ -1,8 +1,8 @@
 import { useCallback, useMemo, useRef, useEffect } from 'react'
-import { useEditor, type Editor } from '@tiptap/react'
-import type { Content, Extensions } from '@tiptap/core'
+import { useEditor, type Editor } from '@digitaltrendz/react'
+import type { Content, Extensions } from '@digitaltrendz/core'
 import { AIDocumentEditorKit, type AIDocumentEditorKitOptions } from './extensions.js'
-import type { AIProviderInterface, AIAssistantState } from '@tiptap/extension-ai-assistant'
+import type { AIProviderInterface, AIAssistantState } from '@digitaltrendz/extension-ai-assistant'
 
 export interface UseAIDocumentEditorOptions {
   /**

@@ -326,97 +326,249 @@ importers:
 
   packages-deprecated/extension-character-count:
     devDependencies:
-      '@tiptap/extensions':
+      '@digitaltrendz/extensions':
         specifier: workspace:^
         version: link:../../packages/extensions
 
   packages-deprecated/extension-dropcursor:
     devDependencies:
-      '@tiptap/extensions':
+      '@digitaltrendz/extensions':
         specifier: workspace:^
         version: link:../../packages/extensions
 
   packages-deprecated/extension-focus:
     devDependencies:
-      '@tiptap/extensions':
+      '@digitaltrendz/extensions':
         specifier: workspace:^
         version: link:../../packages/extensions
 
   packages-deprecated/extension-gapcursor:
     devDependencies:
-      '@tiptap/extensions':
+      '@digitaltrendz/extensions':
         specifier: workspace:^
         version: link:../../packages/extensions
 
   packages-deprecated/extension-history:
     devDependencies:
-      '@tiptap/extensions':
+      '@digitaltrendz/extensions':
         specifier: workspace:^
         version: link:../../packages/extensions
 
   packages-deprecated/extension-list-item:
     devDependencies:
-      '@tiptap/extension-list':
+      '@digitaltrendz/extension-list':
         specifier: workspace:^
         version: link:../../packages/extension-list
 
   packages-deprecated/extension-list-keymap:
     devDependencies:
-      '@tiptap/extension-list':
+      '@digitaltrendz/extension-list':
         specifier: workspace:^
         version: link:../../packages/extension-list
 
   packages-deprecated/extension-placeholder:
     devDependencies:
-      '@tiptap/extensions':
+      '@digitaltrendz/extensions':
         specifier: workspace:^
         version: link:../../packages/extensions
 
   packages-deprecated/extension-table-cell:
     devDependencies:
-      '@tiptap/extension-table':
+      '@digitaltrendz/extension-table':
         specifier: workspace:^
         version: link:../../packages/extension-table
 
   packages-deprecated/extension-table-header:
     devDependencies:
-      '@tiptap/extension-table':
+      '@digitaltrendz/extension-table':
         specifier: workspace:^
         version: link:../../packages/extension-table
 
   packages-deprecated/extension-table-row:
     devDependencies:
-      '@tiptap/extension-table':
+      '@digitaltrendz/extension-table':
         specifier: workspace:^
         version: link:../../packages/extension-table
 
   packages-deprecated/extension-task-item:
     devDependencies:
-      '@tiptap/extension-list':
+      '@digitaltrendz/extension-list':
         specifier: workspace:^
         version: link:../../packages/extension-list
 
   packages-deprecated/extension-task-list:
     devDependencies:
-      '@tiptap/extension-list':
+      '@digitaltrendz/extension-list':
         specifier: workspace:^
         version: link:../../packages/extension-list
 
+  packages/ai-document-editor:
+    dependencies:
+      '@digitaltrendz/core':
+        specifier: workspace:^
+        version: link:../core
+      '@digitaltrendz/extension-ai-assistant':
+        specifier: workspace:^
+        version: link:../extension-ai-assistant
+      '@digitaltrendz/extension-blockquote':
+        specifier: workspace:^
+        version: link:../extension-blockquote
+      '@digitaltrendz/extension-bold':
+        specifier: workspace:^
+        version: link:../extension-bold
+      '@digitaltrendz/extension-bullet-list':
+        specifier: workspace:^
+        version: link:../extension-bullet-list
+      '@digitaltrendz/extension-code':
+        specifier: workspace:^
+        version: link:../extension-code
+      '@digitaltrendz/extension-code-block':
+        specifier: workspace:^
+        version: link:../extension-code-block
+      '@digitaltrendz/extension-collaboration':
+        specifier: workspace:^
+        version: link:../extension-collaboration
+      '@digitaltrendz/extension-document':
+        specifier: workspace:^
+        version: link:../extension-document
+      '@digitaltrendz/extension-dropcursor':
+        specifier: workspace:^
+        version: link:../../packages-deprecated/extension-dropcursor
+      '@digitaltrendz/extension-floating-menu':
+        specifier: workspace:^
+        version: link:../extension-floating-menu
+      '@digitaltrendz/extension-gapcursor':
+        specifier: workspace:^
+        version: link:../../packages-deprecated/extension-gapcursor
+      '@digitaltrendz/extension-hard-break':
+        specifier: workspace:^
+        version: link:../extension-hard-break
+      '@digitaltrendz/extension-heading':
+        specifier: workspace:^
+        version: link:../extension-heading
+      '@digitaltrendz/extension-highlight':
+        specifier: workspace:^
+        version: link:../extension-highlight
+      '@digitaltrendz/extension-horizontal-rule':
+        specifier: workspace:^
+        version: link:../extension-horizontal-rule
+      '@digitaltrendz/extension-image':
+        specifier: workspace:^
+        version: link:../extension-image
+      '@digitaltrendz/extension-italic':
+        specifier: workspace:^
+        version: link:../extension-italic
+      '@digitaltrendz/extension-link':
+        specifier: workspace:^
+        version: link:../extension-link
+      '@digitaltrendz/extension-list':
+        specifier: workspace:^
+        version: link:../extension-list
+      '@digitaltrendz/extension-list-item':
+        specifier: workspace:^
+        version: link:../../packages-deprecated/extension-list-item
+      '@digitaltrendz/extension-ordered-list':
+        specifier: workspace:^
+        version: link:../extension-ordered-list
+      '@digitaltrendz/extension-pagination':
+        specifier: workspace:^
+        version: link:../extension-pagination
+      '@digitaltrendz/extension-paragraph':
+        specifier: workspace:^
+        version: link:../extension-paragraph
+      '@digitaltrendz/extension-placeholder':
+        specifier: workspace:^
+        version: link:../../packages-deprecated/extension-placeholder
+      '@digitaltrendz/extension-strike':
+        specifier: workspace:^
+        version: link:../extension-strike
+      '@digitaltrendz/extension-table':
+        specifier: workspace:^
+        version: link:../extension-table
+      '@digitaltrendz/extension-task-item':
+        specifier: workspace:^
+        version: link:../../packages-deprecated/extension-task-item
+      '@digitaltrendz/extension-task-list':
+        specifier: workspace:^
+        version: link:../../packages-deprecated/extension-task-list
+      '@digitaltrendz/extension-text':
+        specifier: workspace:^
+        version: link:../extension-text
+      '@digitaltrendz/extension-text-align':
+        specifier: workspace:^
+        version: link:../extension-text-align
+      '@digitaltrendz/extension-text-style':
+        specifier: workspace:^
+        version: link:../extension-text-style
+      '@digitaltrendz/extension-typography':
+        specifier: workspace:^
+        version: link:../extension-typography
+      '@digitaltrendz/extension-underline':
+        specifier: workspace:^
+        version: link:../extension-underline
+      '@digitaltrendz/extensions':
+        specifier: workspace:^
+        version: link:../extensions
+      '@digitaltrendz/pm':
+        specifier: workspace:^
+        version: link:../pm
+      '@digitaltrendz/react':
+        specifier: workspace:^
+        version: link:../react
+    devDependencies:
+      '@types/react':
+        specifier: ^19.0.0
+        version: 19.1.6
+      '@types/react-dom':
+        specifier: ^19.0.0
+        version: 19.1.5(@types/react@19.1.6)
+      react:
+        specifier: ^19.0.0
+        version: 19.1.0
+      react-dom:
+        specifier: ^19.0.0
+        version: 19.1.0(react@19.1.0)
+
   packages/core:
     devDependencies:
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
 
+  packages/extension-ai-assistant:
+    dependencies:
+      '@digitaltrendz/core':
+        specifier: workspace:^
+        version: link:../core
+      '@digitaltrendz/pm':
+        specifier: workspace:^
+        version: link:../pm
+      '@floating-ui/dom':
+        specifier: ^1.6.5
+        version: 1.7.4
+    devDependencies:
+      '@types/react':
+        specifier: ^19.0.0
+        version: 19.1.6
+      '@types/react-dom':
+        specifier: ^19.0.0
+        version: 19.1.5(@types/react@19.1.6)
+      react:
+        specifier: ^19.0.0
+        version: 19.1.0
+      react-dom:
+        specifier: ^19.0.0
+        version: 19.1.0(react@19.1.0)
+
   packages/extension-blockquote:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
 
   packages/extension-bold:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
 
@@ -426,31 +578,31 @@ importers:
         specifier: ^1.0.0
         version: 1.6.13
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
 
   packages/extension-bullet-list:
     devDependencies:
-      '@tiptap/extension-list':
+      '@digitaltrendz/extension-list':
         specifier: workspace:^
         version: link:../extension-list
 
   packages/extension-code:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
 
   packages/extension-code-block:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
 
@@ -460,13 +612,13 @@ importers:
         specifier: ^11
         version: 11.11.1
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/extension-code-block':
+      '@digitaltrendz/extension-code-block':
         specifier: workspace:^
         version: link:../extension-code-block
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
       lowlight:
@@ -479,10 +631,10 @@ importers:
         specifier: ^13
         version: 13.6.23
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
       '@tiptap/y-tiptap':
@@ -491,10 +643,10 @@ importers:
 
   packages/extension-collaboration-caret:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
       '@tiptap/y-tiptap':
@@ -503,25 +655,25 @@ importers:
 
   packages/extension-color:
     devDependencies:
-      '@tiptap/extension-text-style':
+      '@digitaltrendz/extension-text-style':
         specifier: workspace:^
         version: link:../extension-text-style
 
   packages/extension-details:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/extension-text-style':
+      '@digitaltrendz/extension-text-style':
         specifier: workspace:^
         version: link:../extension-text-style
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
 
   packages/extension-document:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
 
@@ -531,16 +683,16 @@ importers:
         specifier: ^1.6.13
         version: 1.6.13
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/extension-collaboration':
+      '@digitaltrendz/extension-collaboration':
         specifier: workspace:^
         version: link:../extension-collaboration
-      '@tiptap/extension-node-range':
+      '@digitaltrendz/extension-node-range':
         specifier: workspace:^
         version: link:../extension-node-range
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
       '@tiptap/y-tiptap':
@@ -549,13 +701,13 @@ importers:
 
   packages/extension-drag-handle-react:
     devDependencies:
-      '@tiptap/extension-drag-handle':
+      '@digitaltrendz/extension-drag-handle':
         specifier: workspace:^
         version: link:../extension-drag-handle
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
-      '@tiptap/react':
+      '@digitaltrendz/react':
         specifier: workspace:^
         version: link:../react
       '@types/react':
@@ -573,13 +725,13 @@ importers:
 
   packages/extension-drag-handle-vue-2:
     devDependencies:
-      '@tiptap/extension-drag-handle':
+      '@digitaltrendz/extension-drag-handle':
         specifier: workspace:^
         version: link:../extension-drag-handle
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
-      '@tiptap/vue-2':
+      '@digitaltrendz/vue-2':
         specifier: workspace:^
         version: link:../vue-2
       vue:
@@ -591,13 +743,13 @@ importers:
 
   packages/extension-drag-handle-vue-3:
     devDependencies:
-      '@tiptap/extension-drag-handle':
+      '@digitaltrendz/extension-drag-handle':
         specifier: workspace:^
         version: link:../extension-drag-handle
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
-      '@tiptap/vue-3':
+      '@digitaltrendz/vue-3':
         specifier: workspace:^
         version: link:../vue-3
       vue:
@@ -616,13 +768,13 @@ importers:
         specifier: ^0.0.5
         version: 0.0.5
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
-      '@tiptap/suggestion':
+      '@digitaltrendz/suggestion':
         specifier: workspace:^
         version: link:../suggestion
       emoji-datasource:
@@ -637,82 +789,82 @@ importers:
 
   packages/extension-file-handler:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/extension-text-style':
+      '@digitaltrendz/extension-text-style':
         specifier: workspace:^
         version: link:../extension-text-style
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
 
   packages/extension-floating-menu:
     devDependencies:
+      '@digitaltrendz/core':
+        specifier: workspace:^
+        version: link:../core
+      '@digitaltrendz/pm':
+        specifier: workspace:^
+        version: link:../pm
       '@floating-ui/dom':
         specifier: ^1.6.12
         version: 1.6.13
-      '@tiptap/core':
-        specifier: workspace:^
-        version: link:../core
-      '@tiptap/pm':
-        specifier: workspace:^
-        version: link:../pm
 
   packages/extension-font-family:
     devDependencies:
-      '@tiptap/extension-text-style':
+      '@digitaltrendz/extension-text-style':
         specifier: workspace:^
         version: link:../extension-text-style
 
   packages/extension-hard-break:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
 
   packages/extension-heading:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
 
   packages/extension-highlight:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
 
   packages/extension-horizontal-rule:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
 
   packages/extension-image:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
 
   packages/extension-invisible-characters:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/extension-text-style':
+      '@digitaltrendz/extension-text-style':
         specifier: workspace:^
         version: link:../extension-text-style
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
 
   packages/extension-italic:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
 
@@ -722,19 +874,19 @@ importers:
         specifier: ^4.3.2
         version: 4.3.2
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
 
   packages/extension-list:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
 
@@ -744,10 +896,10 @@ importers:
         specifier: ^0.16.4
         version: 0.16.22
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
       '@types/katex':
@@ -756,67 +908,76 @@ importers:
 
   packages/extension-mention:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
-      '@tiptap/suggestion':
+      '@digitaltrendz/suggestion':
         specifier: workspace:^
         version: link:../suggestion
 
   packages/extension-node-range:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
 
   packages/extension-ordered-list:
     devDependencies:
-      '@tiptap/extension-list':
+      '@digitaltrendz/extension-list':
         specifier: workspace:^
         version: link:../extension-list
 
+  packages/extension-pagination:
+    dependencies:
+      '@digitaltrendz/core':
+        specifier: workspace:^
+        version: link:../core
+      '@digitaltrendz/pm':
+        specifier: workspace:^
+        version: link:../pm
+
   packages/extension-paragraph:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
 
   packages/extension-strike:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
 
   packages/extension-subscript:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
 
   packages/extension-superscript:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
 
   packages/extension-table:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
 
@@ -826,10 +987,10 @@ importers:
         specifier: ^10.0.0
         version: 10.0.0
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
       '@types/uuid':
@@ -838,37 +999,37 @@ importers:
 
   packages/extension-text:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
 
   packages/extension-text-align:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
 
   packages/extension-text-style:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
 
   packages/extension-twitch:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
 
   packages/extension-typography:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
 
   packages/extension-underline:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
 
@@ -878,10 +1039,10 @@ importers:
         specifier: ^10.0.0
         version: 10.0.0
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
       '@types/uuid':
@@ -890,25 +1051,25 @@ importers:
 
   packages/extension-youtube:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
 
   packages/extensions:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
 
   packages/html:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
       happy-dom:
@@ -921,10 +1082,10 @@ importers:
         specifier: ^15.0.12
         version: 15.0.12
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
 
@@ -997,17 +1158,17 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0(react@19.1.0)
     optionalDependencies:
-      '@tiptap/extension-bubble-menu':
+      '@digitaltrendz/extension-bubble-menu':
         specifier: workspace:^
         version: link:../extension-bubble-menu
-      '@tiptap/extension-floating-menu':
+      '@digitaltrendz/extension-floating-menu':
         specifier: workspace:^
         version: link:../extension-floating-menu
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
       '@types/react':
@@ -1025,85 +1186,85 @@ importers:
 
   packages/starter-kit:
     dependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/extension-blockquote':
+      '@digitaltrendz/extension-blockquote':
         specifier: workspace:^
         version: link:../extension-blockquote
-      '@tiptap/extension-bold':
+      '@digitaltrendz/extension-bold':
         specifier: workspace:^
         version: link:../extension-bold
-      '@tiptap/extension-bullet-list':
+      '@digitaltrendz/extension-bullet-list':
         specifier: workspace:^
         version: link:../extension-bullet-list
-      '@tiptap/extension-code':
+      '@digitaltrendz/extension-code':
         specifier: workspace:^
         version: link:../extension-code
-      '@tiptap/extension-code-block':
+      '@digitaltrendz/extension-code-block':
         specifier: workspace:^
         version: link:../extension-code-block
-      '@tiptap/extension-document':
+      '@digitaltrendz/extension-document':
         specifier: workspace:^
         version: link:../extension-document
-      '@tiptap/extension-dropcursor':
+      '@digitaltrendz/extension-dropcursor':
         specifier: workspace:^
         version: link:../../packages-deprecated/extension-dropcursor
-      '@tiptap/extension-gapcursor':
+      '@digitaltrendz/extension-gapcursor':
         specifier: workspace:^
         version: link:../../packages-deprecated/extension-gapcursor
-      '@tiptap/extension-hard-break':
+      '@digitaltrendz/extension-hard-break':
         specifier: workspace:^
         version: link:../extension-hard-break
-      '@tiptap/extension-heading':
+      '@digitaltrendz/extension-heading':
         specifier: workspace:^
         version: link:../extension-heading
-      '@tiptap/extension-horizontal-rule':
+      '@digitaltrendz/extension-horizontal-rule':
         specifier: workspace:^
         version: link:../extension-horizontal-rule
-      '@tiptap/extension-italic':
+      '@digitaltrendz/extension-italic':
         specifier: workspace:^
         version: link:../extension-italic
-      '@tiptap/extension-link':
+      '@digitaltrendz/extension-link':
         specifier: workspace:^
         version: link:../extension-link
-      '@tiptap/extension-list':
+      '@digitaltrendz/extension-list':
         specifier: workspace:^
         version: link:../extension-list
-      '@tiptap/extension-list-item':
+      '@digitaltrendz/extension-list-item':
         specifier: workspace:^
         version: link:../../packages-deprecated/extension-list-item
-      '@tiptap/extension-list-keymap':
+      '@digitaltrendz/extension-list-keymap':
         specifier: workspace:^
         version: link:../../packages-deprecated/extension-list-keymap
-      '@tiptap/extension-ordered-list':
+      '@digitaltrendz/extension-ordered-list':
         specifier: workspace:^
         version: link:../extension-ordered-list
-      '@tiptap/extension-paragraph':
+      '@digitaltrendz/extension-paragraph':
         specifier: workspace:^
         version: link:../extension-paragraph
-      '@tiptap/extension-strike':
+      '@digitaltrendz/extension-strike':
         specifier: workspace:^
         version: link:../extension-strike
-      '@tiptap/extension-text':
+      '@digitaltrendz/extension-text':
         specifier: workspace:^
         version: link:../extension-text
-      '@tiptap/extension-underline':
+      '@digitaltrendz/extension-underline':
         specifier: workspace:^
         version: link:../extension-underline
-      '@tiptap/extensions':
+      '@digitaltrendz/extensions':
         specifier: workspace:^
         version: link:../extensions
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
 
   packages/static-renderer:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
       '@types/react':
@@ -1121,10 +1282,10 @@ importers:
 
   packages/suggestion:
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
 
@@ -1134,17 +1295,17 @@ importers:
         specifier: 1.6.2
         version: 1.6.2(vue@2.7.16)
     optionalDependencies:
-      '@tiptap/extension-bubble-menu':
+      '@digitaltrendz/extension-bubble-menu':
         specifier: workspace:^
         version: link:../extension-bubble-menu
-      '@tiptap/extension-floating-menu':
+      '@digitaltrendz/extension-floating-menu':
         specifier: workspace:^
         version: link:../extension-floating-menu
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
       vue:
@@ -1157,17 +1318,17 @@ importers:
         specifier: ^1.0.0
         version: 1.6.13
     optionalDependencies:
-      '@tiptap/extension-bubble-menu':
+      '@digitaltrendz/extension-bubble-menu':
         specifier: workspace:^
         version: link:../extension-bubble-menu
-      '@tiptap/extension-floating-menu':
+      '@digitaltrendz/extension-floating-menu':
         specifier: workspace:^
         version: link:../extension-floating-menu
     devDependencies:
-      '@tiptap/core':
+      '@digitaltrendz/core':
         specifier: workspace:^
         version: link:../core
-      '@tiptap/pm':
+      '@digitaltrendz/pm':
         specifier: workspace:^
         version: link:../pm
       vue:

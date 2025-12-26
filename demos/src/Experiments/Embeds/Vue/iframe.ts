@@ -1,4 +1,4 @@
-import { Node } from '@tiptap/core'
+import { Node } from '@digitaltrendz/core'
 
 export interface IframeOptions {
   allowFullscreen: boolean
@@ -7,7 +7,7 @@ export interface IframeOptions {
   }
 }
 
-declare module '@tiptap/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     iframe: {
       /**

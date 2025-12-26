@@ -1,5 +1,5 @@
-import type { ColorOptions } from '@tiptap/extension-text-style'
-import { Color } from '@tiptap/extension-text-style'
+import type { ColorOptions } from '@digitaltrendz/extension-text-style'
+import { Color } from '@digitaltrendz/extension-text-style'
 
 export { Color, ColorOptions }
 

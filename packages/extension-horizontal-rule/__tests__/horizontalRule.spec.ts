@@ -1,9 +1,9 @@
-import { Editor } from '@tiptap/core'
-import Document from '@tiptap/extension-document'
-import HorizontalRule from '@tiptap/extension-horizontal-rule'
-import Image from '@tiptap/extension-image'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
+import { Editor } from '@digitaltrendz/core'
+import Document from '@digitaltrendz/extension-document'
+import HorizontalRule from '@digitaltrendz/extension-horizontal-rule'
+import Image from '@digitaltrendz/extension-image'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
 import { describe, expect, it } from 'vitest'
 
 describe('extension-horizontal-rule', () => {

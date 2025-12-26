@@ -1,5 +1,5 @@
-import { Extension } from '@tiptap/core'
-import type { DecorationAttrs } from '@tiptap/pm/view'
+import { Extension } from '@digitaltrendz/core'
+import type { DecorationAttrs } from '@digitaltrendz/pm/view'
 import { defaultSelectionBuilder, yCursorPlugin } from '@tiptap/y-tiptap'
 
 type CollaborationCaretStorage = {
@@ -60,7 +60,7 @@ export interface CollaborationCaretOptions {
   onUpdate: (users: { clientId: number; [key: string]: any }[]) => null
 }
 
-declare module '@tiptap/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     collaborationCaret: {
       /**

@@ -1,8 +1,8 @@
-import type { NodeConfig } from '@tiptap/core'
-import { generateText, Node } from '@tiptap/core'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
+import type { NodeConfig } from '@digitaltrendz/core'
+import { generateText, Node } from '@digitaltrendz/core'
+import Document from '@digitaltrendz/extension-document'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
 import { describe, expect, it } from 'vitest'
 
 describe(generateText.name, () => {

@@ -1,39 +1,37 @@
-import { Extension } from '@tiptap/core'
-
+import { type AnyExtension,Extension } from '@digitaltrendz/core'
+import { type AIAssistantOptions,AIAssistant } from '@digitaltrendz/extension-ai-assistant'
+import Blockquote from '@digitaltrendz/extension-blockquote'
+import Bold from '@digitaltrendz/extension-bold'
+import BulletList from '@digitaltrendz/extension-bullet-list'
+import Code from '@digitaltrendz/extension-code'
+import CodeBlock from '@digitaltrendz/extension-code-block'
 // Core extensions
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import Heading from '@tiptap/extension-heading'
-import Bold from '@tiptap/extension-bold'
-import Italic from '@tiptap/extension-italic'
-import Underline from '@tiptap/extension-underline'
-import Strike from '@tiptap/extension-strike'
-import Code from '@tiptap/extension-code'
-import CodeBlock from '@tiptap/extension-code-block'
-import Blockquote from '@tiptap/extension-blockquote'
-import BulletList from '@tiptap/extension-bullet-list'
-import OrderedList from '@tiptap/extension-ordered-list'
-import ListItem from '@tiptap/extension-list-item'
-import Link from '@tiptap/extension-link'
-import Image from '@tiptap/extension-image'
-import HardBreak from '@tiptap/extension-hard-break'
-import HorizontalRule from '@tiptap/extension-horizontal-rule'
-import Dropcursor from '@tiptap/extension-dropcursor'
-import Gapcursor from '@tiptap/extension-gapcursor'
-import Highlight from '@tiptap/extension-highlight'
-import TextAlign from '@tiptap/extension-text-align'
-import TextStyle from '@tiptap/extension-text-style'
-import Typography from '@tiptap/extension-typography'
-import Table from '@tiptap/extension-table'
-import TaskList from '@tiptap/extension-task-list'
-import TaskItem from '@tiptap/extension-task-item'
-import Placeholder from '@tiptap/extension-placeholder'
-import FloatingMenu from '@tiptap/extension-floating-menu'
-
+import Document from '@digitaltrendz/extension-document'
+import Dropcursor from '@digitaltrendz/extension-dropcursor'
+import FloatingMenu from '@digitaltrendz/extension-floating-menu'
+import Gapcursor from '@digitaltrendz/extension-gapcursor'
+import HardBreak from '@digitaltrendz/extension-hard-break'
+import Heading from '@digitaltrendz/extension-heading'
+import Highlight from '@digitaltrendz/extension-highlight'
+import HorizontalRule from '@digitaltrendz/extension-horizontal-rule'
+import Image from '@digitaltrendz/extension-image'
+import Italic from '@digitaltrendz/extension-italic'
+import Link from '@digitaltrendz/extension-link'
+import ListItem from '@digitaltrendz/extension-list-item'
+import OrderedList from '@digitaltrendz/extension-ordered-list'
 // AI & Pagination extensions
-import { Pagination, type PaginationOptions } from '@tiptap/extension-pagination'
-import { AIAssistant, type AIAssistantOptions } from '@tiptap/extension-ai-assistant'
+import { type PaginationOptions,Pagination } from '@digitaltrendz/extension-pagination'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Placeholder from '@digitaltrendz/extension-placeholder'
+import Strike from '@digitaltrendz/extension-strike'
+import { TableKit as Table } from '@digitaltrendz/extension-table'
+import TaskItem from '@digitaltrendz/extension-task-item'
+import TaskList from '@digitaltrendz/extension-task-list'
+import Text from '@digitaltrendz/extension-text'
+import TextAlign from '@digitaltrendz/extension-text-align'
+import { TextStyle } from '@digitaltrendz/extension-text-style'
+import Typography from '@digitaltrendz/extension-typography'
+import Underline from '@digitaltrendz/extension-underline'
 
 export interface AIDocumentEditorKitOptions {
   /**
@@ -200,7 +198,7 @@ export const AIDocumentEditorKit = Extension.create<AIDocumentEditorKitOptions>(
   name: 'aiDocumentEditorKit',
 
   addExtensions() {
-    const extensions: Extension[] = []
+    const extensions: AnyExtension[] = []
 
     // Document structure
     if (this.options.document !== false) {
@@ -216,10 +214,12 @@ export const AIDocumentEditorKit = Extension.create<AIDocumentEditorKitOptions>(
     }
 
     if (this.options.heading !== false) {
-      extensions.push(Heading.configure({
-        levels: [1, 2, 3, 4, 5, 6],
-        ...this.options.heading,
-      }))
+      extensions.push(
+        Heading.configure({
+          levels: [1, 2, 3, 4, 5, 6],
+          ...this.options.heading,
+        }),
+      )
     }
 
     // Text formatting
@@ -248,10 +248,12 @@ export const AIDocumentEditorKit = Extension.create<AIDocumentEditorKitOptions>(
     }
 
     if (this.options.highlight !== false) {
-      extensions.push(Highlight.configure({
-        multicolor: true,
-        ...this.options.highlight,
-      }))
+      extensions.push(
+        Highlight.configure({
+          multicolor: true,
+          ...this.options.highlight,
+        }),
+      )
     }
 
     // Block elements
@@ -281,27 +283,35 @@ export const AIDocumentEditorKit = Extension.create<AIDocumentEditorKitOptions>(
 
     // Links and media
     if (this.options.link !== false) {
-      extensions.push(Link.configure({
-        openOnClick: false,
-        autolink: true,
-        ...this.options.link,
-      }))
+      extensions.push(
+        Link.configure({
+          openOnClick: false,
+          autolink: true,
+          ...this.options.link,
+        }),
+      )
     }
 
     if (this.options.image !== false) {
-      extensions.push(Image.configure({
-        inline: false,
-        allowBase64: true,
-        ...this.options.image,
-      }))
+      extensions.push(
+        Image.configure({
+          inline: false,
+          allowBase64: true,
+          ...this.options.image,
+        }),
+      )
     }
 
     // Tables
     if (this.options.table !== false) {
-      extensions.push(Table.configure({
-        resizable: true,
-        ...this.options.table,
-      }))
+      extensions.push(
+        Table.configure({
+          table: {
+            resizable: true,
+            ...(typeof this.options.table === 'object' ? this.options.table : {}),
+          },
+        }),
+      )
     }
 
     // Task lists
@@ -310,18 +320,22 @@ export const AIDocumentEditorKit = Extension.create<AIDocumentEditorKitOptions>(
     }
 
     if (this.options.taskItem !== false) {
-      extensions.push(TaskItem.configure({
-        nested: true,
-        ...this.options.taskItem,
-      }))
+      extensions.push(
+        TaskItem.configure({
+          nested: true,
+          ...this.options.taskItem,
+        }),
+      )
     }
 
     // Text styling
     if (this.options.textAlign !== false) {
-      extensions.push(TextAlign.configure({
-        types: ['heading', 'paragraph'],
-        ...this.options.textAlign,
-      }))
+      extensions.push(
+        TextAlign.configure({
+          types: ['heading', 'paragraph'],
+          ...this.options.textAlign,
+        }),
+      )
     }
 
     if (this.options.textStyle !== false) {
@@ -334,11 +348,13 @@ export const AIDocumentEditorKit = Extension.create<AIDocumentEditorKitOptions>(
 
     // Utilities
     if (this.options.dropcursor !== false) {
-      extensions.push(Dropcursor.configure({
-        color: '#3b82f6',
-        width: 2,
-        ...this.options.dropcursor,
-      }))
+      extensions.push(
+        Dropcursor.configure({
+          color: '#3b82f6',
+          width: 2,
+          ...this.options.dropcursor,
+        }),
+      )
     }
 
     if (this.options.gapcursor !== false) {
@@ -346,10 +362,12 @@ export const AIDocumentEditorKit = Extension.create<AIDocumentEditorKitOptions>(
     }
 
     if (this.options.placeholder !== false) {
-      extensions.push(Placeholder.configure({
-        placeholder: 'Start writing or press / for commands...',
-        ...this.options.placeholder,
-      }))
+      extensions.push(
+        Placeholder.configure({
+          placeholder: 'Start writing or press / for commands...',
+          ...this.options.placeholder,
+        }),
+      )
     }
 
     if (this.options.floatingMenu !== false) {
@@ -358,21 +376,25 @@ export const AIDocumentEditorKit = Extension.create<AIDocumentEditorKitOptions>(
 
     // Pagination
     if (this.options.pagination !== false) {
-      extensions.push(Pagination.configure({
-        paperSize: 'letter',
-        orientation: 'portrait',
-        pageView: true,
-        ...this.options.pagination,
-      }))
+      extensions.push(
+        Pagination.configure({
+          paperSize: 'letter',
+          orientation: 'portrait',
+          pageView: true,
+          ...this.options.pagination,
+        }),
+      )
     }
 
     // AI Assistant
     if (this.options.aiAssistant !== false) {
-      extensions.push(AIAssistant.configure({
-        enableDefaultTools: true,
-        enableDefaultActions: true,
-        ...this.options.aiAssistant,
-      }))
+      extensions.push(
+        AIAssistant.configure({
+          enableDefaultTools: true,
+          enableDefaultActions: true,
+          ...this.options.aiAssistant,
+        }),
+      )
     }
 
     return extensions

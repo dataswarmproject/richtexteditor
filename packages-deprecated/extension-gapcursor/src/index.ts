@@ -1,5 +1,5 @@
-import { Gapcursor } from '@tiptap/extensions'
+import { Gapcursor } from '@digitaltrendz/extensions'
 
-export { Gapcursor } from '@tiptap/extensions'
+export { Gapcursor } from '@digitaltrendz/extensions'
 
 export default Gapcursor

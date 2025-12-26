@@ -119,10 +119,10 @@
 </template>
 
 <script>
-import { ListItem } from '@tiptap/extension-list'
-import { Color, TextStyle } from '@tiptap/extension-text-style'
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import { ListItem } from '@digitaltrendz/extension-list'
+import { Color, TextStyle } from '@digitaltrendz/extension-text-style'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

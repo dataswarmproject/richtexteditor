@@ -1,4 +1,4 @@
-import { Node, mergeAttributes } from '@tiptap/core'
+import { Node, mergeAttributes } from '@digitaltrendz/core'
 
 export interface PageOptions {
   /**
@@ -43,7 +43,7 @@ export interface PageOptions {
   backgroundColor: string
 }
 
-declare module '@tiptap/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     page: {
       /**

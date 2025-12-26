@@ -1,10 +1,10 @@
 {
-  "name": "@tiptap/extension-ai-assistant",
+  "name": "@digitaltrendz/extension-ai-assistant",
   "description": "AI-powered assistant extension with floating chat for tiptap",
   "version": "3.14.0",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "tiptap",
+    "digitaltrendz",
     "ai",
     "assistant",
     "chat",
@@ -41,8 +41,8 @@
   ],
   "dependencies": {
     "@floating-ui/dom": "^1.6.5",
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^"
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^"
   },
   "devDependencies": {
     "@types/react": "^19.0.0",
@@ -64,12 +64,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/digital-trendz/inkflow",
     "directory": "packages/extension-ai-assistant"
   },
   "sideEffects": false,
   "scripts": {
     "build": "tsup",
     "lint": "prettier ./src/ --check && eslint --cache --quiet --no-error-on-unmatched-pattern ./src/"
+  },
+  "author": "Digital Trendz <hello@digital-trendz.net> (https://digital-trendz.net)",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/digital-trendz/inkflow/issues"
   }
 }

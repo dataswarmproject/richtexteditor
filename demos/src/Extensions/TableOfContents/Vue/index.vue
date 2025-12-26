@@ -17,9 +17,9 @@
 </template>
 
 <script>
-import { getHierarchicalIndexes, TableOfContents } from '@tiptap/extension-table-of-contents'
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import { getHierarchicalIndexes, TableOfContents } from '@digitaltrendz/extension-table-of-contents'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 import { defineComponent } from 'vue'
 
 import { content as bookContent } from '../content.js'

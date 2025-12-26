@@ -1,6 +1,6 @@
-import { Extension, isNodeSelection } from '@tiptap/core'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
-import { Decoration, DecorationSet } from '@tiptap/pm/view'
+import { Extension, isNodeSelection } from '@digitaltrendz/core'
+import { Plugin, PluginKey } from '@digitaltrendz/pm/state'
+import { Decoration, DecorationSet } from '@digitaltrendz/pm/view'
 
 export type SelectionOptions = {
   /**

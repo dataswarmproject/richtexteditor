@@ -3,13 +3,13 @@
 </template>
 
 <script>
-import Collaboration from '@tiptap/extension-collaboration'
-import CollaborationCaret from '@tiptap/extension-collaboration-caret'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Placeholder } from '@tiptap/extensions'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Collaboration from '@digitaltrendz/extension-collaboration'
+import CollaborationCaret from '@digitaltrendz/extension-collaboration-caret'
+import Document from '@digitaltrendz/extension-document'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { Placeholder } from '@digitaltrendz/extensions'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 import { WebrtcProvider } from 'y-webrtc'
 import * as Y from 'yjs'
 

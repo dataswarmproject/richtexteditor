@@ -1,8 +1,8 @@
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import TextAlign from '@tiptap/extension-text-align'
-import { generateJSON } from '@tiptap/html'
+import Document from '@digitaltrendz/extension-document'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import TextAlign from '@digitaltrendz/extension-text-align'
+import { generateJSON } from '@digitaltrendz/html'
 import { describe, expect, it } from 'vitest'
 
 describe('generateJSON', () => {

@@ -1,16 +1,16 @@
 {
-  "name": "@tiptap/extension-character-count",
+  "name": "@digitaltrendz/extension-character-count",
   "description": "font family extension for tiptap",
   "version": "3.14.0",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "tiptap",
-    "tiptap extension"
+    "inkflow",
+    "inkflow extension"
   ],
   "license": "MIT",
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/ueberdosis"
+    "url": "https://github.com/sponsors/digital-trendz"
   },
   "type": "module",
   "exports": {
@@ -31,14 +31,14 @@
     "dist"
   ],
   "devDependencies": {
-    "@tiptap/extensions": "workspace:^"
+    "@digitaltrendz/extensions": "workspace:^"
   },
   "peerDependencies": {
-    "@tiptap/extensions": "workspace:^"
+    "@digitaltrendz/extensions": "workspace:^"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/digital-trendz/inkflow",
     "directory": "packages-deprecated/extension-character-count"
   },
   "scripts": {

@@ -1,9 +1,9 @@
+import type { Editor } from '@digitaltrendz/core'
+import { isChangeOrigin } from '@digitaltrendz/extension-collaboration'
+import type { Node } from '@digitaltrendz/pm/model'
+import { type EditorState, type Transaction, Plugin, PluginKey } from '@digitaltrendz/pm/state'
+import type { EditorView } from '@digitaltrendz/pm/view'
 import { type ComputePositionConfig, type VirtualElement, computePosition } from '@floating-ui/dom'
-import type { Editor } from '@tiptap/core'
-import { isChangeOrigin } from '@tiptap/extension-collaboration'
-import type { Node } from '@tiptap/pm/model'
-import { type EditorState, type Transaction, Plugin, PluginKey } from '@tiptap/pm/state'
-import type { EditorView } from '@tiptap/pm/view'
 import {
   absolutePositionToRelativePosition,
   relativePositionToAbsolutePosition,

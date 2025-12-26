@@ -1,6 +1,6 @@
-import type { Editor } from '@tiptap/core'
-import { PluginKey } from '@tiptap/pm/state'
-import type { SuggestionOptions } from '@tiptap/suggestion'
+import type { Editor } from '@digitaltrendz/core'
+import { PluginKey } from '@digitaltrendz/pm/state'
+import type { SuggestionOptions } from '@digitaltrendz/suggestion'
 
 /**
  * Arguments for the `getSuggestionOptions` function

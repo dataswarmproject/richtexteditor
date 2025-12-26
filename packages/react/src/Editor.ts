@@ -1,4 +1,4 @@
-import type { Editor } from '@tiptap/core'
+import type { Editor } from '@digitaltrendz/core'
 import type { ReactPortal } from 'react'
 
 import type { ReactRenderer } from './ReactRenderer.js'

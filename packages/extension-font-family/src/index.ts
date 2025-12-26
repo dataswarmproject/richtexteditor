@@ -1,6 +1,6 @@
-import { FontFamily } from '@tiptap/extension-text-style'
+import { FontFamily } from '@digitaltrendz/extension-text-style'
 
-export type { FontFamilyOptions } from '@tiptap/extension-text-style'
-export { FontFamily } from '@tiptap/extension-text-style'
+export type { FontFamilyOptions } from '@digitaltrendz/extension-text-style'
+export { FontFamily } from '@digitaltrendz/extension-text-style'
 
 export default FontFamily

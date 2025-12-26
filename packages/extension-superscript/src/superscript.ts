@@ -1,5 +1,5 @@
-import { Mark, mergeAttributes } from '@tiptap/core'
-import type { StyleParseRule } from '@tiptap/pm/model'
+import { Mark, mergeAttributes } from '@digitaltrendz/core'
+import type { StyleParseRule } from '@digitaltrendz/pm/model'
 
 export interface SuperscriptExtensionOptions {
   /**
@@ -10,7 +10,7 @@ export interface SuperscriptExtensionOptions {
   HTMLAttributes: Record<string, any>
 }
 
-declare module '@tiptap/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     superscript: {
       /**

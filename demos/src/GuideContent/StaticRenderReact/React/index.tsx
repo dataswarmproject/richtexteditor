@@ -1,8 +1,8 @@
-import Bold from '@tiptap/extension-bold'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { renderToReactElement } from '@tiptap/static-renderer'
+import Bold from '@digitaltrendz/extension-bold'
+import Document from '@digitaltrendz/extension-document'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { renderToReactElement } from '@digitaltrendz/static-renderer'
 import React, { useMemo } from 'react'
 
 const json = {

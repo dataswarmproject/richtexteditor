@@ -1,4 +1,4 @@
-import { inputRegex, pasteRegex } from '@tiptap/extension-emoji'
+import { inputRegex, pasteRegex } from '@digitaltrendz/extension-emoji'
 import { describe, expect, it } from 'vitest'
 
 describe('emoji extension', () => {

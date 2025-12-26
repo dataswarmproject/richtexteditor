@@ -1,6 +1,6 @@
-import { Extension } from '@tiptap/core'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
-import type { EditorView } from '@tiptap/pm/view'
+import { Extension } from '@digitaltrendz/core'
+import { Plugin, PluginKey } from '@digitaltrendz/pm/state'
+import type { EditorView } from '@digitaltrendz/pm/view'
 
 import { Page, type PageOptions } from './page.js'
 import { PageBreak, type PageBreakOptions } from './page-break.js'
@@ -67,7 +67,7 @@ const PAPER_SIZES = {
   custom: { width: '8.5in', height: '11in' },
 }
 
-declare module '@tiptap/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     pagination: {
       /**

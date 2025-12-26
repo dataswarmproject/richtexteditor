@@ -1,8 +1,8 @@
-import { joinTextblockBackward as originalCommand } from '@tiptap/pm/commands'
+import { joinTextblockBackward as originalCommand } from '@digitaltrendz/pm/commands'
 
 import type { RawCommands } from '../types.js'
 
-declare module '@tiptap/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     joinTextblockBackward: {
       /**

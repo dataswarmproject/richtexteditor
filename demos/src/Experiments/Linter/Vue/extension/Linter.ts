@@ -1,7 +1,7 @@
-import { Extension } from '@tiptap/core'
-import type { Node as ProsemirrorNode } from '@tiptap/pm/model'
-import { Plugin, PluginKey, TextSelection } from '@tiptap/pm/state'
-import { Decoration, DecorationSet } from '@tiptap/pm/view'
+import { Extension } from '@digitaltrendz/core'
+import type { Node as ProsemirrorNode } from '@digitaltrendz/pm/model'
+import { Plugin, PluginKey, TextSelection } from '@digitaltrendz/pm/state'
+import { Decoration, DecorationSet } from '@digitaltrendz/pm/view'
 
 import type { Result as Issue } from './LinterPlugin.js'
 import type LinterPlugin from './LinterPlugin.js'

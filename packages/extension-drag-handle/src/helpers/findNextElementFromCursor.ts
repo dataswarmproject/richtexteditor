@@ -1,6 +1,6 @@
-import type { Editor } from '@tiptap/core'
-import type { Node } from '@tiptap/pm/model'
-import type { EditorView } from '@tiptap/pm/view'
+import type { Editor } from '@digitaltrendz/core'
+import type { Node } from '@digitaltrendz/pm/model'
+import type { EditorView } from '@digitaltrendz/pm/view'
 
 export type FindElementNextToCoords = {
   x: number

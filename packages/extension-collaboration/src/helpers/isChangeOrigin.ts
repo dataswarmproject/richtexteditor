@@ -1,4 +1,4 @@
-import type { Transaction } from '@tiptap/pm/state'
+import type { Transaction } from '@digitaltrendz/pm/state'
 import { ySyncPluginKey } from '@tiptap/y-tiptap'
 
 /**

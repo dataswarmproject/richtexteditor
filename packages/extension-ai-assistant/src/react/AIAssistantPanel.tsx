@@ -1,5 +1,5 @@
 import React, { useCallback, useRef, useState, useEffect, type KeyboardEvent, type FormEvent } from 'react'
-import type { Editor } from '@tiptap/core'
+import type { Editor } from '@digitaltrendz/core'
 import type { AIAssistantState, ChatMessage, AIAction } from '../types.js'
 
 export interface AIAssistantPanelProps {

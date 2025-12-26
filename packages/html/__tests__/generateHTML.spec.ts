@@ -1,10 +1,10 @@
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { TextStyle } from '@tiptap/extension-text-style'
-import Youtube from '@tiptap/extension-youtube'
-import { generateHTML, generateJSON } from '@tiptap/html'
-import StarterKit from '@tiptap/starter-kit'
+import Document from '@digitaltrendz/extension-document'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { TextStyle } from '@digitaltrendz/extension-text-style'
+import Youtube from '@digitaltrendz/extension-youtube'
+import { generateHTML, generateJSON } from '@digitaltrendz/html'
+import StarterKit from '@digitaltrendz/starter-kit'
 import { describe, expect, it } from 'vitest'
 
 describe('generateHTML', () => {

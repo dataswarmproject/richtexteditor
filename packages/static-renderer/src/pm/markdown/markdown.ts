@@ -1,5 +1,5 @@
-import type { Extensions, JSONContent } from '@tiptap/core'
-import type { Mark, Node } from '@tiptap/pm/model'
+import type { Extensions, JSONContent } from '@digitaltrendz/core'
+import type { Mark, Node } from '@digitaltrendz/pm/model'
 
 import type { TiptapStaticRendererOptions } from '../../json/renderer.js'
 import { renderToHTMLString, serializeChildrenToHTMLString } from '../html-string/html-string.js'

@@ -1,4 +1,4 @@
-import { Extension, textInputRule } from '@tiptap/core'
+import { Extension, textInputRule } from '@digitaltrendz/core'
 
 export interface TypographyOptions {
   /**

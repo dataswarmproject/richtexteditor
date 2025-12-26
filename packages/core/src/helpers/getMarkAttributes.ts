@@ -1,5 +1,5 @@
-import type { Mark, MarkType } from '@tiptap/pm/model'
-import type { EditorState } from '@tiptap/pm/state'
+import type { Mark, MarkType } from '@digitaltrendz/pm/model'
+import type { EditorState } from '@digitaltrendz/pm/state'
 
 import { getMarkType } from './getMarkType.js'
 

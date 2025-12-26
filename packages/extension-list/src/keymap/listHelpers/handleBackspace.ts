@@ -1,6 +1,6 @@
-import type { Editor } from '@tiptap/core'
-import { isAtStartOfNode, isNodeActive } from '@tiptap/core'
-import type { Node } from '@tiptap/pm/model'
+import type { Editor } from '@digitaltrendz/core'
+import { isAtStartOfNode, isNodeActive } from '@digitaltrendz/core'
+import type { Node } from '@digitaltrendz/pm/model'
 
 import { findListItemPos } from './findListItemPos.js'
 import { hasListBefore } from './hasListBefore.js'

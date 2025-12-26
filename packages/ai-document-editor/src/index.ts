@@ -17,14 +17,14 @@ export {
   type AIProviderInterface,
   type ChatMessage,
   type AIAssistantState,
-} from '@tiptap/extension-ai-assistant'
+} from '@digitaltrendz/extension-ai-assistant'
 
 export {
   AIAssistantPanel,
   AIQuickActions,
   AIInlinePrompt,
   useAIAssistant,
-} from '@tiptap/extension-ai-assistant/react'
+} from '@digitaltrendz/extension-ai-assistant/react'
 
 // Re-export pagination
 export {
@@ -36,8 +36,8 @@ export {
   PageNumber,
   type PaginationOptions,
   type PageOptions,
-} from '@tiptap/extension-pagination'
+} from '@digitaltrendz/extension-pagination'
 
 // Re-export core tiptap utilities
-export { useEditor, EditorContent, type Editor } from '@tiptap/react'
-export { Extension, Node, Mark } from '@tiptap/core'
+export { useEditor, EditorContent, type Editor } from '@digitaltrendz/react'
+export { Extension, Node, Mark } from '@digitaltrendz/core'

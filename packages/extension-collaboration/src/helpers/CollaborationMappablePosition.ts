@@ -2,8 +2,8 @@ import {
   type GetUpdatedPositionResult,
   getUpdatedPosition as coreGetUpdatedPosition,
   MappablePosition,
-} from '@tiptap/core'
-import type { EditorState, Transaction } from '@tiptap/pm/state'
+} from '@digitaltrendz/core'
+import type { EditorState, Transaction } from '@digitaltrendz/pm/state'
 
 import { isChangeOrigin } from './isChangeOrigin.js'
 import { type YRelativePosition, getYAbsolutePosition, getYRelativePosition } from './yRelativePosition.js'

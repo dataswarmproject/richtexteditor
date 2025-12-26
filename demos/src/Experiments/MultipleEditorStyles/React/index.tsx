@@ -1,5 +1,5 @@
-import { EditorContent, useEditor } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import { EditorContent, useEditor } from '@digitaltrendz/react'
+import StarterKit from '@digitaltrendz/starter-kit'
 import { useState } from 'react'
 
 function EditorComponent({ label }: { label?: string }) {

@@ -3,12 +3,12 @@
 </template>
 
 <script>
-import Document from '@tiptap/extension-document'
-import Heading from '@tiptap/extension-heading'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import UniqueID from '@tiptap/extension-unique-id'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Document from '@digitaltrendz/extension-document'
+import Heading from '@digitaltrendz/extension-heading'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import UniqueID from '@digitaltrendz/extension-unique-id'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 import { defineComponent } from 'vue'
 
 export default defineComponent({

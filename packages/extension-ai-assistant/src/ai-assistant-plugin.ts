@@ -1,24 +1,10 @@
-import {
-  type Middleware,
-  autoUpdate,
-  computePosition,
-  flip,
-  offset,
-  shift,
-} from '@floating-ui/dom'
-import type { Editor } from '@tiptap/core'
-import type { EditorState } from '@tiptap/pm/state'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
-import type { EditorView } from '@tiptap/pm/view'
+import type { Editor } from '@digitaltrendz/core'
+import type { EditorState } from '@digitaltrendz/pm/state'
+import { Plugin, PluginKey } from '@digitaltrendz/pm/state'
+import type { EditorView } from '@digitaltrendz/pm/view'
+import { type Middleware, autoUpdate, computePosition, flip, offset, shift } from '@floating-ui/dom'
 
-import type {
-  AIAction,
-  AIAssistantState,
-  AIProviderInterface,
-  AITool,
-  AIToolContext,
-  ChatMessage,
-} from './types.js'
+import type { AIAction, AIAssistantState, AIProviderInterface, AITool, AIToolContext, ChatMessage } from './types.js'
 
 export interface AIAssistantPluginProps {
   /**
@@ -66,6 +52,11 @@ export interface AIAssistantPluginProps {
    * DOM element to append the floating panel to
    */
   appendTo?: HTMLElement | (() => HTMLElement)
+
+  /**
+   * Callback when the view is created
+   */
+  onViewCreated?: (view: AIAssistantView) => void
 }
 
 export type AIAssistantViewProps = AIAssistantPluginProps & {
@@ -141,7 +132,7 @@ export class AIAssistantView {
   }
 
   private setupElement() {
-    if (!this.element) return
+    if (!this.element) {return}
 
     // Apply base styles
     this.element.style.position = 'fixed'
@@ -149,9 +140,7 @@ export class AIAssistantView {
     this.element.style.display = 'none'
 
     // Append to container
-    const container = typeof this.appendTo === 'function'
-      ? this.appendTo()
-      : this.appendTo ?? document.body
+    const container = typeof this.appendTo === 'function' ? this.appendTo() : (this.appendTo ?? document.body)
 
     container.appendChild(this.element)
   }
@@ -188,7 +177,7 @@ export class AIAssistantView {
    * Open the AI assistant panel
    */
   open(mode: AIAssistantState['mode'] = 'chat') {
-    if (!this.element) return
+    if (!this.element) {return}
 
     const { selection } = this.view.state
     const selectedText = this.view.state.doc.textBetween(selection.from, selection.to, ' ')
@@ -209,7 +198,7 @@ export class AIAssistantView {
    * Close the AI assistant panel
    */
   close() {
-    if (!this.element) return
+    if (!this.element) {return}
 
     this.state = {
       ...this.state,
@@ -236,7 +225,7 @@ export class AIAssistantView {
    * Update the position of the floating panel
    */
   private updatePosition() {
-    if (!this.element) return
+    if (!this.element) {return}
 
     const { selection } = this.view.state
     const coords = this.view.coordsAtPos(selection.from)
@@ -253,19 +242,20 @@ export class AIAssistantView {
         height: coords.bottom - coords.top,
         toJSON: () => ({}),
       }),
-      getClientRects: () => [
-        {
-          x: coords.left,
-          y: coords.top,
-          top: coords.top,
-          left: coords.left,
-          bottom: coords.bottom,
-          right: coords.right,
-          width: 0,
-          height: coords.bottom - coords.top,
-          toJSON: () => ({}),
-        },
-      ] as unknown as DOMRectList,
+      getClientRects: () =>
+        [
+          {
+            x: coords.left,
+            y: coords.top,
+            top: coords.top,
+            left: coords.left,
+            bottom: coords.bottom,
+            right: coords.right,
+            width: 0,
+            height: coords.bottom - coords.top,
+            toJSON: () => ({}),
+          },
+        ] as unknown as DOMRectList,
     }
 
     const middlewares: Middleware[] = [
@@ -274,22 +264,18 @@ export class AIAssistantView {
       shift({ padding: 10 }),
     ]
 
-    this.cleanup = autoUpdate(
-      virtualElement,
-      this.element,
-      () => {
-        computePosition(virtualElement, this.element!, {
-          placement: 'bottom-start',
-          strategy: 'fixed',
-          middleware: middlewares,
-        }).then(({ x, y }) => {
-          if (this.element) {
-            this.element.style.left = `${x}px`
-            this.element.style.top = `${y}px`
-          }
-        })
-      },
-    )
+    this.cleanup = autoUpdate(virtualElement, this.element, () => {
+      computePosition(virtualElement, this.element!, {
+        placement: 'bottom-start',
+        strategy: 'fixed',
+        middleware: middlewares,
+      }).then(({ x, y }) => {
+        if (this.element) {
+          this.element.style.left = `${x}px`
+          this.element.style.top = `${y}px`
+        }
+      })
+    })
   }
 
   /**
@@ -342,12 +328,14 @@ export class AIAssistantView {
 
       // Handle tool calls if any
       if (response.toolCalls && response.toolCalls.length > 0) {
-        for (const toolCall of response.toolCalls) {
-          const tool = this.tools.find(t => t.name === toolCall.name)
-          if (tool) {
-            await tool.execute(toolCall.arguments, this.getToolContext())
-          }
-        }
+        await Promise.all(
+          response.toolCalls.map(async toolCall => {
+            const tool = this.tools.find(t => t.name === toolCall.name)
+            if (tool) {
+              await tool.execute(toolCall.arguments, this.getToolContext())
+            }
+          }),
+        )
       }
 
       this.state = {
@@ -374,7 +362,7 @@ export class AIAssistantView {
    */
   async executeAction(actionId: string): Promise<void> {
     const action = this.actions.find(a => a.id === actionId)
-    if (!action) return
+    if (!action) {return}
 
     this.state = {
       ...this.state,
@@ -407,7 +395,7 @@ export class AIAssistantView {
    */
   async executeTool(toolName: string, params: Record<string, unknown>): Promise<void> {
     const tool = this.tools.find(t => t.name === toolName)
-    if (!tool) return
+    if (!tool) {return}
 
     this.state = {
       ...this.state,
@@ -471,7 +459,7 @@ export class AIAssistantView {
   /**
    * Update handler for editor changes
    */
-  update(view: EditorView, prevState?: EditorState) {
+  update(view: EditorView, _prevState?: EditorState) {
     this.view = view
 
     if (this.state.isOpen) {
@@ -512,6 +500,10 @@ export const AIAssistantPluginKey = new PluginKey('aiAssistant')
 export const AIAssistantPlugin = (options: AIAssistantPluginProps) => {
   return new Plugin({
     key: typeof options.pluginKey === 'string' ? new PluginKey(options.pluginKey) : options.pluginKey,
-    view: view => new AIAssistantView({ view, ...options }),
+    view: editorView => {
+      const assistantView = new AIAssistantView({ view: editorView, ...options })
+      options.onViewCreated?.(assistantView)
+      return assistantView
+    },
   })
 }

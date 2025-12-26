@@ -1,5 +1,5 @@
-import { Extension } from '@tiptap/core'
-import { dropCursor } from '@tiptap/pm/dropcursor'
+import { Extension } from '@digitaltrendz/core'
+import { dropCursor } from '@digitaltrendz/pm/dropcursor'
 
 export interface DropcursorOptions {
   /**

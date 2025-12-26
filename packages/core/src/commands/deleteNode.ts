@@ -1,9 +1,9 @@
-import type { NodeType } from '@tiptap/pm/model'
+import type { NodeType } from '@digitaltrendz/pm/model'
 
 import { getNodeType } from '../helpers/getNodeType.js'
 import type { RawCommands } from '../types.js'
 
-declare module '@tiptap/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     deleteNode: {
       /**

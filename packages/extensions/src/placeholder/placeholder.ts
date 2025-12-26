@@ -1,8 +1,8 @@
-import type { Editor } from '@tiptap/core'
-import { Extension, isNodeEmpty } from '@tiptap/core'
-import type { Node as ProsemirrorNode } from '@tiptap/pm/model'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
-import { Decoration, DecorationSet } from '@tiptap/pm/view'
+import type { Editor } from '@digitaltrendz/core'
+import { Extension, isNodeEmpty } from '@digitaltrendz/core'
+import type { Node as ProsemirrorNode } from '@digitaltrendz/pm/model'
+import { Plugin, PluginKey } from '@digitaltrendz/pm/state'
+import { Decoration, DecorationSet } from '@digitaltrendz/pm/view'
 
 export interface PlaceholderOptions {
   /**

@@ -1,6 +1,6 @@
-import { Extension } from '@tiptap/core'
-import type { Node, NodeType } from '@tiptap/pm/model'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
+import { Extension } from '@digitaltrendz/core'
+import type { Node, NodeType } from '@digitaltrendz/pm/model'
+import { Plugin, PluginKey } from '@digitaltrendz/pm/state'
 
 function nodeEqualsType({ types, node }: { types: NodeType | NodeType[]; node: Node | null | undefined }) {
   return (node && Array.isArray(types) && types.includes(node.type)) || node?.type === types

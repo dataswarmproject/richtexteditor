@@ -1,4 +1,4 @@
-import { createAtomBlockMarkdownSpec, Node } from '@tiptap/core'
+import { createAtomBlockMarkdownSpec, Node } from '@digitaltrendz/core'
 
 export const name = 'Custom Atom'
 

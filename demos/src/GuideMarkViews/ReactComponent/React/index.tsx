@@ -1,7 +1,7 @@
 import './styles.scss'
 
-import { EditorContent, useEditor } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import { EditorContent, useEditor } from '@digitaltrendz/react'
+import StarterKit from '@digitaltrendz/starter-kit'
 import React from 'react'
 
 import ReactComponent from './Extension.js'

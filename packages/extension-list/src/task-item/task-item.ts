@@ -1,6 +1,6 @@
-import type { KeyboardShortcutCommand } from '@tiptap/core'
-import { mergeAttributes, Node, renderNestedMarkdownContent, wrappingInputRule } from '@tiptap/core'
-import type { Node as ProseMirrorNode } from '@tiptap/pm/model'
+import type { KeyboardShortcutCommand } from '@digitaltrendz/core'
+import { mergeAttributes, Node, renderNestedMarkdownContent, wrappingInputRule } from '@digitaltrendz/core'
+import type { Node as ProseMirrorNode } from '@digitaltrendz/pm/model'
 
 export interface TaskItemOptions {
   /**

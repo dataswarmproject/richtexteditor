@@ -33,11 +33,11 @@
 </template>
 
 <script>
-import Document from '@tiptap/extension-document'
-import { ListItem, OrderedList } from '@tiptap/extension-list'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Document from '@digitaltrendz/extension-document'
+import { ListItem, OrderedList } from '@digitaltrendz/extension-list'
+import Paragraph from '@digitaltrendz/extension-paragraph'
+import Text from '@digitaltrendz/extension-text'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

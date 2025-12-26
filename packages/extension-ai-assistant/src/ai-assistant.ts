@@ -1,19 +1,8 @@
-import { Extension } from '@tiptap/core'
-import { PluginKey } from '@tiptap/pm/state'
+import { Extension } from '@digitaltrendz/core'
+import type { PluginKey } from '@digitaltrendz/pm/state'
 
-import {
-  AIAssistantPlugin,
-  AIAssistantPluginKey,
-  type AIAssistantPluginProps,
-  AIAssistantView,
-} from './ai-assistant-plugin.js'
-import type {
-  AIAction,
-  AIAssistantState,
-  AIProviderInterface,
-  AITool,
-  ChatMessage,
-} from './types.js'
+import type { AIAssistantView } from './ai-assistant-plugin.js'
+import { AIAssistantPlugin, AIAssistantPluginKey } from './ai-assistant-plugin.js'
 import {
   expandTextTool,
   fixGrammarTool,
@@ -26,6 +15,7 @@ import {
   summarizeTool,
   translateTool,
 } from './tools/index.js'
+import type { AIAction, AIAssistantState, AIProviderInterface, AITool, ChatMessage } from './types.js'
 
 export interface AIAssistantOptions {
   /**
@@ -123,7 +113,7 @@ const defaultActions: AIAction[] = [
     description: 'Enhance clarity and style',
     shortcut: 'Mod-Shift-I',
     execute: async context => {
-      if (context.selection.isEmpty) return
+      if (context.selection.isEmpty) {return}
       await rewriteTextTool.execute({ tone: 'professional', style: 'concise' }, context)
     },
   },
@@ -141,7 +131,7 @@ const defaultActions: AIAction[] = [
     label: 'Make shorter',
     description: 'Condense the text',
     execute: async context => {
-      if (context.selection.isEmpty) return
+      if (context.selection.isEmpty) {return}
       await rewriteTextTool.execute({ style: 'concise' }, context)
     },
   },
@@ -150,7 +140,7 @@ const defaultActions: AIAction[] = [
     label: 'Make longer',
     description: 'Expand with more details',
     execute: async context => {
-      if (context.selection.isEmpty) return
+      if (context.selection.isEmpty) {return}
       await expandTextTool.execute({ expansionType: 'elaborate', targetLength: 'moderately' }, context)
     },
   },
@@ -159,7 +149,7 @@ const defaultActions: AIAction[] = [
     label: 'Simplify language',
     description: 'Make easier to understand',
     execute: async context => {
-      if (context.selection.isEmpty) return
+      if (context.selection.isEmpty) {return}
       await simplifyTextTool.execute({ targetAudience: 'general' }, context)
     },
   },
@@ -185,13 +175,13 @@ const defaultActions: AIAction[] = [
     label: 'Convert to bullet list',
     description: 'Format as bullet points',
     execute: async context => {
-      if (context.selection.isEmpty) return
+      if (context.selection.isEmpty) {return}
       await formatTextTool.execute({ format: 'bullet-list' }, context)
     },
   },
 ]
 
-declare module '@tiptap/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     aiAssistant: {
       /**
@@ -267,122 +257,61 @@ export const AIAssistant = Extension.create<AIAssistantOptions>({
     return {
       openAIAssistant:
         (mode = 'chat') =>
-        ({ editor }) => {
-          const plugin = editor.state.plugins.find(
-            p => p.spec.key === this.options.pluginKey || p.spec.key?.key === 'aiAssistant',
-          )
-
-          if (plugin) {
-            const view = (plugin as unknown as { spec: { view: () => AIAssistantView } }).spec.view
-            if (view && typeof view === 'object' && 'open' in view) {
-              ;(view as AIAssistantView).open(mode)
-            }
+        () => {
+          const view = this.storage.view
+          if (view) {
+            view.open(mode)
           }
-
           return true
         },
 
-      closeAIAssistant:
-        () =>
-        ({ editor }) => {
-          const plugin = editor.state.plugins.find(
-            p => p.spec.key === this.options.pluginKey || p.spec.key?.key === 'aiAssistant',
-          )
+      closeAIAssistant: () => () => {
+        const view = this.storage.view
+        if (view) {
+          view.close()
+        }
+        return true
+      },
 
-          if (plugin) {
-            const view = (plugin as unknown as { spec: { view: () => AIAssistantView } }).spec.view
-            if (view && typeof view === 'object' && 'close' in view) {
-              ;(view as AIAssistantView).close()
-            }
-          }
+      toggleAIAssistant: (mode?: 'chat' | 'inline' | 'command') => () => {
+        const view = this.storage.view
+        if (view) {
+          view.toggle(mode)
+        }
+        return true
+      },
 
-          return true
-        },
+      sendAIMessage: (message: string) => () => {
+        const view = this.storage.view
+        if (view) {
+          view.sendMessage(message)
+        }
+        return true
+      },
 
-      toggleAIAssistant:
-        mode =>
-        ({ editor }) => {
-          const plugin = editor.state.plugins.find(
-            p => p.spec.key === this.options.pluginKey || p.spec.key?.key === 'aiAssistant',
-          )
+      executeAIAction: (actionId: string) => () => {
+        const view = this.storage.view
+        if (view) {
+          view.executeAction(actionId)
+        }
+        return true
+      },
 
-          if (plugin) {
-            const view = (plugin as unknown as { spec: { view: () => AIAssistantView } }).spec.view
-            if (view && typeof view === 'object' && 'toggle' in view) {
-              ;(view as AIAssistantView).toggle(mode)
-            }
-          }
+      executeAITool: (toolName: string, params?: Record<string, unknown>) => () => {
+        const view = this.storage.view
+        if (view) {
+          view.executeTool(toolName, params)
+        }
+        return true
+      },
 
-          return true
-        },
-
-      sendAIMessage:
-        message =>
-        ({ editor }) => {
-          const plugin = editor.state.plugins.find(
-            p => p.spec.key === this.options.pluginKey || p.spec.key?.key === 'aiAssistant',
-          )
-
-          if (plugin) {
-            const view = (plugin as unknown as { spec: { view: () => AIAssistantView } }).spec.view
-            if (view && typeof view === 'object' && 'sendMessage' in view) {
-              ;(view as AIAssistantView).sendMessage(message)
-            }
-          }
-
-          return true
-        },
-
-      executeAIAction:
-        actionId =>
-        ({ editor }) => {
-          const plugin = editor.state.plugins.find(
-            p => p.spec.key === this.options.pluginKey || p.spec.key?.key === 'aiAssistant',
-          )
-
-          if (plugin) {
-            const view = (plugin as unknown as { spec: { view: () => AIAssistantView } }).spec.view
-            if (view && typeof view === 'object' && 'executeAction' in view) {
-              ;(view as AIAssistantView).executeAction(actionId)
-            }
-          }
-
-          return true
-        },
-
-      executeAITool:
-        (toolName, params) =>
-        ({ editor }) => {
-          const plugin = editor.state.plugins.find(
-            p => p.spec.key === this.options.pluginKey || p.spec.key?.key === 'aiAssistant',
-          )
-
-          if (plugin) {
-            const view = (plugin as unknown as { spec: { view: () => AIAssistantView } }).spec.view
-            if (view && typeof view === 'object' && 'executeTool' in view) {
-              ;(view as AIAssistantView).executeTool(toolName, params)
-            }
-          }
-
-          return true
-        },
-
-      clearAIMessages:
-        () =>
-        ({ editor }) => {
-          const plugin = editor.state.plugins.find(
-            p => p.spec.key === this.options.pluginKey || p.spec.key?.key === 'aiAssistant',
-          )
-
-          if (plugin) {
-            const view = (plugin as unknown as { spec: { view: () => AIAssistantView } }).spec.view
-            if (view && typeof view === 'object' && 'clearMessages' in view) {
-              ;(view as AIAssistantView).clearMessages()
-            }
-          }
-
-          return true
-        },
+      clearAIMessages: () => () => {
+        const view = this.storage.view
+        if (view) {
+          view.clearMessages()
+        }
+        return true
+      },
     }
   },
 
@@ -396,19 +325,15 @@ export const AIAssistant = Extension.create<AIAssistantOptions>({
   addProseMirrorPlugins() {
     const { enableDefaultTools, enableDefaultActions } = this.options
 
-    const tools = [
-      ...(enableDefaultTools ? defaultTools : []),
-      ...this.options.tools,
-    ]
+    const tools = [...(enableDefaultTools ? defaultTools : []), ...this.options.tools]
 
-    const actions = [
-      ...(enableDefaultActions ? defaultActions : []),
-      ...this.options.actions,
-    ]
+    const actions = [...(enableDefaultActions ? defaultActions : []), ...this.options.actions]
 
     if (!this.options.element) {
       return []
     }
+
+    const storage = this.storage
 
     return [
       AIAssistantPlugin({
@@ -421,6 +346,9 @@ export const AIAssistant = Extension.create<AIAssistantOptions>({
         onStateChange: this.options.onStateChange,
         onMessage: this.options.onMessage,
         appendTo: this.options.appendTo,
+        onViewCreated: (view: AIAssistantView) => {
+          storage.view = view
+        },
       }),
     ]
   },

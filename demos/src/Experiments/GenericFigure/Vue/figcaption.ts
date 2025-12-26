@@ -1,4 +1,4 @@
-import { mergeAttributes, Node } from '@tiptap/core'
+import { mergeAttributes, Node } from '@digitaltrendz/core'
 
 export const Figcaption = Node.create({
   name: 'figcaption',

@@ -1,5 +1,5 @@
-import { getNodeAtPosition } from '@tiptap/core'
-import type { EditorState } from '@tiptap/pm/state'
+import { getNodeAtPosition } from '@digitaltrendz/core'
+import type { EditorState } from '@digitaltrendz/pm/state'
 
 import { findListItemPos } from './findListItemPos.js'
 

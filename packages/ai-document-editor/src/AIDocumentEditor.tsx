@@ -1,8 +1,8 @@
 import React, { useCallback, useRef, useState, type CSSProperties } from 'react'
-import { EditorContent } from '@tiptap/react'
-import type { Content } from '@tiptap/core'
-import type { AIProviderInterface, AIAssistantState } from '@tiptap/extension-ai-assistant'
-import { AIAssistantPanel, useAIAssistant } from '@tiptap/extension-ai-assistant/react'
+import { EditorContent } from '@digitaltrendz/react'
+import type { Content } from '@digitaltrendz/core'
+import type { AIProviderInterface, AIAssistantState } from '@digitaltrendz/extension-ai-assistant'
+import { AIAssistantPanel, useAIAssistant } from '@digitaltrendz/extension-ai-assistant/react'
 import { useAIDocumentEditor, type UseAIDocumentEditorOptions } from './useAIDocumentEditor.js'
 import { AIDocumentEditorProvider } from './AIDocumentEditorProvider.js'
 

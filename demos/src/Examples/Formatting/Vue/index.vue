@@ -78,10 +78,10 @@
 </template>
 
 <script>
-import Highlight from '@tiptap/extension-highlight'
-import TextAlign from '@tiptap/extension-text-align'
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Highlight from '@digitaltrendz/extension-highlight'
+import TextAlign from '@digitaltrendz/extension-text-align'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 export default {
   components: {

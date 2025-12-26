@@ -1,8 +1,8 @@
 /* eslint-disable no-underscore-dangle */
-import type { DecorationWithType, NodeViewProps, NodeViewRenderer, NodeViewRendererOptions } from '@tiptap/core'
-import { NodeView } from '@tiptap/core'
-import type { Node as ProseMirrorNode } from '@tiptap/pm/model'
-import type { Decoration, DecorationSource, NodeView as ProseMirrorNodeView } from '@tiptap/pm/view'
+import type { DecorationWithType, NodeViewProps, NodeViewRenderer, NodeViewRendererOptions } from '@digitaltrendz/core'
+import { NodeView } from '@digitaltrendz/core'
+import type { Node as ProseMirrorNode } from '@digitaltrendz/pm/model'
+import type { Decoration, DecorationSource, NodeView as ProseMirrorNodeView } from '@digitaltrendz/pm/view'
 import type { Component, PropType, Ref } from 'vue'
 import { defineComponent, provide, ref } from 'vue'
 

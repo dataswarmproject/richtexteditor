@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import type { MarkType, NodeType } from '@tiptap/core'
+import type { MarkType, NodeType } from '@digitaltrendz/core'
 
 /**
  * Props for a node renderer

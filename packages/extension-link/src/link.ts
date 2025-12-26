@@ -1,6 +1,6 @@
-import type { PasteRuleMatch } from '@tiptap/core'
-import { Mark, markPasteRule, mergeAttributes } from '@tiptap/core'
-import type { Plugin } from '@tiptap/pm/state'
+import type { PasteRuleMatch } from '@digitaltrendz/core'
+import { Mark, markPasteRule, mergeAttributes } from '@digitaltrendz/core'
+import type { Plugin } from '@digitaltrendz/pm/state'
 import { find, registerCustomProtocol, reset } from 'linkifyjs'
 
 import { autolink } from './helpers/autolink.js'
@@ -128,7 +128,7 @@ export interface LinkOptions {
   shouldAutoLink: (url: string) => boolean
 }
 
-declare module '@tiptap/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     link: {
       /**

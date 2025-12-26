@@ -1,6 +1,6 @@
-import type { Editor } from '@tiptap/core'
-import type { EditorState } from '@tiptap/pm/state'
-import type { EditorView } from '@tiptap/pm/view'
+import type { Editor } from '@digitaltrendz/core'
+import type { EditorState } from '@digitaltrendz/pm/state'
+import type { EditorView } from '@digitaltrendz/pm/view'
 
 /**
  * AI Provider types

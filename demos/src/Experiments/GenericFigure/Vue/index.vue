@@ -13,10 +13,10 @@
 </template>
 
 <script>
-import Image from '@tiptap/extension-image'
-import { TableKit } from '@tiptap/extension-table'
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Image from '@digitaltrendz/extension-image'
+import { TableKit } from '@digitaltrendz/extension-table'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { Editor, EditorContent } from '@digitaltrendz/vue-3'
 
 import { Figcaption } from './figcaption.ts'
 import { Figure } from './figure.ts'

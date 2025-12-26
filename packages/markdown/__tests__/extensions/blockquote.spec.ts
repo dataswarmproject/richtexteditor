@@ -1,10 +1,10 @@
-import type { Extension } from '@tiptap/core'
-import { Blockquote } from '@tiptap/extension-blockquote'
-import { Document } from '@tiptap/extension-document'
-import { Heading } from '@tiptap/extension-heading'
-import { Paragraph } from '@tiptap/extension-paragraph'
-import { Text } from '@tiptap/extension-text'
-import { MarkdownManager } from '@tiptap/markdown'
+import type { Extension } from '@digitaltrendz/core'
+import { Blockquote } from '@digitaltrendz/extension-blockquote'
+import { Document } from '@digitaltrendz/extension-document'
+import { Heading } from '@digitaltrendz/extension-heading'
+import { Paragraph } from '@digitaltrendz/extension-paragraph'
+import { Text } from '@digitaltrendz/extension-text'
+import { MarkdownManager } from '@digitaltrendz/markdown'
 import { beforeEach, describe, expect, it } from 'vitest'
 
 describe('Blockquote Markdown Conversion', () => {

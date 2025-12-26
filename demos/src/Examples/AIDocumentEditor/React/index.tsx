@@ -4,15 +4,15 @@ import {
   useAIDocumentEditor,
   AIDocumentEditorKit,
   EditorContent,
-} from '@tiptap/ai-document-editor'
-import type { AIAssistantState, AIProviderInterface } from '@tiptap/extension-ai-assistant'
-import '@tiptap/ai-document-editor/styles'
+} from '@digitaltrendz/ai-document-editor'
+import type { AIAssistantState, AIProviderInterface } from '@digitaltrendz/extension-ai-assistant'
+import '@digitaltrendz/ai-document-editor/styles'
 
 // Sample initial content
 const initialContent = `
 <h1>Welcome to the AI Document Editor</h1>
 
-<p>This is a <strong>Google Docs-like</strong> rich text editor powered by <em>TipTap</em> with built-in AI capabilities.</p>
+<p>This is a <strong>Google Docs-like</strong> rich text editor powered by <em>InkFlow</em> with built-in AI capabilities.</p>
 
 <h2>Features</h2>
 
@@ -116,10 +116,10 @@ export default function AIDocumentEditorDemo() {
           <span style={{ fontSize: '24px' }}>📄</span>
           <div>
             <h1 style={{ fontSize: '18px', fontWeight: 600, margin: 0 }}>
-              AI Document Editor
+              InkFlow Editor
             </h1>
             <p style={{ fontSize: '12px', margin: 0, opacity: 0.7 }}>
-              Powered by TipTap
+              by Digital Trendz
             </p>
           </div>
         </div>

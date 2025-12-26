@@ -1,6 +1,6 @@
-import { TableKit } from '@tiptap/extension-table'
-import StarterKit from '@tiptap/starter-kit'
-import { renderToMarkdown } from '@tiptap/static-renderer/pm/markdown'
+import { TableKit } from '@digitaltrendz/extension-table'
+import StarterKit from '@digitaltrendz/starter-kit'
+import { renderToMarkdown } from '@digitaltrendz/static-renderer/pm/markdown'
 import { describe, expect, it } from 'vitest'
 
 describe('static render json to string (no prosemirror)', () => {

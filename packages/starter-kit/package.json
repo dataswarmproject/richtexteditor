@@ -1,16 +1,16 @@
 {
-  "name": "@tiptap/starter-kit",
+  "name": "@digitaltrendz/starter-kit",
   "description": "starter kit for tiptap",
   "version": "3.14.0",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://digitaltrendz.app",
   "keywords": [
-    "tiptap",
-    "tiptap starter kit"
+    "digitaltrendz",
+    "inkflow starter kit"
   ],
   "license": "MIT",
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/ueberdosis"
+    "url": "https://github.com/sponsors/digital-trendz"
   },
   "exports": {
     ".": {
@@ -31,38 +31,46 @@
     "dist"
   ],
   "dependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/extension-blockquote": "workspace:^",
-    "@tiptap/extension-bold": "workspace:^",
-    "@tiptap/extension-bullet-list": "workspace:^",
-    "@tiptap/extension-code": "workspace:^",
-    "@tiptap/extension-code-block": "workspace:^",
-    "@tiptap/extension-document": "workspace:^",
-    "@tiptap/extension-dropcursor": "workspace:^",
-    "@tiptap/extension-gapcursor": "workspace:^",
-    "@tiptap/extension-hard-break": "workspace:^",
-    "@tiptap/extension-heading": "workspace:^",
-    "@tiptap/extension-horizontal-rule": "workspace:^",
-    "@tiptap/extension-italic": "workspace:^",
-    "@tiptap/extension-link": "workspace:^",
-    "@tiptap/extension-list": "workspace:^",
-    "@tiptap/extension-list-item": "workspace:^",
-    "@tiptap/extension-list-keymap": "workspace:^",
-    "@tiptap/extension-ordered-list": "workspace:^",
-    "@tiptap/extension-paragraph": "workspace:^",
-    "@tiptap/extension-strike": "workspace:^",
-    "@tiptap/extension-text": "workspace:^",
-    "@tiptap/extension-underline": "workspace:^",
-    "@tiptap/extensions": "workspace:^",
-    "@tiptap/pm": "workspace:^"
+    "@digitaltrendz/core": "workspace:^",
+    "@digitaltrendz/extension-blockquote": "workspace:^",
+    "@digitaltrendz/extension-bold": "workspace:^",
+    "@digitaltrendz/extension-bullet-list": "workspace:^",
+    "@digitaltrendz/extension-code": "workspace:^",
+    "@digitaltrendz/extension-code-block": "workspace:^",
+    "@digitaltrendz/extension-document": "workspace:^",
+    "@digitaltrendz/extension-dropcursor": "workspace:^",
+    "@digitaltrendz/extension-gapcursor": "workspace:^",
+    "@digitaltrendz/extension-hard-break": "workspace:^",
+    "@digitaltrendz/extension-heading": "workspace:^",
+    "@digitaltrendz/extension-horizontal-rule": "workspace:^",
+    "@digitaltrendz/extension-italic": "workspace:^",
+    "@digitaltrendz/extension-link": "workspace:^",
+    "@digitaltrendz/extension-list": "workspace:^",
+    "@digitaltrendz/extension-list-item": "workspace:^",
+    "@digitaltrendz/extension-list-keymap": "workspace:^",
+    "@digitaltrendz/extension-ordered-list": "workspace:^",
+    "@digitaltrendz/extension-paragraph": "workspace:^",
+    "@digitaltrendz/extension-strike": "workspace:^",
+    "@digitaltrendz/extension-text": "workspace:^",
+    "@digitaltrendz/extension-underline": "workspace:^",
+    "@digitaltrendz/extensions": "workspace:^",
+    "@digitaltrendz/pm": "workspace:^"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/digital-trendz/inkflow",
     "directory": "packages/starter-kit"
   },
   "scripts": {
     "build": "tsup",
     "lint": "prettier ./src/ --check && eslint --cache --quiet --no-error-on-unmatched-pattern ./src/"
+  },
+  "author": "Digital Trendz <hello@digital-trendz.net> (https://digital-trendz.net)",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/digital-trendz/inkflow/issues"
   }
 }

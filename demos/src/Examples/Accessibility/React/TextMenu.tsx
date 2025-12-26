@@ -1,7 +1,7 @@
-import { Selection } from '@tiptap/pm/state'
-import type { Editor } from '@tiptap/react'
-import { useEditorState } from '@tiptap/react'
-import { BubbleMenu } from '@tiptap/react/menus'
+import { Selection } from '@digitaltrendz/pm/state'
+import type { Editor } from '@digitaltrendz/react'
+import { useEditorState } from '@digitaltrendz/react'
+import { BubbleMenu } from '@digitaltrendz/react/menus'
 import React, { useRef } from 'react'
 
 import { useMenubarNav } from './useMenubarNav.js'

@@ -1,5 +1,5 @@
-import { InputRule, mergeAttributes, Node } from '@tiptap/core'
-import type { Node as PMNode } from '@tiptap/pm/model'
+import { InputRule, mergeAttributes, Node } from '@digitaltrendz/core'
+import type { Node as PMNode } from '@digitaltrendz/pm/model'
 import katex, { type KatexOptions } from 'katex'
 
 /**
@@ -34,7 +34,7 @@ export type BlockMathOptions = {
   onClick?: (node: PMNode, pos: number) => void
 }
 
-declare module '@tiptap/core' {
+declare module '@digitaltrendz/core' {
   interface Commands<ReturnType> {
     insertBlockMath: {
       /**
@@ -67,8 +67,8 @@ declare module '@tiptap/core' {
  *
  * @example
  * ```javascript
- * import { BlockMath } from '@tiptap/extension-mathematics'
- * import { Editor } from '@tiptap/core'
+ * import { BlockMath } from '@digitaltrendz/extension-mathematics'
+ * import { Editor } from '@digitaltrendz/core'
  *
  * const editor = new Editor({
  *   extensions: [

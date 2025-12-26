@@ -1,6 +1,6 @@
-import type { Extensions } from '@tiptap/core'
-import { getSchema } from '@tiptap/core'
-import { type ParseOptions, DOMParser as PMDOMParser } from '@tiptap/pm/model'
+import type { Extensions } from '@digitaltrendz/core'
+import { getSchema } from '@digitaltrendz/core'
+import { type ParseOptions, DOMParser as PMDOMParser } from '@digitaltrendz/pm/model'
 import { Window } from 'happy-dom'
 
 /**

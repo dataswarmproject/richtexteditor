@@ -1,5 +1,8 @@
 {
-  "name": "tiptap",
+  "name": "inkflow",
+  "description": "InkFlow - AI-powered rich text editor by Digital Trendz",
+  "author": "Digital Trendz <hello@digital-trendz.net> (https://digital-trendz.net)",
+  "homepage": "https://digitaltrendz.app",
   "private": true,
   "packageManager": "pnpm@9.15.4",
   "engines": {

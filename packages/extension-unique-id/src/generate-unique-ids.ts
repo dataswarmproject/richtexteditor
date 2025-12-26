@@ -1,7 +1,7 @@
-import type { Extensions, JSONContent } from '@tiptap/core'
-import { findChildren, getSchema } from '@tiptap/core'
-import { Node } from '@tiptap/pm/model'
-import { EditorState } from '@tiptap/pm/state'
+import type { Extensions, JSONContent } from '@digitaltrendz/core'
+import { findChildren, getSchema } from '@digitaltrendz/core'
+import { Node } from '@digitaltrendz/pm/model'
+import { EditorState } from '@digitaltrendz/pm/state'
 
 import type { UniqueID } from './unique-id.js'
 

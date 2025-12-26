@@ -1,5 +1,5 @@
-import type { Editor } from '@tiptap/core'
-import type { PluginKey } from '@tiptap/pm/state'
+import type { Editor } from '@digitaltrendz/core'
+import type { PluginKey } from '@digitaltrendz/pm/state'
 
 export type FileHandlePluginOptions = {
   /**

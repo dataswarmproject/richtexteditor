@@ -1,9 +1,9 @@
-import type { Editor } from '@tiptap/core'
-import { createInlineMarkdownSpec, mergeAttributes, Node } from '@tiptap/core'
-import type { DOMOutputSpec } from '@tiptap/pm/model'
-import { Node as ProseMirrorNode } from '@tiptap/pm/model'
-import type { SuggestionOptions } from '@tiptap/suggestion'
-import { Suggestion } from '@tiptap/suggestion'
+import type { Editor } from '@digitaltrendz/core'
+import { createInlineMarkdownSpec, mergeAttributes, Node } from '@digitaltrendz/core'
+import type { DOMOutputSpec } from '@digitaltrendz/pm/model'
+import { Node as ProseMirrorNode } from '@digitaltrendz/pm/model'
+import type { SuggestionOptions } from '@digitaltrendz/suggestion'
+import { Suggestion } from '@digitaltrendz/suggestion'
 
 import { getSuggestionOptions } from './utils/get-default-suggestion-attributes.js'
 
