@@ -33,12 +33,12 @@
   "devDependencies": {
     "@digitaltrendz/core": "workspace:^",
     "@digitaltrendz/pm": "workspace:^",
-    "@digitaltrendz/y-tiptap": "^3.0.0"
+    "@tiptap/y-tiptap": "^3.0.0"
   },
   "peerDependencies": {
     "@digitaltrendz/core": "workspace:^",
     "@digitaltrendz/pm": "workspace:^",
-    "@digitaltrendz/y-tiptap": "^3.0.0",
+    "@tiptap/y-tiptap": "^3.0.0",
     "yjs": "^13"
   },
   "repository": {

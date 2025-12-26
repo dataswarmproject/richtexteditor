@@ -40,7 +40,7 @@
     "@digitaltrendz/core": "workspace:^",
     "@digitaltrendz/extension-collaboration": "workspace:^",
     "@digitaltrendz/pm": "workspace:^",
-    "@digitaltrendz/y-tiptap": "^3.0.0"
+    "@tiptap/y-tiptap": "^3.0.0"
   },
   "dependencies": {
     "@floating-ui/dom": "^1.6.13"
@@ -51,7 +51,7 @@
     "@digitaltrendz/core": "workspace:^",
     "@digitaltrendz/extension-collaboration": "workspace:^",
     "@digitaltrendz/pm": "workspace:^",
-    "@digitaltrendz/y-tiptap": "^3.0.0"
+    "@tiptap/y-tiptap": "^3.0.0"
   },
   "scripts": {
     "build": "tsup",
