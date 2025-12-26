@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Logo -->
-<img src=".github/assets/inkflow-logo.svg" alt="InkFlow" height="80">
+<!-- Hero Image -->
+<img src=".github/assets/cover.png" alt="InkFlow Editor" width="100%" style="border-radius: 12px;">
 
 <br>
 <br>
@@ -26,8 +26,7 @@
 <br>
 <br>
 
-<!-- Hero Image -->
-<img src=".github/assets/cover.png" alt="InkFlow Editor" width="100%" style="border-radius: 12px;">
+
 
 </div>
 
