@@ -17,9 +17,9 @@
     "allowJs": true,
     "checkJs": false,
     "paths": {
-      "@tiptap/static-renderer/pm/*": ["packages/static-renderer/src/pm/*"],
-      "@tiptap/static-renderer/json/*": ["packages/static-renderer/src/json/*"],
-      "@tiptap/*": ["packages/*/src/index.ts", "packages-deprecated/*/src/index.ts"]
+      "@digitaltrendz/static-renderer/pm/*": ["packages/static-renderer/src/pm/*"],
+      "@digitaltrendz/static-renderer/json/*": ["packages/static-renderer/src/json/*"],
+      "@digitaltrendz/*": ["packages/*/src/index.ts", "packages-deprecated/*/src/index.ts"]
     },
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
   },

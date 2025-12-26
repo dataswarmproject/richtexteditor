@@ -3,7 +3,7 @@ import {
   absolutePositionToRelativePosition,
   relativePositionToAbsolutePosition,
   ySyncPluginKey,
-} from '@digitaltrendz/y-tiptap'
+} from '@tiptap/y-tiptap'
 
 /**
  * A type that represents a Y.js relative position. Used to map a position from

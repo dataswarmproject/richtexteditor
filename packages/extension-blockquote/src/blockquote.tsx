@@ -1,4 +1,4 @@
-/** @jsxImportSource @tiptap/core */
+/** @jsxImportSource @digitaltrendz/core */
 import { mergeAttributes, Node, wrappingInputRule } from '@digitaltrendz/core'
 
 export interface BlockquoteOptions {

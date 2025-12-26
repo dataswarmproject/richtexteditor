@@ -1,6 +1,6 @@
-import { CharacterCount } from '@tiptap/extensions'
+import { CharacterCount } from '@digitaltrendz/extensions'
 
-export type { CharacterCountOptions } from '@tiptap/extensions'
-export { CharacterCount } from '@tiptap/extensions'
+export type { CharacterCountOptions } from '@digitaltrendz/extensions'
+export { CharacterCount } from '@digitaltrendz/extensions'
 
 export default CharacterCount

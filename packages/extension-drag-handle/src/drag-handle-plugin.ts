@@ -1,14 +1,14 @@
-import { type ComputePositionConfig, type VirtualElement, computePosition } from '@floating-ui/dom'
 import type { Editor } from '@digitaltrendz/core'
 import { isChangeOrigin } from '@digitaltrendz/extension-collaboration'
 import type { Node } from '@digitaltrendz/pm/model'
 import { type EditorState, type Transaction, Plugin, PluginKey } from '@digitaltrendz/pm/state'
 import type { EditorView } from '@digitaltrendz/pm/view'
+import { type ComputePositionConfig, type VirtualElement, computePosition } from '@floating-ui/dom'
 import {
   absolutePositionToRelativePosition,
   relativePositionToAbsolutePosition,
   ySyncPluginKey,
-} from '@digitaltrendz/y-tiptap'
+} from '@tiptap/y-tiptap'
 
 import { dragHandler } from './helpers/dragHandler.js'
 import { findElementNextToCoords } from './helpers/findNextElementFromCursor.js'

@@ -1,7 +1,7 @@
 import { Extension } from '@digitaltrendz/core'
 import { Plugin, PluginKey } from '@digitaltrendz/pm/state'
 import type { EditorView } from '@digitaltrendz/pm/view'
-import { redo, undo, ySyncPlugin, yUndoPlugin, yUndoPluginKey, yXmlFragmentToProsemirrorJSON } from '@digitaltrendz/y-tiptap'
+import { redo, undo, ySyncPlugin, yUndoPlugin, yUndoPluginKey, yXmlFragmentToProsemirrorJSON } from '@tiptap/y-tiptap'
 import type { Doc, UndoManager, XmlFragment } from 'yjs'
 
 import { createMappablePosition, getUpdatedPosition } from './helpers/CollaborationMappablePosition.js'

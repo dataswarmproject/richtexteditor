@@ -1,4 +1,4 @@
-/** @jsxImportSource @tiptap/core */
+/** @jsxImportSource @digitaltrendz/core */
 import { Mark, markInputRule, markPasteRule, mergeAttributes } from '@digitaltrendz/core'
 
 export interface BoldOptions {

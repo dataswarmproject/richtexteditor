@@ -1,6 +1,6 @@
-import { TaskList } from '@tiptap/extension-list'
+import { TaskList } from '@digitaltrendz/extension-list'
 
-export type { TaskListOptions } from '@tiptap/extension-list'
-export { TaskList } from '@tiptap/extension-list'
+export type { TaskListOptions } from '@digitaltrendz/extension-list'
+export { TaskList } from '@digitaltrendz/extension-list'
 
 export default TaskList

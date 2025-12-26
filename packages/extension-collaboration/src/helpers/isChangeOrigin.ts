@@ -1,5 +1,5 @@
 import type { Transaction } from '@digitaltrendz/pm/state'
-import { ySyncPluginKey } from '@digitaltrendz/y-tiptap'
+import { ySyncPluginKey } from '@tiptap/y-tiptap'
 
 /**
  * Checks if a transaction was originated from a Yjs change.

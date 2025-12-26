@@ -1,6 +1,6 @@
 import { Extension } from '@digitaltrendz/core'
 import type { DecorationAttrs } from '@digitaltrendz/pm/view'
-import { defaultSelectionBuilder, yCursorPlugin } from '@digitaltrendz/y-tiptap'
+import { defaultSelectionBuilder, yCursorPlugin } from '@tiptap/y-tiptap'
 
 type CollaborationCaretStorage = {
   users: { clientId: number; [key: string]: any }[]

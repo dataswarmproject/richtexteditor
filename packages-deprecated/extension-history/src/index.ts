@@ -1,6 +1,6 @@
-import { UndoRedo } from '@tiptap/extensions'
+import { UndoRedo } from '@digitaltrendz/extensions'
 
-export type { UndoRedoOptions as HistoryOptions } from '@tiptap/extensions'
-export { UndoRedo as History } from '@tiptap/extensions'
+export type { UndoRedoOptions as HistoryOptions } from '@digitaltrendz/extensions'
+export { UndoRedo as History } from '@digitaltrendz/extensions'
 
 export default UndoRedo

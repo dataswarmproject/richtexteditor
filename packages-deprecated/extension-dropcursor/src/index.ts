@@ -1,6 +1,6 @@
-import { Dropcursor } from '@tiptap/extensions'
+import { Dropcursor } from '@digitaltrendz/extensions'
 
-export type { DropcursorOptions } from '@tiptap/extensions'
-export { Dropcursor } from '@tiptap/extensions'
+export type { DropcursorOptions } from '@digitaltrendz/extensions'
+export { Dropcursor } from '@digitaltrendz/extensions'
 
 export default Dropcursor

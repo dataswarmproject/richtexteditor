@@ -1,6 +1,6 @@
-import { TableHeader } from '@tiptap/extension-table'
+import { TableHeader } from '@digitaltrendz/extension-table'
 
-export type { TableHeaderOptions } from '@tiptap/extension-table'
-export { TableHeader } from '@tiptap/extension-table'
+export type { TableHeaderOptions } from '@digitaltrendz/extension-table'
+export { TableHeader } from '@digitaltrendz/extension-table'
 
 export default TableHeader
