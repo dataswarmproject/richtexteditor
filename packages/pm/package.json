@@ -10,7 +10,7 @@
   "license": "MIT",
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/ueberdosis"
+    "url": "https://github.com/sponsors/digital-trendz"
   },
   "type": "module",
   "exports": {
@@ -207,5 +207,13 @@
   },
   "scripts": {
     "build": "tsup"
+  },
+  "author": "Digital Trendz <hello@digital-trendz.net> (https://digital-trendz.net)",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/digital-trendz/inkflow/issues"
   }
 }
